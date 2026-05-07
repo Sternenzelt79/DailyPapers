@@ -1,0 +1,12 @@
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+.venv/
