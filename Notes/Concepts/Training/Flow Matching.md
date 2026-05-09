@@ -1,0 +1,46 @@
+---
+concept: Flow Matching
+category: Training
+tags: [diffusion, flow-matching, generative]
+created: 2026-05-09
+---
+
+# Flow Matching
+
+## 定义
+
+Flow Matching (FM) 是一类生成模型训练目标。给定真实样本 $x_1$ 与噪声 $x_0 = \varepsilon$，构造直线插值 $x_\tau = \tau x_1 + (1-\tau) x_0$，让网络 $u_\theta$ 学习速度场 $u_\theta(x_\tau, \tau) \approx x_1 - x_0$。
+
+## 标准损失（Conditional FM）
+
+$$
+\mathcal{L}_{\text{FM}} = \mathbb{E}_{\tau, \varepsilon, x_1} \left\| u_\theta(x_\tau, \tau) - (x_1 - \varepsilon) \right\|_2^2
+$$
+
+## 推理（欧拉积分）
+
+$$
+x_{\tau + \Delta\tau} = x_\tau + \Delta\tau \cdot u_\theta(x_\tau, \tau), \quad x_0 = \varepsilon
+$$
+
+## 与 Diffusion 的对比
+
+| 维度 | Diffusion (DDPM) | Flow Matching |
+|------|------------------|---------------|
+| 路径 | 弯曲（按 noise schedule） | 直线 |
+| 目标 | 噪声预测 | 速度场 |
+| 推理步数 | 通常更多 | 通常更少 |
+| 实现 | 复杂 schedule | 极简 |
+
+## 代表工作
+
+- [[Pi0]] (2024): 首个用 FM 训练 VLA。
+- [[Pi05]]: 增强版。
+- [[RLDX-1]]: 在 action 与 physics 双流上都用 FM。
+- [[MolmoAct2]] (2026): Action Expert 用 FM，预训练 K=4、微调 K=8 的多样本损失。
+
+## 相关概念
+
+- [[Diffusion Model]]
+- [[Action Chunking]]
+- [[Euler Integration]]
