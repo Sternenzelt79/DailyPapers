@@ -10,6 +10,7 @@ generated_by: dailypaper-skills
 
 ## 当前目录笔记
 
+- [[Notes/Robotics/VLA/MolmoAct2|MolmoAct2]]
 - [[Notes/Robotics/VLA/RLDX-1|RLDX-1]]
 
 ## 说明

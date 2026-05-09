@@ -15,6 +15,7 @@ generated_by: dailypaper-skills
 - [[Notes/Concepts/VLA/Diffusion Policy|Diffusion Policy]]
 - [[Notes/Concepts/VLA/MolmoER|MolmoER]]
 - [[Notes/Concepts/VLA/OpenFAST|OpenFAST]]
+- [[Notes/Concepts/VLA/VLM|VLM]]
 - [[Notes/Concepts/VLA/Vision-Language-Action Model|Vision-Language-Action Model]]
 
 ## 说明

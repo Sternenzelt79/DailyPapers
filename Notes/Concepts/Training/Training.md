@@ -11,15 +11,19 @@ generated_by: dailypaper-skills
 ## 当前目录笔记
 
 - [[Notes/Concepts/Training/Adaptive Depth Reasoning|Adaptive Depth Reasoning]]
+- [[Notes/Concepts/Training/Conditional Flow Matching|Conditional Flow Matching]]
 - [[Notes/Concepts/Training/Cramér-Wold 定理|Cramér-Wold 定理]]
 - [[Notes/Concepts/Training/Cross-Entropy Method|Cross-Entropy Method]]
 - [[Notes/Concepts/Training/EMA|EMA]]
 - [[Notes/Concepts/Training/Epps-Pulley Test|Epps-Pulley Test]]
+- [[Notes/Concepts/Training/Euler Method|Euler Method]]
 - [[Notes/Concepts/Training/Flow Matching|Flow Matching]]
 - [[Notes/Concepts/Training/Model Predictive Control|Model Predictive Control]]
+- [[Notes/Concepts/Training/RECAP|RECAP]]
 - [[Notes/Concepts/Training/Representation Collapse|Representation Collapse]]
 - [[Notes/Concepts/Training/SIGReg|SIGReg]]
 - [[Notes/Concepts/Training/VICReg|VICReg]]
+- [[Notes/Concepts/Training/VLM Critic|VLM Critic]]
 - [[Notes/Concepts/Training/Violation-of-Expectation|Violation-of-Expectation]]
 
 ## 说明

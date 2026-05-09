@@ -10,7 +10,6 @@ generated_by: dailypaper-skills
 
 ## 子目录
 
-- [[Notes/3-Robotics/3-Robotics|3-Robotics]] · 0 篇笔记 · 1 个子目录
 - [[Notes/Robotics/Robotics|Robotics]] · 0 篇笔记 · 2 个子目录
 
 ## 说明
