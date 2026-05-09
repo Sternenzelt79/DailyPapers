@@ -457,8 +457,7 @@ def main():
         file=sys.stderr,
     )
 
-    # hf_papers = fetch_hf_papers(start_date, target_date)
-    hf_papers = []
+    hf_papers = fetch_hf_papers(start_date, target_date)
     arxiv_papers = fetch_arxiv_papers(start_date, target_date, days)
     top = merge_and_dedup(hf_papers, arxiv_papers, target_date, days=days, top_n=top_n)
 
