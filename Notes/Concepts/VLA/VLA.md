@@ -13,10 +13,12 @@ generated_by: dailypaper-skills
 - [[Notes/Concepts/VLA/Action Chunking|Action Chunking]]
 - [[Notes/Concepts/VLA/Bimanual Manipulation|Bimanual Manipulation]]
 - [[Notes/Concepts/VLA/Diffusion Policy|Diffusion Policy]]
+- [[Notes/Concepts/VLA/MolmoAct2-Think|MolmoAct2-Think]]
 - [[Notes/Concepts/VLA/MolmoER|MolmoER]]
 - [[Notes/Concepts/VLA/OpenFAST|OpenFAST]]
 - [[Notes/Concepts/VLA/VLM|VLM]]
 - [[Notes/Concepts/VLA/Vision-Language-Action Model|Vision-Language-Action Model]]
+- [[Notes/Concepts/VLA/World Model|World Model]]
 
 ## 说明
 

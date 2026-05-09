@@ -19,6 +19,7 @@ generated_by: dailypaper-skills
 - [[Notes/Concepts/Training/Euler Method|Euler Method]]
 - [[Notes/Concepts/Training/Flow Matching|Flow Matching]]
 - [[Notes/Concepts/Training/Model Predictive Control|Model Predictive Control]]
+- [[Notes/Concepts/Training/OpenFAST|OpenFAST]]
 - [[Notes/Concepts/Training/RECAP|RECAP]]
 - [[Notes/Concepts/Training/Representation Collapse|Representation Collapse]]
 - [[Notes/Concepts/Training/SIGReg|SIGReg]]
