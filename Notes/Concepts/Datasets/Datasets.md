@@ -13,6 +13,8 @@ generated_by: dailypaper-skills
 - [[Notes/Concepts/Datasets/AgiBot World|AgiBot World]]
 - [[Notes/Concepts/Datasets/DROID|DROID]]
 - [[Notes/Concepts/Datasets/Open-X-Embodiment|Open-X-Embodiment]]
+- [[Notes/Concepts/Datasets/PartNet|PartNet]]
+- [[Notes/Concepts/Datasets/RoboTwin|RoboTwin]]
 
 ## 说明
 
