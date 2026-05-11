@@ -10,7 +10,7 @@ generated_by: dailypaper-skills
 
 ## 子目录
 
-- [[Notes/Concepts/Architecture/Architecture|Architecture]] · 38 篇笔记 · 0 个子目录
+- [[Notes/Concepts/Architecture/Architecture|Architecture]] · 39 篇笔记 · 0 个子目录
 - [[Notes/Concepts/Data/Data|Data]] · 3 篇笔记 · 0 个子目录
 - [[Notes/Concepts/Datasets/Datasets|Datasets]] · 5 篇笔记 · 0 个子目录
 - [[Notes/Concepts/Models/Models|Models]] · 10 篇笔记 · 0 个子目录
