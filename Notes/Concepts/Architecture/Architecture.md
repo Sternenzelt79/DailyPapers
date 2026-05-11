@@ -17,6 +17,7 @@ generated_by: dailypaper-skills
 - [[Notes/Concepts/Architecture/Adaptive Depth Reasoning|Adaptive Depth Reasoning]]
 - [[Notes/Concepts/Architecture/Adaptive Layer Normalization|Adaptive Layer Normalization]]
 - [[Notes/Concepts/Architecture/Batch Normalization|Batch Normalization]]
+- [[Notes/Concepts/Architecture/CDM|CDM]]
 - [[Notes/Concepts/Architecture/CFG|CFG]]
 - [[Notes/Concepts/Architecture/Cognition Token|Cognition Token]]
 - [[Notes/Concepts/Architecture/Cross-Attention|Cross-Attention]]
