@@ -26,6 +26,7 @@ generated_by: dailypaper-skills
 - [[Notes/Concepts/Training/Model Predictive Control|Model Predictive Control]]
 - [[Notes/Concepts/Training/OpenFAST|OpenFAST]]
 - [[Notes/Concepts/Training/RECAP|RECAP]]
+- [[Notes/Concepts/Training/REPA|REPA]]
 - [[Notes/Concepts/Training/Representation Collapse|Representation Collapse]]
 - [[Notes/Concepts/Training/SIGReg|SIGReg]]
 - [[Notes/Concepts/Training/VICReg|VICReg]]

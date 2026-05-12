@@ -41,6 +41,7 @@ generated_by: dailypaper-skills
 - [[Notes/Concepts/Architecture/MolmoAct2-Think|MolmoAct2-Think]]
 - [[Notes/Concepts/Architecture/Motion Module|Motion Module]]
 - [[Notes/Concepts/Architecture/Multi-Stream Action Transformer|Multi-Stream Action Transformer]]
+- [[Notes/Concepts/Architecture/PAE|PAE]]
 - [[Notes/Concepts/Architecture/PLDM|PLDM]]
 - [[Notes/Concepts/Architecture/Physics Stream|Physics Stream]]
 - [[Notes/Concepts/Architecture/RoPE|RoPE]]
