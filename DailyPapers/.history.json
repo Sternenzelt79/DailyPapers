@@ -58,5 +58,15 @@
     "id": "2308.04079",
     "date": "2026-05-10",
     "title": "3D Gaussian Splatting for Real-Time Radiance Field Rendering"
+  },
+  {
+    "id": "2605.06747",
+    "date": "2026-05-12",
+    "title": "HumanNet: Scaling Human-centric Video Learning to One Million Hours"
+  },
+  {
+    "id": "2605.07915",
+    "date": "2026-05-12",
+    "title": "What Matters for Diffusion-Friendly Latent Manifold? Prior-Aligned Autoencoders for Latent Diffusion"
   }
 ]
