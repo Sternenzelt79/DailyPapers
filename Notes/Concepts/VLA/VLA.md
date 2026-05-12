@@ -19,6 +19,8 @@ generated_by: dailypaper-skills
 - [[Notes/Concepts/VLA/VLM|VLM]]
 - [[Notes/Concepts/VLA/Vision-Language-Action Model|Vision-Language-Action Model]]
 - [[Notes/Concepts/VLA/World Model|World Model]]
+- [[Notes/Concepts/VLA/具身智能|具身智能]]
+- [[Notes/Concepts/VLA/运动重定向|运动重定向]]
 
 ## 说明
 
