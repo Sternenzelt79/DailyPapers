@@ -44,6 +44,7 @@ generated_by: dailypaper-skills
 - [[Notes/Concepts/Architecture/PAE|PAE]]
 - [[Notes/Concepts/Architecture/PLDM|PLDM]]
 - [[Notes/Concepts/Architecture/Physics Stream|Physics Stream]]
+- [[Notes/Concepts/Architecture/PrediMem|PrediMem]]
 - [[Notes/Concepts/Architecture/RoPE|RoPE]]
 - [[Notes/Concepts/Architecture/Space-Time Self-Similarity|Space-Time Self-Similarity]]
 - [[Notes/Concepts/Architecture/Stream Masking|Stream Masking]]

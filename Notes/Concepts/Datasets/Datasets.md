@@ -16,8 +16,10 @@ generated_by: dailypaper-skills
 - [[Notes/Concepts/Datasets/Ego4D|Ego4D]]
 - [[Notes/Concepts/Datasets/EgoScale|EgoScale]]
 - [[Notes/Concepts/Datasets/HowTo100M|HowTo100M]]
+- [[Notes/Concepts/Datasets/LIBERO|LIBERO]]
 - [[Notes/Concepts/Datasets/Open-X-Embodiment|Open-X-Embodiment]]
 - [[Notes/Concepts/Datasets/PartNet|PartNet]]
+- [[Notes/Concepts/Datasets/RoboTwin 2.0|RoboTwin 2.0]]
 - [[Notes/Concepts/Datasets/RoboTwin|RoboTwin]]
 
 ## 说明

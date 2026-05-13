@@ -32,6 +32,14 @@ generated_by: dailypaper-skills
 - [[Notes/Concepts/Training/VICReg|VICReg]]
 - [[Notes/Concepts/Training/VLM Critic|VLM Critic]]
 - [[Notes/Concepts/Training/Violation-of-Expectation|Violation-of-Expectation]]
+- [[Notes/Concepts/Training/任务向量|任务向量]]
+- [[Notes/Concepts/Training/参数空间向量运算|参数空间向量运算]]
+- [[Notes/Concepts/Training/模型合并|模型合并]]
+- [[Notes/Concepts/Training/正交正则化|正交正则化]]
+- [[Notes/Concepts/Training/正交约束|正交约束]]
+- [[Notes/Concepts/Training/监督微调|监督微调]]
+- [[Notes/Concepts/Training/联合损失|联合损失]]
+- [[Notes/Concepts/Training/辅助目标微调|辅助目标微调]]
 
 ## 说明
 
