@@ -2,21 +2,15 @@
 tags: [MOC, auto-generated]
 generated_by: dailypaper-skills
 ---
-# 论文目录页：VLA
+# 论文目录页：assets
 
 用于浏览论文笔记、分类目录和子主题入口。
 
-- 当前目录：`Robotics/VLA`
-
-## 子目录
-
-- [[Notes/Robotics/VLA/assets/assets|assets]] · 0 篇笔记 · 0 个子目录
+- 当前目录：`Robotics/VLA/assets`
 
 ## 当前目录笔记
 
-- [[Notes/Robotics/VLA/CapVector|CapVector]]
-- [[Notes/Robotics/VLA/MolmoAct2|MolmoAct2]]
-- [[Notes/Robotics/VLA/RLDX-1|RLDX-1]]
+- 暂无内容
 
 ## 说明
 
