@@ -12,9 +12,12 @@ generated_by: dailypaper-skills
 
 - [[Notes/Concepts/Models/Cosmos-Predict2|Cosmos-Predict2]]
 - [[Notes/Concepts/Models/FLUX.2|FLUX.2]]
+- [[Notes/Concepts/Models/FLUX|FLUX]]
 - [[Notes/Concepts/Models/GR00T-N1.6|GR00T-N1.6]]
 - [[Notes/Concepts/Models/ImageReward|ImageReward]]
+- [[Notes/Concepts/Models/InternVL|InternVL]]
 - [[Notes/Concepts/Models/Inverse Dynamics Model|Inverse Dynamics Model]]
+- [[Notes/Concepts/Models/OmniGen2|OmniGen2]]
 - [[Notes/Concepts/Models/OpenVLA|OpenVLA]]
 - [[Notes/Concepts/Models/Pi05|Pi05]]
 - [[Notes/Concepts/Models/PickScore|PickScore]]

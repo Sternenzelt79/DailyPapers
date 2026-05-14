@@ -2,20 +2,15 @@
 tags: [MOC, auto-generated]
 generated_by: dailypaper-skills
 ---
-# 论文目录页：Robotics
+# 论文目录页：assets
 
 用于浏览论文笔记、分类目录和子主题入口。
 
-- 当前目录：`Robotics`
-
-## 子目录
-
-- [[Notes/Robotics/VLA/VLA|VLA]] · 3 篇笔记 · 1 个子目录
-- [[Notes/Robotics/World Model/World Model|World Model]] · 3 篇笔记 · 1 个子目录
+- 当前目录：`Robotics/World Model/assets`
 
 ## 当前目录笔记
 
-- [[Notes/Robotics/HumanNet|HumanNet]]
+- 暂无内容
 
 ## 说明
 

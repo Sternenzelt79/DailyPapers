@@ -11,9 +11,11 @@ generated_by: dailypaper-skills
 ## 当前目录笔记
 
 - [[Notes/Concepts/VLA/Action Chunking|Action Chunking]]
+- [[Notes/Concepts/VLA/AnyGrasp|AnyGrasp]]
 - [[Notes/Concepts/VLA/Bimanual Manipulation|Bimanual Manipulation]]
 - [[Notes/Concepts/VLA/Diffusion Policy|Diffusion Policy]]
 - [[Notes/Concepts/VLA/LaRA-VLA|LaRA-VLA]]
+- [[Notes/Concepts/VLA/MemoryVLA|MemoryVLA]]
 - [[Notes/Concepts/VLA/MolmoAct2-Think|MolmoAct2-Think]]
 - [[Notes/Concepts/VLA/MolmoER|MolmoER]]
 - [[Notes/Concepts/VLA/OpenFAST|OpenFAST]]
