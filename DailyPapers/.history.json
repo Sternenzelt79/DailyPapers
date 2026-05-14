@@ -83,5 +83,25 @@
     "id": "2509.18154",
     "date": "2026-05-13",
     "title": "MiniCPM-V 4.5: Cooking Efficient MLLMs via Architecture, Data, and Training Recipe"
+  },
+  {
+    "id": "2605.12090",
+    "date": "2026-05-14",
+    "title": "World Action Models: The Next Frontier in Embodied AI"
+  },
+  {
+    "id": "2605.00080",
+    "date": "2026-05-14",
+    "title": "World Model for Robot Learning: A Comprehensive Survey"
+  },
+  {
+    "id": "2605.12500",
+    "date": "2026-05-14",
+    "title": "SenseNova-U1: Unifying Multimodal Understanding and Generation with NEO-unify Architecture"
+  },
+  {
+    "id": "2605.12013",
+    "date": "2026-05-14",
+    "title": "L2P: Unlocking Latent Potential for Pixel Generation"
   }
 ]
