@@ -11,6 +11,7 @@ generated_by: dailypaper-skills
 ## 当前目录笔记
 
 - [[Notes/Concepts/Training/Adaptive Depth Reasoning|Adaptive Depth Reasoning]]
+- [[Notes/Concepts/Training/CM-GRPO|CM-GRPO]]
 - [[Notes/Concepts/Training/Conditional Flow Matching|Conditional Flow Matching]]
 - [[Notes/Concepts/Training/Cramér-Wold 定理|Cramér-Wold 定理]]
 - [[Notes/Concepts/Training/Cross-Entropy Method|Cross-Entropy Method]]

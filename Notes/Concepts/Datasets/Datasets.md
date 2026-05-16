@@ -17,6 +17,7 @@ generated_by: dailypaper-skills
 - [[Notes/Concepts/Datasets/EgoScale|EgoScale]]
 - [[Notes/Concepts/Datasets/HowTo100M|HowTo100M]]
 - [[Notes/Concepts/Datasets/LIBERO|LIBERO]]
+- [[Notes/Concepts/Datasets/NAVSIM|NAVSIM]]
 - [[Notes/Concepts/Datasets/OXE Dataset|OXE Dataset]]
 - [[Notes/Concepts/Datasets/OXE|OXE]]
 - [[Notes/Concepts/Datasets/Open-X-Embodiment|Open-X-Embodiment]]
