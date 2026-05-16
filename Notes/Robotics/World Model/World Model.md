@@ -8,9 +8,15 @@ generated_by: dailypaper-skills
 
 - 当前目录：`Robotics/World Model`
 
+## 子目录
+
+- [[Notes/Robotics/World Model/assets/assets|assets]] · 0 篇笔记 · 0 个子目录
+
 ## 当前目录笔记
 
 - [[Notes/Robotics/World Model/LeWM|LeWM]]
+- [[Notes/Robotics/World Model/WAM-Survey|WAM-Survey]]
+- [[Notes/Robotics/World Model/WAMSurvey|WAMSurvey]]
 
 ## 说明
 

@@ -13,6 +13,8 @@ generated_by: dailypaper-skills
 - [[Notes/Concepts/Data/BimanualYAM|BimanualYAM]]
 - [[Notes/Concepts/Data/OGBench|OGBench]]
 - [[Notes/Concepts/Data/Push-T|Push-T]]
+- [[Notes/Concepts/Data/去重|去重]]
+- [[Notes/Concepts/Data/运动重定向|运动重定向]]
 
 ## 说明
 

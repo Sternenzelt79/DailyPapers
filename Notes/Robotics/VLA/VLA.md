@@ -8,8 +8,13 @@ generated_by: dailypaper-skills
 
 - 当前目录：`Robotics/VLA`
 
+## 子目录
+
+- [[Notes/Robotics/VLA/assets/assets|assets]] · 0 篇笔记 · 0 个子目录
+
 ## 当前目录笔记
 
+- [[Notes/Robotics/VLA/CapVector|CapVector]]
 - [[Notes/Robotics/VLA/MolmoAct2|MolmoAct2]]
 - [[Notes/Robotics/VLA/RLDX-1|RLDX-1]]
 

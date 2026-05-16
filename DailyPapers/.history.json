@@ -53,5 +53,85 @@
     "id": "2504.01990",
     "date": "2026-05-09",
     "title": "Advances and Challenges in Foundation Agents: From Brain-Inspired\n  Intelligence to Evolutionary, Collaborative, and Safe Systems"
+  },
+  {
+    "id": "2308.04079",
+    "date": "2026-05-10",
+    "title": "3D Gaussian Splatting for Real-Time Radiance Field Rendering"
+  },
+  {
+    "id": "2605.06747",
+    "date": "2026-05-12",
+    "title": "HumanNet: Scaling Human-centric Video Learning to One Million Hours"
+  },
+  {
+    "id": "2605.07915",
+    "date": "2026-05-12",
+    "title": "What Matters for Diffusion-Friendly Latent Manifold? Prior-Aligned Autoencoders for Latent Diffusion"
+  },
+  {
+    "id": "2605.10903",
+    "date": "2026-05-13",
+    "title": "CapVector: Learning Transferable Capability Vectors in Parametric Space for Vision-Language-Action Models"
+  },
+  {
+    "id": "2605.10921",
+    "date": "2026-05-13",
+    "title": "RoboMemArena: A Comprehensive and Challenging Robotic Memory Benchmark"
+  },
+  {
+    "id": "2509.18154",
+    "date": "2026-05-13",
+    "title": "MiniCPM-V 4.5: Cooking Efficient MLLMs via Architecture, Data, and Training Recipe"
+  },
+  {
+    "id": "2605.12090",
+    "date": "2026-05-14",
+    "title": "World Action Models: The Next Frontier in Embodied AI"
+  },
+  {
+    "id": "2605.00080",
+    "date": "2026-05-14",
+    "title": "World Model for Robot Learning: A Comprehensive Survey"
+  },
+  {
+    "id": "2605.12500",
+    "date": "2026-05-14",
+    "title": "SenseNova-U1: Unifying Multimodal Understanding and Generation with NEO-unify Architecture"
+  },
+  {
+    "id": "2605.12013",
+    "date": "2026-05-14",
+    "title": "L2P: Unlocking Latent Potential for Pixel Generation"
+  },
+  {
+    "id": "2605.13724",
+    "date": "2026-05-16",
+    "title": "AnyFlow: Any-Step Video Diffusion Model with On-Policy Flow Map Distillation"
+  },
+  {
+    "id": "2604.18486",
+    "date": "2026-05-16",
+    "title": "OneVL: One-Step Latent Reasoning and Planning with Vision-Language Explanation"
+  },
+  {
+    "id": "2605.10813",
+    "date": "2026-05-16",
+    "title": "NanoResearch: Co-Evolving Skills, Memory, and Policy for Personalized Research Automation"
+  },
+  {
+    "id": "2605.15155",
+    "date": "2026-05-16",
+    "title": "Self-Distilled Agentic Reinforcement Learning"
+  },
+  {
+    "id": "2605.15190",
+    "date": "2026-05-16",
+    "title": "RAVEN: Real-time Autoregressive Video Extrapolation with Consistency-model GRPO"
+  },
+  {
+    "id": "2509.24695",
+    "date": "2026-05-16",
+    "title": "SANA-Video: Efficient Video Generation with Block Linear Diffusion\n  Transformer"
   }
 ]

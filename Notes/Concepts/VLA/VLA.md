@@ -11,14 +11,22 @@ generated_by: dailypaper-skills
 ## 当前目录笔记
 
 - [[Notes/Concepts/VLA/Action Chunking|Action Chunking]]
+- [[Notes/Concepts/VLA/AnyGrasp|AnyGrasp]]
 - [[Notes/Concepts/VLA/Bimanual Manipulation|Bimanual Manipulation]]
 - [[Notes/Concepts/VLA/Diffusion Policy|Diffusion Policy]]
+- [[Notes/Concepts/VLA/LaRA-VLA|LaRA-VLA]]
+- [[Notes/Concepts/VLA/MemoryVLA|MemoryVLA]]
 - [[Notes/Concepts/VLA/MolmoAct2-Think|MolmoAct2-Think]]
 - [[Notes/Concepts/VLA/MolmoER|MolmoER]]
 - [[Notes/Concepts/VLA/OpenFAST|OpenFAST]]
+- [[Notes/Concepts/VLA/OpenVLA-OFT|OpenVLA-OFT]]
+- [[Notes/Concepts/VLA/Spatial Forcing|Spatial Forcing]]
+- [[Notes/Concepts/VLA/StarVLA|StarVLA]]
 - [[Notes/Concepts/VLA/VLM|VLM]]
 - [[Notes/Concepts/VLA/Vision-Language-Action Model|Vision-Language-Action Model]]
 - [[Notes/Concepts/VLA/World Model|World Model]]
+- [[Notes/Concepts/VLA/具身智能|具身智能]]
+- [[Notes/Concepts/VLA/运动重定向|运动重定向]]
 
 ## 说明
 
