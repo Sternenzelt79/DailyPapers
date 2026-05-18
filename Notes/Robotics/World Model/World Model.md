@@ -17,6 +17,7 @@ generated_by: dailypaper-skills
 - [[Notes/Robotics/World Model/LeWM|LeWM]]
 - [[Notes/Robotics/World Model/WAM-Survey|WAM-Survey]]
 - [[Notes/Robotics/World Model/WAMSurvey|WAMSurvey]]
+- [[Notes/Robotics/World Model/WMRobotSurvey|WMRobotSurvey]]
 
 ## 说明
 
