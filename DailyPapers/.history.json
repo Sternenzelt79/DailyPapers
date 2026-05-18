@@ -133,5 +133,85 @@
     "id": "2509.24695",
     "date": "2026-05-16",
     "title": "SANA-Video: Efficient Video Generation with Block Linear Diffusion\n  Transformer"
+  },
+  {
+    "id": "2605.15964",
+    "date": "2026-05-18",
+    "title": "WorldVLN: Autoregressive World Action Model for Aerial Vision-Language Navigation"
+  },
+  {
+    "id": "2605.15975",
+    "date": "2026-05-18",
+    "title": "Learning Bilevel Policies over Symbolic World Models for Long-Horizon Planning"
+  },
+  {
+    "id": "2605.15705",
+    "date": "2026-05-18",
+    "title": "Feedback World Model Enables Precise Guidance of Diffusion Policy"
+  },
+  {
+    "id": "2605.16056",
+    "date": "2026-05-18",
+    "title": "Health-Conditioned Vision-Language-Action Models for Malfunction-Aware Robot Control"
+  },
+  {
+    "id": "2605.15477",
+    "date": "2026-05-18",
+    "title": "EgoExo-WM: Unlocking Exo Video for Ego World Models"
+  },
+  {
+    "id": "2605.15735",
+    "date": "2026-05-18",
+    "title": "UAM: A Dual-Stream Perspective on Forgetting in VLA Training"
+  },
+  {
+    "id": "2605.15960",
+    "date": "2026-05-18",
+    "title": "Imperfect World Models are Exploitable"
+  },
+  {
+    "id": "2605.15725",
+    "date": "2026-05-18",
+    "title": "DiLA: Disentangled Latent Action World Models"
+  },
+  {
+    "id": "2605.15391",
+    "date": "2026-05-18",
+    "title": "PanoWorld: Geometry-Consistent Panoramic Video World Modeling"
+  },
+  {
+    "id": "2605.16065",
+    "date": "2026-05-18",
+    "title": "Robust Prior-Guided Segmentation for Editable 3D Gaussian Splatting"
+  },
+  {
+    "id": "2603.05377",
+    "date": "2026-05-18",
+    "title": "OpenFrontier: General Navigation with Visual-Language Grounded Frontiers"
+  },
+  {
+    "id": "2605.15298",
+    "date": "2026-05-18",
+    "title": "PhysBrain 1.0 Technical Report"
+  },
+  {
+    "id": "2605.15256",
+    "date": "2026-05-18",
+    "title": "ReactiveGWM: Steering NPC in Reactive Game World Models"
+  },
+  {
+    "id": "2601.09512",
+    "date": "2026-05-18",
+    "title": "CLARE: Continual Learning for Vision-Language-Action Models via Autonomous Adapter Routing and Expansion"
+  },
+  {
+    "id": "2605.16241",
+    "date": "2026-05-18",
+    "title": "Offline Semantic Guidance for Efficient Vision-Language-Action Policy Distillation"
+  },
+  {
+    "id": "2605.16154",
+    "date": "2026-05-18",
+    "title": "Learn Where Outcomes Diverge: Efficient VLA RL via Probabilistic Chunk Masking"
   }
 ]
