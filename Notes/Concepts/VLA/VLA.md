@@ -10,6 +10,7 @@ generated_by: dailypaper-skills
 
 ## 当前目录笔记
 
+- [[Notes/Concepts/VLA/ACT|ACT]]
 - [[Notes/Concepts/VLA/Action Chunking|Action Chunking]]
 - [[Notes/Concepts/VLA/AnyGrasp|AnyGrasp]]
 - [[Notes/Concepts/VLA/Bimanual Manipulation|Bimanual Manipulation]]
@@ -20,8 +21,10 @@ generated_by: dailypaper-skills
 - [[Notes/Concepts/VLA/MolmoER|MolmoER]]
 - [[Notes/Concepts/VLA/OpenFAST|OpenFAST]]
 - [[Notes/Concepts/VLA/OpenVLA-OFT|OpenVLA-OFT]]
+- [[Notes/Concepts/VLA/RT-2|RT-2]]
 - [[Notes/Concepts/VLA/Spatial Forcing|Spatial Forcing]]
 - [[Notes/Concepts/VLA/StarVLA|StarVLA]]
+- [[Notes/Concepts/VLA/VLFM|VLFM]]
 - [[Notes/Concepts/VLA/VLM|VLM]]
 - [[Notes/Concepts/VLA/Vision-Language-Action Model|Vision-Language-Action Model]]
 - [[Notes/Concepts/VLA/World Model|World Model]]

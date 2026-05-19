@@ -17,13 +17,18 @@ generated_by: dailypaper-skills
 - [[Notes/Concepts/Datasets/EgoScale|EgoScale]]
 - [[Notes/Concepts/Datasets/HowTo100M|HowTo100M]]
 - [[Notes/Concepts/Datasets/LIBERO|LIBERO]]
+- [[Notes/Concepts/Datasets/MME|MME]]
+- [[Notes/Concepts/Datasets/MMMU|MMMU]]
+- [[Notes/Concepts/Datasets/MetaWorld|MetaWorld]]
 - [[Notes/Concepts/Datasets/NAVSIM|NAVSIM]]
 - [[Notes/Concepts/Datasets/OXE Dataset|OXE Dataset]]
 - [[Notes/Concepts/Datasets/OXE|OXE]]
 - [[Notes/Concepts/Datasets/Open-X-Embodiment|Open-X-Embodiment]]
 - [[Notes/Concepts/Datasets/PartNet|PartNet]]
+- [[Notes/Concepts/Datasets/RoboCasa|RoboCasa]]
 - [[Notes/Concepts/Datasets/RoboTwin 2.0|RoboTwin 2.0]]
 - [[Notes/Concepts/Datasets/RoboTwin|RoboTwin]]
+- [[Notes/Concepts/Datasets/Robomimic|Robomimic]]
 
 ## 说明
 

@@ -26,6 +26,7 @@ generated_by: dailypaper-skills
 - [[Notes/Concepts/Training/LoRA|LoRA]]
 - [[Notes/Concepts/Training/Model Predictive Control|Model Predictive Control]]
 - [[Notes/Concepts/Training/OpenFAST|OpenFAST]]
+- [[Notes/Concepts/Training/PPO|PPO]]
 - [[Notes/Concepts/Training/RECAP|RECAP]]
 - [[Notes/Concepts/Training/REPA|REPA]]
 - [[Notes/Concepts/Training/Reinforcement Learning|Reinforcement Learning]]

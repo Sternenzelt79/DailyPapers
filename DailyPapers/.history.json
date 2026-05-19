@@ -213,5 +213,20 @@
     "id": "2605.16154",
     "date": "2026-05-18",
     "title": "Learn Where Outcomes Diverge: Efficient VLA RL via Probabilistic Chunk Masking"
+  },
+  {
+    "id": "2604.14268",
+    "date": "2026-05-19",
+    "title": "HY-World 2.0: A Multi-Modal World Model for Reconstructing, Generating, and Simulating 3D Worlds"
+  },
+  {
+    "id": "2605.15466",
+    "date": "2026-05-19",
+    "title": "Entity-Centric World Models: Interaction-Aware Masking for Causal Video Prediction"
+  },
+  {
+    "id": "2605.16257",
+    "date": "2026-05-19",
+    "title": "DexJoCo: A Benchmark and Toolkit for Task-Oriented Dexterous Manipulation on MuJoCo"
   }
 ]
