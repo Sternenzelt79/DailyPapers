@@ -10,8 +10,10 @@ generated_by: dailypaper-skills
 
 ## 当前目录笔记
 
+- [[Notes/Concepts/Training/Actor-Critic|Actor-Critic]]
 - [[Notes/Concepts/Training/Adaptive Depth Reasoning|Adaptive Depth Reasoning]]
 - [[Notes/Concepts/Training/CM-GRPO|CM-GRPO]]
+- [[Notes/Concepts/Training/Cal-QL|Cal-QL]]
 - [[Notes/Concepts/Training/Conditional Flow Matching|Conditional Flow Matching]]
 - [[Notes/Concepts/Training/Cramér-Wold 定理|Cramér-Wold 定理]]
 - [[Notes/Concepts/Training/Cross-Entropy Method|Cross-Entropy Method]]
@@ -26,9 +28,13 @@ generated_by: dailypaper-skills
 - [[Notes/Concepts/Training/LoRA|LoRA]]
 - [[Notes/Concepts/Training/Model Predictive Control|Model Predictive Control]]
 - [[Notes/Concepts/Training/OpenFAST|OpenFAST]]
+- [[Notes/Concepts/Training/PPO|PPO]]
 - [[Notes/Concepts/Training/RECAP|RECAP]]
 - [[Notes/Concepts/Training/REPA|REPA]]
+- [[Notes/Concepts/Training/RLHF|RLHF]]
+- [[Notes/Concepts/Training/Reinforcement Learning|Reinforcement Learning]]
 - [[Notes/Concepts/Training/Representation Collapse|Representation Collapse]]
+- [[Notes/Concepts/Training/SFT|SFT]]
 - [[Notes/Concepts/Training/SIGReg|SIGReg]]
 - [[Notes/Concepts/Training/VICReg|VICReg]]
 - [[Notes/Concepts/Training/VLM Critic|VLM Critic]]
@@ -36,11 +42,17 @@ generated_by: dailypaper-skills
 - [[Notes/Concepts/Training/Visual Fidelity|Visual Fidelity]]
 - [[Notes/Concepts/Training/任务向量|任务向量]]
 - [[Notes/Concepts/Training/参数空间向量运算|参数空间向量运算]]
+- [[Notes/Concepts/Training/扩散视觉损失|扩散视觉损失]]
+- [[Notes/Concepts/Training/接触力估计|接触力估计]]
 - [[Notes/Concepts/Training/模型合并|模型合并]]
 - [[Notes/Concepts/Training/正交正则化|正交正则化]]
 - [[Notes/Concepts/Training/正交约束|正交约束]]
+- [[Notes/Concepts/Training/残差策略学习|残差策略学习]]
+- [[Notes/Concepts/Training/潜对齐损失|潜对齐损失]]
+- [[Notes/Concepts/Training/状态重建损失|状态重建损失]]
 - [[Notes/Concepts/Training/监督微调|监督微调]]
 - [[Notes/Concepts/Training/联合损失|联合损失]]
+- [[Notes/Concepts/Training/负载均衡正则化|负载均衡正则化]]
 - [[Notes/Concepts/Training/辅助目标微调|辅助目标微调]]
 
 ## 说明

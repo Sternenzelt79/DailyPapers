@@ -133,5 +133,180 @@
     "id": "2509.24695",
     "date": "2026-05-16",
     "title": "SANA-Video: Efficient Video Generation with Block Linear Diffusion\n  Transformer"
+  },
+  {
+    "id": "2605.15964",
+    "date": "2026-05-18",
+    "title": "WorldVLN: Autoregressive World Action Model for Aerial Vision-Language Navigation"
+  },
+  {
+    "id": "2605.15975",
+    "date": "2026-05-18",
+    "title": "Learning Bilevel Policies over Symbolic World Models for Long-Horizon Planning"
+  },
+  {
+    "id": "2605.15705",
+    "date": "2026-05-18",
+    "title": "Feedback World Model Enables Precise Guidance of Diffusion Policy"
+  },
+  {
+    "id": "2605.16056",
+    "date": "2026-05-18",
+    "title": "Health-Conditioned Vision-Language-Action Models for Malfunction-Aware Robot Control"
+  },
+  {
+    "id": "2605.15477",
+    "date": "2026-05-18",
+    "title": "EgoExo-WM: Unlocking Exo Video for Ego World Models"
+  },
+  {
+    "id": "2605.15735",
+    "date": "2026-05-18",
+    "title": "UAM: A Dual-Stream Perspective on Forgetting in VLA Training"
+  },
+  {
+    "id": "2605.15960",
+    "date": "2026-05-18",
+    "title": "Imperfect World Models are Exploitable"
+  },
+  {
+    "id": "2605.15725",
+    "date": "2026-05-18",
+    "title": "DiLA: Disentangled Latent Action World Models"
+  },
+  {
+    "id": "2605.15391",
+    "date": "2026-05-18",
+    "title": "PanoWorld: Geometry-Consistent Panoramic Video World Modeling"
+  },
+  {
+    "id": "2605.16065",
+    "date": "2026-05-18",
+    "title": "Robust Prior-Guided Segmentation for Editable 3D Gaussian Splatting"
+  },
+  {
+    "id": "2603.05377",
+    "date": "2026-05-18",
+    "title": "OpenFrontier: General Navigation with Visual-Language Grounded Frontiers"
+  },
+  {
+    "id": "2605.15298",
+    "date": "2026-05-18",
+    "title": "PhysBrain 1.0 Technical Report"
+  },
+  {
+    "id": "2605.15256",
+    "date": "2026-05-18",
+    "title": "ReactiveGWM: Steering NPC in Reactive Game World Models"
+  },
+  {
+    "id": "2601.09512",
+    "date": "2026-05-18",
+    "title": "CLARE: Continual Learning for Vision-Language-Action Models via Autonomous Adapter Routing and Expansion"
+  },
+  {
+    "id": "2605.16241",
+    "date": "2026-05-18",
+    "title": "Offline Semantic Guidance for Efficient Vision-Language-Action Policy Distillation"
+  },
+  {
+    "id": "2605.16154",
+    "date": "2026-05-18",
+    "title": "Learn Where Outcomes Diverge: Efficient VLA RL via Probabilistic Chunk Masking"
+  },
+  {
+    "id": "2604.14268",
+    "date": "2026-05-19",
+    "title": "HY-World 2.0: A Multi-Modal World Model for Reconstructing, Generating, and Simulating 3D Worlds"
+  },
+  {
+    "id": "2605.15466",
+    "date": "2026-05-19",
+    "title": "Entity-Centric World Models: Interaction-Aware Masking for Causal Video Prediction"
+  },
+  {
+    "id": "2605.16257",
+    "date": "2026-05-19",
+    "title": "DexJoCo: A Benchmark and Toolkit for Task-Oriented Dexterous Manipulation on MuJoCo"
+  },
+  {
+    "id": "2605.16395",
+    "date": "2026-05-20",
+    "title": "OrbiSim: World Models as Differentiable Physics Engines for Embodied Intelligence"
+  },
+  {
+    "id": "2605.17522",
+    "date": "2026-05-20",
+    "title": "RoboFlow4D: A Lightweight Flow World Model Toward Real-Time Flow-Guided Manipulation"
+  },
+  {
+    "id": "2605.17912",
+    "date": "2026-05-20",
+    "title": "WorldArena 2.0: Extending Embodied World Model Benchmarking on Modality, Functionality and Platform"
+  },
+  {
+    "id": "2512.24497",
+    "date": "2026-05-20",
+    "title": "What Drives Success in Physical Planning with Joint-Embedding Predictive Architecture World Models"
+  },
+  {
+    "id": "2602.23058",
+    "date": "2026-05-20",
+    "title": "GeoWorld: Geometric World Models"
+  },
+  {
+    "id": "2605.17486",
+    "date": "2026-05-20",
+    "title": "DyGRO-VLA: Cross-Task Scaling of Vision-Language-Action Models via Dynamic Group Residual Optimization"
+  },
+  {
+    "id": "2605.17517",
+    "date": "2026-05-20",
+    "title": "AffordVLA: Injecting Affordance Representations into Vision-Language-Action Models"
+  },
+  {
+    "id": "2603.14371",
+    "date": "2026-05-20",
+    "title": "OxyGen: Unified KV Cache Management for VLA Inference under Multi-Task Parallelism"
+  },
+  {
+    "id": "2605.18287",
+    "date": "2026-05-20",
+    "title": "StableVLA: Towards Robust Vision-Language-Action Models without Extra Training"
+  },
+  {
+    "id": "2602.20200",
+    "date": "2026-05-20",
+    "title": "Global Prior Meets Local Consistency: Dual-Memory Augmented Vision-Language-Action Model"
+  },
+  {
+    "id": "2605.11817",
+    "date": "2026-05-20",
+    "title": "See What Matters: Differentiable Grid Sample Pruning for Generalizable VLA"
+  },
+  {
+    "id": "2605.18722",
+    "date": "2026-05-20",
+    "title": "Dexora: Open-source VLA for High-DoF Bimanual Dexterity"
+  },
+  {
+    "id": "2605.17144",
+    "date": "2026-05-20",
+    "title": "Contrastive Conceptor Activation Steering (COAST): Unlocking Vision-Language-Action Models"
+  },
+  {
+    "id": "2605.17204",
+    "date": "2026-05-20",
+    "title": "Event-Grounded Sparse Autoencoders for Vision-Language-Action Policies"
+  },
+  {
+    "id": "2602.19710",
+    "date": "2026-05-20",
+    "title": "Universal Pose Pretraining for Generalizable Vision-Language-Action Policies"
+  },
+  {
+    "id": "2603.19199",
+    "date": "2026-05-20",
+    "title": "FASTER: Rethinking Real-Time Flow VLAs"
   }
 ]

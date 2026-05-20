@@ -14,9 +14,12 @@ generated_by: dailypaper-skills
 
 ## 当前目录笔记
 
+- [[Notes/Robotics/VLA/COAST|COAST]]
 - [[Notes/Robotics/VLA/CapVector|CapVector]]
+- [[Notes/Robotics/VLA/DyGRO-VLA|DyGRO-VLA]]
 - [[Notes/Robotics/VLA/MolmoAct2|MolmoAct2]]
 - [[Notes/Robotics/VLA/RLDX-1|RLDX-1]]
+- [[Notes/Robotics/VLA/WorldVLN|WorldVLN]]
 
 ## 说明
 
