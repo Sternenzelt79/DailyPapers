@@ -308,5 +308,90 @@
     "id": "2603.19199",
     "date": "2026-05-20",
     "title": "FASTER: Rethinking Real-Time Flow VLAs"
+  },
+  {
+    "id": "2605.19580",
+    "date": "2026-05-20",
+    "title": "PAPO-VLA: Planning-Aware Policy Optimization for Vision-Language-Action Models"
+  },
+  {
+    "id": "2605.19678",
+    "date": "2026-05-20",
+    "title": "RoVLA: Multi-Consistency Constraints for Robust Vision-Language-Action Models"
+  },
+  {
+    "id": "2510.00600",
+    "date": "2026-05-20",
+    "title": "Hybrid Training for Vision-Language-Action Models"
+  },
+  {
+    "id": "2605.19282",
+    "date": "2026-05-20",
+    "title": "Rethinking Muon Beyond Pretraining: Spectral Failures and High-Pass Remedies for VLA and RLVR"
+  },
+  {
+    "id": "2605.19294",
+    "date": "2026-05-20",
+    "title": "DEFLECT: Delay-Robust Execution via Flow-matching Likelihood-Estimated Counterfactual Tuning for VLA Policies"
+  },
+  {
+    "id": "2605.19524",
+    "date": "2026-05-20",
+    "title": "SafeAlign-VLA: A Negative-Enhanced Safe Alignment Framework for Risk-Aware Autonomous Driving"
+  },
+  {
+    "id": "2605.19319",
+    "date": "2026-05-20",
+    "title": "SWEET: Sparse World Modeling with Image Editing for Embodied Task Execution"
+  },
+  {
+    "id": "2605.18813",
+    "date": "2026-05-20",
+    "title": "Composition of Memory Experts for Diffusion World Models"
+  },
+  {
+    "id": "2605.18803",
+    "date": "2026-05-20",
+    "title": "PROWL: Prioritized Regret-Driven Optimization for World Model Learning"
+  },
+  {
+    "id": "2605.19957",
+    "date": "2026-05-20",
+    "title": "World-Ego Modeling for Long-Horizon Evolution in Hybrid Embodied Tasks"
+  },
+  {
+    "id": "2605.19242",
+    "date": "2026-05-20",
+    "title": "PhyWorld: Physics-Faithful World Model for Video Generation"
+  },
+  {
+    "id": "2605.20044",
+    "date": "2026-05-20",
+    "title": "OP2GS: Object-Aware 3D Gaussian Splatting with Dual-Opacity Primitives"
+  },
+  {
+    "id": "2605.20150",
+    "date": "2026-05-20",
+    "title": "TideGS: Scalable Training of Over One Billion 3D Gaussian Splatting Primitives via Out-of-Core Optimization"
+  },
+  {
+    "id": "2605.19600",
+    "date": "2026-05-20",
+    "title": "FlyMirage: A Fully Automated Generation Pipeline for Diverse and Scalable UAV Flight Data via Generative World Model"
+  },
+  {
+    "id": "2605.19631",
+    "date": "2026-05-20",
+    "title": "HEAT: Heterogeneous End-to-End Autonomous Driving via Trajectory-Guided World Models"
+  },
+  {
+    "id": "2605.08830",
+    "date": "2026-05-20",
+    "title": "VECTOR-Drive: Tightly Coupled Vision-Language and Trajectory Expert Routing for End-to-End Autonomous Driving"
+  },
+  {
+    "id": "2605.19587",
+    "date": "2026-05-20",
+    "title": "SceneCode: Executable World Programs for Editable Indoor Scenes with Articulated Objects"
   }
 ]
