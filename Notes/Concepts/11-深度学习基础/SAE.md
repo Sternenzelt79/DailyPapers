@@ -19,6 +19,7 @@ $$\hat{x} = W_d \cdot \text{ReLU}(W_e x + b_e) + b_d, \quad \mathcal{L} = \|x - 
 
 ## 代表工作
 - [[EventSAE]]: 将 SAE 用于 VLA 策略的可解释性分析与因果干预
+- [[COAST]]: 以 SAE Steering 作为对比基线，证明 Conceptor 乘法门控在 VLA 引导中优于稀疏特征干预
 
 ## 相关概念
 - [[VLA]]

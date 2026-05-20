@@ -37,6 +37,7 @@ $$
 - [[WMRobotSurvey]]: 综述 MoE/MoT 式策略范式（Motus、LingBot-VA、DiT4DiT、LDA-1B）
 - [[WAMSurvey]]: Joint WAM 的 Motus（三专家 Tri-modal Joint Attention）
 - F1: MoT 框架（Generation Expert + Action Expert）
+- [[DyGRO-VLA]]: 混合残差专家（MoRR），每个专家学习相对基础策略的残差修正，动态路由解决多任务 VLA 梯度冲突
 
 ## 相关概念
 

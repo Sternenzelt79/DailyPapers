@@ -11,6 +11,7 @@ generated_by: dailypaper-skills
 ## 当前目录笔记
 
 - [[Notes/Concepts/Datasets/AgiBot World|AgiBot World]]
+- [[Notes/Concepts/Datasets/CALVIN|CALVIN]]
 - [[Notes/Concepts/Datasets/DROID|DROID]]
 - [[Notes/Concepts/Datasets/EPIC-KITCHENS|EPIC-KITCHENS]]
 - [[Notes/Concepts/Datasets/Ego4D|Ego4D]]
@@ -28,6 +29,7 @@ generated_by: dailypaper-skills
 - [[Notes/Concepts/Datasets/RoboCasa|RoboCasa]]
 - [[Notes/Concepts/Datasets/RoboTwin 2.0|RoboTwin 2.0]]
 - [[Notes/Concepts/Datasets/RoboTwin|RoboTwin]]
+- [[Notes/Concepts/Datasets/RoboTwin2|RoboTwin2]]
 - [[Notes/Concepts/Datasets/Robomimic|Robomimic]]
 
 ## 说明
