@@ -22,6 +22,7 @@ generated_by: dailypaper-skills
 - [[Notes/Concepts/VLA/MemoryVLA|MemoryVLA]]
 - [[Notes/Concepts/VLA/MolmoAct2-Think|MolmoAct2-Think]]
 - [[Notes/Concepts/VLA/MolmoER|MolmoER]]
+- [[Notes/Concepts/VLA/Nora|Nora]]
 - [[Notes/Concepts/VLA/OpenFAST|OpenFAST]]
 - [[Notes/Concepts/VLA/OpenVLA-OFT|OpenVLA-OFT]]
 - [[Notes/Concepts/VLA/Pi0-FAST|Pi0-FAST]]
@@ -31,11 +32,13 @@ generated_by: dailypaper-skills
 - [[Notes/Concepts/VLA/Spatial Forcing|Spatial Forcing]]
 - [[Notes/Concepts/VLA/SpatialVLA|SpatialVLA]]
 - [[Notes/Concepts/VLA/StarVLA|StarVLA]]
+- [[Notes/Concepts/VLA/TGRPO|TGRPO]]
 - [[Notes/Concepts/VLA/VLFM|VLFM]]
 - [[Notes/Concepts/VLA/VLM|VLM]]
 - [[Notes/Concepts/VLA/Vision-Language-Action Model|Vision-Language-Action Model]]
 - [[Notes/Concepts/VLA/World Model|World Model]]
 - [[Notes/Concepts/VLA/具身智能|具身智能]]
+- [[Notes/Concepts/VLA/动作变化幅度|动作变化幅度]]
 - [[Notes/Concepts/VLA/运动重定向|运动重定向]]
 
 ## 说明
