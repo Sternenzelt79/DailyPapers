@@ -57,6 +57,7 @@ generated_by: dailypaper-skills
 - [[Notes/Concepts/Training/监督微调|监督微调]]
 - [[Notes/Concepts/Training/联合损失|联合损失]]
 - [[Notes/Concepts/Training/负载均衡正则化|负载均衡正则化]]
+- [[Notes/Concepts/Training/轨迹结果|轨迹结果]]
 - [[Notes/Concepts/Training/辅助目标微调|辅助目标微调]]
 
 ## 说明
