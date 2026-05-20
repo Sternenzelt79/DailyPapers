@@ -43,6 +43,7 @@ generated_by: dailypaper-skills
 - [[Notes/Concepts/Training/任务向量|任务向量]]
 - [[Notes/Concepts/Training/参数空间向量运算|参数空间向量运算]]
 - [[Notes/Concepts/Training/扩散视觉损失|扩散视觉损失]]
+- [[Notes/Concepts/Training/接触力估计|接触力估计]]
 - [[Notes/Concepts/Training/模型合并|模型合并]]
 - [[Notes/Concepts/Training/正交正则化|正交正则化]]
 - [[Notes/Concepts/Training/正交约束|正交约束]]
