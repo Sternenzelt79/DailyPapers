@@ -31,11 +31,14 @@ generated_by: dailypaper-skills
 - [[Notes/Concepts/VLA/Spatial Forcing|Spatial Forcing]]
 - [[Notes/Concepts/VLA/SpatialVLA|SpatialVLA]]
 - [[Notes/Concepts/VLA/StarVLA|StarVLA]]
+- [[Notes/Concepts/VLA/VLASH|VLASH]]
 - [[Notes/Concepts/VLA/VLFM|VLFM]]
 - [[Notes/Concepts/VLA/VLM|VLM]]
 - [[Notes/Concepts/VLA/Vision-Language-Action Model|Vision-Language-Action Model]]
 - [[Notes/Concepts/VLA/World Model|World Model]]
 - [[Notes/Concepts/VLA/具身智能|具身智能]]
+- [[Notes/Concepts/VLA/动作变化量|动作变化量]]
+- [[Notes/Concepts/VLA/规划动作识别|规划动作识别]]
 - [[Notes/Concepts/VLA/运动重定向|运动重定向]]
 
 ## 说明

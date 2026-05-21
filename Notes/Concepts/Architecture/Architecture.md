@@ -93,6 +93,7 @@ generated_by: dailypaper-skills
 - [[Notes/Concepts/Architecture/对象中心表示|对象中心表示]]
 - [[Notes/Concepts/Architecture/混合专家|混合专家]]
 - [[Notes/Concepts/Architecture/生成世界模型|生成世界模型]]
+- [[Notes/Concepts/Architecture/稀疏视觉规划|稀疏视觉规划]]
 - [[Notes/Concepts/Architecture/行动感知引导|行动感知引导]]
 - [[Notes/Concepts/Architecture/闭环控制|闭环控制]]
 
