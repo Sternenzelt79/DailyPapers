@@ -38,6 +38,7 @@ generated_by: dailypaper-skills
 - [[Notes/Concepts/Training/Representation Collapse|Representation Collapse]]
 - [[Notes/Concepts/Training/SFT|SFT]]
 - [[Notes/Concepts/Training/SIGReg|SIGReg]]
+- [[Notes/Concepts/Training/SnapFlow|SnapFlow]]
 - [[Notes/Concepts/Training/TGRPO|TGRPO]]
 - [[Notes/Concepts/Training/VICReg|VICReg]]
 - [[Notes/Concepts/Training/VLM Critic|VLM Critic]]

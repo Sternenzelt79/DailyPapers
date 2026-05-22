@@ -2,15 +2,15 @@
 tags: [MOC, auto-generated]
 generated_by: dailypaper-skills
 ---
-# 论文目录页：Notes
+# 论文目录页：assets
 
 用于浏览论文笔记、分类目录和子主题入口。
 
-- 根目录：`Notes`
+- 当前目录：`Robotics/Humanoid/assets`
 
-## 子目录
+## 当前目录笔记
 
-- [[Notes/Robotics/Robotics|Robotics]] · 1 篇笔记 · 3 个子目录
+- 暂无内容
 
 ## 说明
 
