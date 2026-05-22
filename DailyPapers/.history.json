@@ -408,5 +408,75 @@
     "id": "2605.18451",
     "date": "2026-05-21",
     "title": "Code-as-Room: Generating 3D Rooms from Top-Down View Images via Agentic Code Synthesis"
+  },
+  {
+    "id": "2605.21800",
+    "date": "2026-05-22",
+    "title": "stable-worldmodel: A Platform for Reproducible World Modeling Research and Evaluation"
+  },
+  {
+    "id": "2605.22164",
+    "date": "2026-05-22",
+    "title": "Beyond Euclidean Proximity: Repairing Latent World Models with Horizon-Matched Trajectory Reachability Metrics"
+  },
+  {
+    "id": "2605.16457",
+    "date": "2026-05-22",
+    "title": "Identifiable Token Correspondence for World Models"
+  },
+  {
+    "id": "2605.22283",
+    "date": "2026-05-22",
+    "title": "Spatial Memory for Out-of-Vision Manipulation in Vision-Language-Action"
+  },
+  {
+    "id": "2605.22671",
+    "date": "2026-05-22",
+    "title": "From Abstraction to Instantiation: Learning Behavioral Representation for Vision-Language-Action Model"
+  },
+  {
+    "id": "2605.21862",
+    "date": "2026-05-22",
+    "title": "EvoScene-VLA: Evolving Scene Beliefs Inside the Action Decoder for Chunked Robot Control"
+  },
+  {
+    "id": "2605.22812",
+    "date": "2026-05-22",
+    "title": "GesVLA: Gesture-Aware Vision-Language-Action Model Embedded Representations"
+  },
+  {
+    "id": "2605.21854",
+    "date": "2026-05-22",
+    "title": "CrossVLA: Cross-Paradigm Post-Training and Inference Optimization for Vision-Language-Action Models"
+  },
+  {
+    "id": "2605.22446",
+    "date": "2026-05-22",
+    "title": "Pre-VLA: Preemptive Runtime Verification for Reliable Vision-Language-Action and World-Model Rollouts"
+  },
+  {
+    "id": "2605.22183",
+    "date": "2026-05-22",
+    "title": "Action with Visual Primitives"
+  },
+  {
+    "id": "2511.07820",
+    "date": "2026-05-22",
+    "title": "SONIC: Supersizing Motion Tracking for Natural Humanoid Whole-Body Control"
+  },
+  {
+    "id": "2605.21572",
+    "date": "2026-05-22",
+    "title": "PhysX-Omni: Unified Simulation-Ready Physical 3D Generation for Rigid, Deformable, and Articulated Objects"
+  },
+  {
+    "id": "2605.22089",
+    "date": "2026-05-22",
+    "title": "LVDrive: Latent Visual Representation Enhanced Vision-Language-Action Autonomous Driving Model"
+  },
+  {
+    "id": "2605.21072",
+    "date": "2026-05-22",
+    "title": "Q-ARVD: Quantizing Autoregressive Video Diffusion Models"
   }
 ]
