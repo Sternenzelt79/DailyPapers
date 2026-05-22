@@ -29,6 +29,7 @@ generated_by: dailypaper-skills
 - [[Notes/Concepts/Models/Pi05|Pi05]]
 - [[Notes/Concepts/Models/PickScore|PickScore]]
 - [[Notes/Concepts/Models/Qwen3-VL|Qwen3-VL]]
+- [[Notes/Concepts/Models/SONIC|SONIC]]
 - [[Notes/Concepts/Models/SigLIP|SigLIP]]
 - [[Notes/Concepts/Models/SigLIP2|SigLIP2]]
 - [[Notes/Concepts/Models/TRELLIS|TRELLIS]]

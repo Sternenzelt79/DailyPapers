@@ -11,6 +11,7 @@ generated_by: dailypaper-skills
 ## 当前目录笔记
 
 - [[Notes/Concepts/Datasets/AgiBot World|AgiBot World]]
+- [[Notes/Concepts/Datasets/BONES-SEED|BONES-SEED]]
 - [[Notes/Concepts/Datasets/CALVIN|CALVIN]]
 - [[Notes/Concepts/Datasets/DROID|DROID]]
 - [[Notes/Concepts/Datasets/EPIC-KITCHENS|EPIC-KITCHENS]]
