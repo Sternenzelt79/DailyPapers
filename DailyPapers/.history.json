@@ -488,5 +488,90 @@
     "id": "2605.22791",
     "date": "2026-05-23",
     "title": "Gated DeltaNet-2: Decoupling Erase and Write in Linear Attention"
+  },
+  {
+    "id": "2605.23856",
+    "date": "2026-05-25",
+    "title": "Point Tracking Improves World Action Models"
+  },
+  {
+    "id": "2605.22882",
+    "date": "2026-05-25",
+    "title": "GEM-4D: Geometry-Enhanced Video World Models for Robot Manipulation"
+  },
+  {
+    "id": "2506.14135",
+    "date": "2026-05-25",
+    "title": "GAF: Gaussian Action Field as a 4D Representation for Dynamic World Modeling in Robotic Manipulation"
+  },
+  {
+    "id": "2605.22896",
+    "date": "2026-05-25",
+    "title": "Agentic-VLA: Efficient Online Adaptation for Vision-Language-Action Models"
+  },
+  {
+    "id": "2601.00969",
+    "date": "2026-05-25",
+    "title": "V-VLAPS: Value-Guided Planning for Vision-Language-Action Models"
+  },
+  {
+    "id": "2605.23128",
+    "date": "2026-05-25",
+    "title": "$\\pi_0$-EqM: Equilibrium Matching for Closed-Loop Vision-Language-Action Control"
+  },
+  {
+    "id": "2602.07399",
+    "date": "2026-05-25",
+    "title": "VGAS: Value-Guided Action-Chunk Selection for Few-Shot Vision-Language-Action Adaptation"
+  },
+  {
+    "id": "2511.02239",
+    "date": "2026-05-25",
+    "title": "LACY: A Vision-Language Model-based Language-Action Cycle for Self-Improving Robotic Manipulation"
+  },
+  {
+    "id": "2605.04568",
+    "date": "2026-05-25",
+    "title": "Dream-MPC: Gradient-Based Model Predictive Control with Latent Imagination"
+  },
+  {
+    "id": "2605.23089",
+    "date": "2026-05-25",
+    "title": "Dreaming Smoothly and Sample Efficiently with Gradient Penalized Latent Dynamics"
+  },
+  {
+    "id": "2605.23345",
+    "date": "2026-05-25",
+    "title": "SCOPE: Simulating Cross-game Operations in Playable Environments for FPS World Models"
+  },
+  {
+    "id": "2605.23568",
+    "date": "2026-05-25",
+    "title": "TactileReflex: Noise-Statistics-Driven Vision-Tactile Reflex Control for Force-Sensitive Manipulation"
+  },
+  {
+    "id": "2605.23270",
+    "date": "2026-05-25",
+    "title": "ChainFlow-VLA: Causal Flow Planning with Vision-Language Models"
+  },
+  {
+    "id": "2605.22986",
+    "date": "2026-05-25",
+    "title": "Robots That Know What to Ask: Recovering Misaligned Rewards through Targeted Explanations"
+  },
+  {
+    "id": "2605.23027",
+    "date": "2026-05-25",
+    "title": "PIMbot: A Self-Adaptive Attack Framework for Adversarial Manipulation of Multi-Robot Reinforcement Learning"
+  },
+  {
+    "id": "2605.23025",
+    "date": "2026-05-25",
+    "title": "World Machine: Towards Generative World Modeling for Time-Series"
+  },
+  {
+    "id": "2605.23523",
+    "date": "2026-05-25",
+    "title": "ComPose: When to Trust Hands for Object Pose Tracking"
   }
 ]
