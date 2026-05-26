@@ -12,6 +12,7 @@ generated_by: dailypaper-skills
 
 - [[Notes/Concepts/Datasets/AgiBot World|AgiBot World]]
 - [[Notes/Concepts/Datasets/CALVIN|CALVIN]]
+- [[Notes/Concepts/Datasets/CrossFPS|CrossFPS]]
 - [[Notes/Concepts/Datasets/DROID|DROID]]
 - [[Notes/Concepts/Datasets/EPIC-KITCHENS|EPIC-KITCHENS]]
 - [[Notes/Concepts/Datasets/Ego4D|Ego4D]]

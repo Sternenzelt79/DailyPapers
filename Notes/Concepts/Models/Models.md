@@ -10,13 +10,16 @@ generated_by: dailypaper-skills
 
 ## 当前目录笔记
 
+- [[Notes/Concepts/Models/Being-H0|Being-H0]]
 - [[Notes/Concepts/Models/CLIP|CLIP]]
+- [[Notes/Concepts/Models/CogACT|CogACT]]
 - [[Notes/Concepts/Models/Cosmos-Predict|Cosmos-Predict]]
 - [[Notes/Concepts/Models/Cosmos-Predict2|Cosmos-Predict2]]
 - [[Notes/Concepts/Models/DINOv2|DINOv2]]
 - [[Notes/Concepts/Models/FLUX.2|FLUX.2]]
 - [[Notes/Concepts/Models/FLUX|FLUX]]
 - [[Notes/Concepts/Models/GR00T-N1.6|GR00T-N1.6]]
+- [[Notes/Concepts/Models/GR00T-N1|GR00T-N1]]
 - [[Notes/Concepts/Models/ImageReward|ImageReward]]
 - [[Notes/Concepts/Models/InternVL|InternVL]]
 - [[Notes/Concepts/Models/InternVL3|InternVL3]]
@@ -32,6 +35,7 @@ generated_by: dailypaper-skills
 - [[Notes/Concepts/Models/SigLIP2|SigLIP2]]
 - [[Notes/Concepts/Models/TRELLIS|TRELLIS]]
 - [[Notes/Concepts/Models/V-JEPA2|V-JEPA2]]
+- [[Notes/Concepts/Models/VGGT|VGGT]]
 - [[Notes/Concepts/Models/pi0|pi0]]
 
 ## 说明
