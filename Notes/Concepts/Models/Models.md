@@ -16,6 +16,7 @@ generated_by: dailypaper-skills
 - [[Notes/Concepts/Models/Cosmos-Predict|Cosmos-Predict]]
 - [[Notes/Concepts/Models/Cosmos-Predict2|Cosmos-Predict2]]
 - [[Notes/Concepts/Models/DINOv2|DINOv2]]
+- [[Notes/Concepts/Models/FLUX-Kontext|FLUX-Kontext]]
 - [[Notes/Concepts/Models/FLUX.2|FLUX.2]]
 - [[Notes/Concepts/Models/FLUX|FLUX]]
 - [[Notes/Concepts/Models/GR00T-N1.6|GR00T-N1.6]]
@@ -31,11 +32,12 @@ generated_by: dailypaper-skills
 - [[Notes/Concepts/Models/Pi05|Pi05]]
 - [[Notes/Concepts/Models/PickScore|PickScore]]
 - [[Notes/Concepts/Models/Qwen3-VL|Qwen3-VL]]
+- [[Notes/Concepts/Models/SONIC|SONIC]]
 - [[Notes/Concepts/Models/SigLIP|SigLIP]]
 - [[Notes/Concepts/Models/SigLIP2|SigLIP2]]
 - [[Notes/Concepts/Models/TRELLIS|TRELLIS]]
 - [[Notes/Concepts/Models/V-JEPA2|V-JEPA2]]
-- [[Notes/Concepts/Models/VGGT|VGGT]]
+- [[Notes/Concepts/Models/Wan2.2|Wan2.2]]
 - [[Notes/Concepts/Models/pi0|pi0]]
 
 ## 说明

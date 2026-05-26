@@ -14,6 +14,7 @@ aliases: [Predictive Latent Dynamics Model]
 
 ## 代表工作
 - PLDM 原作
+- [[stable-worldmodel]]: 评测中 Push-T 成功率 78%，在四种模型中居中（2026）
 
 ## 相关概念
 - [[World Model]]
