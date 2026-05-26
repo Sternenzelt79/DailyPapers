@@ -20,6 +20,7 @@ generated_by: dailypaper-skills
 - [[Notes/Robotics/VLA/MolmoAct2|MolmoAct2]]
 - [[Notes/Robotics/VLA/RLDX-1|RLDX-1]]
 - [[Notes/Robotics/VLA/WorldVLN|WorldVLN]]
+- [[Notes/Robotics/VLA/X-DiffVLA|X-DiffVLA]]
 
 ## 说明
 

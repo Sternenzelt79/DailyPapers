@@ -34,6 +34,7 @@ generated_by: dailypaper-skills
 - [[Notes/Concepts/Training/RLHF|RLHF]]
 - [[Notes/Concepts/Training/Reinforcement Learning|Reinforcement Learning]]
 - [[Notes/Concepts/Training/Representation Collapse|Representation Collapse]]
+- [[Notes/Concepts/Training/SERL|SERL]]
 - [[Notes/Concepts/Training/SFT|SFT]]
 - [[Notes/Concepts/Training/SIGReg|SIGReg]]
 - [[Notes/Concepts/Training/VICReg|VICReg]]
