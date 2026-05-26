@@ -308,5 +308,105 @@
     "id": "2603.19199",
     "date": "2026-05-20",
     "title": "FASTER: Rethinking Real-Time Flow VLAs"
+  },
+  {
+    "id": "2605.25874",
+    "date": "2026-05-26",
+    "title": "WBench: A Comprehensive Multi-turn Benchmark for Interactive Video World Model Evaluation"
+  },
+  {
+    "id": "2605.24761",
+    "date": "2026-05-26",
+    "title": "Drift-Resistant Navigation World Model with Anchored Epipolar Guidance"
+  },
+  {
+    "id": "2605.23993",
+    "date": "2026-05-26",
+    "title": "Nano World Models: A Minimalist Implementation of Future Video Prediction"
+  },
+  {
+    "id": "2605.25077",
+    "date": "2026-05-26",
+    "title": "WorldCraft: From Camera Navigation to Object Manipulation in Interactive Video World Models"
+  },
+  {
+    "id": "2605.23345",
+    "date": "2026-05-26",
+    "title": "SCOPE: Simulating Cross-game Operations in Playable Environments for FPS World Models"
+  },
+  {
+    "id": "2605.24892",
+    "date": "2026-05-26",
+    "title": "X-Foresight: A Joint Vision-Action Causal Forecasting Network via Predictive World Modeling"
+  },
+  {
+    "id": "2605.25044",
+    "date": "2026-05-26",
+    "title": "X-DiffVLA: X-Embodied Diffusion Action Heads for Vision-Language-Action Models"
+  },
+  {
+    "id": "2605.24890",
+    "date": "2026-05-26",
+    "title": "QuoVLA: Quotient Space for Vision-Language-Action Models"
+  },
+  {
+    "id": "2605.24203",
+    "date": "2026-05-26",
+    "title": "Afford-VLA: Action-Aligned Visual Planning via Internalized Affordance"
+  },
+  {
+    "id": "2605.25829",
+    "date": "2026-05-26",
+    "title": "OASIS: Observation-Action Space Alignment via SE(3) Trajectory Prediction for Robotic Manipulation"
+  },
+  {
+    "id": "2511.16449",
+    "date": "2026-05-26",
+    "title": "Bridging the Semantic-Action Gap in Visual Token Pruning for Efficient VLA Inference"
+  },
+  {
+    "id": "2605.25477",
+    "date": "2026-05-26",
+    "title": "EXPO-FT: Sample-Efficient Reinforcement Learning Finetuning for Vision-Language-Action Models"
+  },
+  {
+    "id": "2509.05614",
+    "date": "2026-05-26",
+    "title": "SpecPrune-VLA: Accelerating Vision-Language-Action Models via Action-Aware Self-Speculative Pruning"
+  },
+  {
+    "id": "2602.03983",
+    "date": "2026-05-26",
+    "title": "Efficient Long-Horizon Vision-Language-Action Models via Static-Dynamic Disentanglement"
+  },
+  {
+    "id": "2510.03827",
+    "date": "2026-05-26",
+    "title": "LIBERO-PRO: Towards Robust and Fair Evaluation of Vision-Language-Action Models Beyond Memorization"
+  },
+  {
+    "id": "2605.25889",
+    "date": "2026-05-26",
+    "title": "Capability and Robustness Cannot Both Be Free: An Information-Theoretic Bound for Vision-Language-Action Models"
+  },
+  {
+    "id": "2605.25802",
+    "date": "2026-05-26",
+    "title": "Rethinking VLM Representation for VLA Initialization"
+  },
+  {
+    "id": "2605.24642",
+    "date": "2026-05-26",
+    "title": "Understanding the Impact of Geometric Foundation Models on Vision-Language-Action Models"
+  },
+  {
+    "id": "2605.24924",
+    "date": "2026-05-26",
+    "title": "Dynamic Neural Koopman Distillation for Real-Time Robot Control Using Diffusion Models"
+  },
+  {
+    "id": "2605.21572",
+    "date": "2026-05-26",
+    "title": "PhysX-Omni: Unified Simulation-Ready Physical 3D Generation for Rigid, Deformable, and Articulated Objects"
   }
 ]
