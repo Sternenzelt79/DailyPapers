@@ -573,5 +573,120 @@
     "id": "2605.23523",
     "date": "2026-05-25",
     "title": "ComPose: When to Trust Hands for Object Pose Tracking"
+  },
+  {
+    "id": "2605.27284",
+    "date": "2026-05-27",
+    "title": "FineVLA: Fine-Grained Instruction Alignment for Steerable Vision-Language-Action Policies"
+  },
+  {
+    "id": "2605.25874",
+    "date": "2026-05-27",
+    "title": "WBench: A Comprehensive Multi-turn Benchmark for Interactive Video World Model Evaluation"
+  },
+  {
+    "id": "2511.16449",
+    "date": "2026-05-27",
+    "title": "Bridging the Semantic-Action Gap in Visual Token Pruning for Efficient VLA Inference"
+  },
+  {
+    "id": "2605.26820",
+    "date": "2026-05-27",
+    "title": "Can VLA Models Learn from Real-World Data Continually without Forgetting?"
+  },
+  {
+    "id": "2605.25802",
+    "date": "2026-05-27",
+    "title": "Rethinking VLM Representation for VLA Initialization"
+  },
+  {
+    "id": "2605.00412",
+    "date": "2026-05-27",
+    "title": "Physically Native World Models: A Hamiltonian Perspective on Generative World Modeling"
+  },
+  {
+    "id": "2605.26379",
+    "date": "2026-05-27",
+    "title": "When Does LeJEPA Learn a World Model?"
+  },
+  {
+    "id": "2605.25889",
+    "date": "2026-05-27",
+    "title": "Capability and Robustness Cannot Both Be Free: An Information-Theoretic Bound for Vision-Language-Action Models"
+  },
+  {
+    "id": "2605.25979",
+    "date": "2026-05-27",
+    "title": "LLaVA-OneVision-2: Towards Next-Generation Perceptual Intelligence"
+  },
+  {
+    "id": "2506.07900",
+    "date": "2026-05-27",
+    "title": "MiniCPM4: Ultra-Efficient LLMs on End Devices"
+  },
+  {
+    "id": "2605.20342",
+    "date": "2026-05-27",
+    "title": "ParaVT: Taming the Tool Prior Paradox for Parallel Tool Use in Agentic Video Reinforcement Learning"
+  },
+  {
+    "id": "2605.25624",
+    "date": "2026-05-27",
+    "title": "CUA-Gym: Scaling Verifiable Training Environments and Tasks for Computer-Use Agents"
+  },
+  {
+    "id": "2603.18815",
+    "date": "2026-05-27",
+    "title": "ProRL Agent: Rollout-as-a-Service for RL Training of Multi-Turn LLM Agents"
+  },
+  {
+    "id": "2605.26491",
+    "date": "2026-05-27",
+    "title": "Beyond Pairwise Preferences: Listwise Reward-Aware Alignment for Diffusion Models"
+  },
+  {
+    "id": "2603.04639",
+    "date": "2026-05-27",
+    "title": "RoboMME: Benchmarking and Understanding Memory for Robotic Generalist Policies"
+  },
+  {
+    "id": "2605.26632",
+    "date": "2026-05-27",
+    "title": "RT-Lynx: Putting the GEMM Sparsity In a Right Way for Diffusion Models"
+  },
+  {
+    "id": "2605.27314",
+    "date": "2026-05-27",
+    "title": "Riding the Shifting Potential: When Reactive Control Suffices for Multi-Goal Behavior"
+  },
+  {
+    "id": "2603.25415",
+    "date": "2026-05-27",
+    "title": "Modernising Reinforcement Learning-Based Navigation for Embodied Semantic Scene Graph Generation"
+  },
+  {
+    "id": "2605.26332",
+    "date": "2026-05-27",
+    "title": "Erased but Exploitable: Black-box Embedding-Aware Prompting Against Unlearned Text-to-Image Diffusion Models"
+  },
+  {
+    "id": "2605.26933",
+    "date": "2026-05-27",
+    "title": "Leveraging Text-to-Image Diffusion Models for Unsupervised Visual Object Tracking"
+  },
+  {
+    "id": "2605.27343",
+    "date": "2026-05-27",
+    "title": "Towards Controllable Image Generation through Representation-Conditioned Diffusion Models"
+  },
+  {
+    "id": "2505.23606",
+    "date": "2026-05-27",
+    "title": "Muddit: Liberating Generation Beyond Text-to-Image with a Unified Discrete Diffusion Model"
+  },
+  {
+    "id": "2509.21167",
+    "date": "2026-05-27",
+    "title": "A Unified Framework for Diffusion Model Unlearning with f-Divergence"
   }
 ]
