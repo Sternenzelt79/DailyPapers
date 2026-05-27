@@ -16,10 +16,16 @@ generated_by: dailypaper-skills
 
 - [[Notes/Robotics/VLA/COAST|COAST]]
 - [[Notes/Robotics/VLA/CapVector|CapVector]]
+- [[Notes/Robotics/VLA/ContinualVLA|ContinualVLA]]
 - [[Notes/Robotics/VLA/DyGRO-VLA|DyGRO-VLA]]
+- [[Notes/Robotics/VLA/FineVLA|FineVLA]]
 - [[Notes/Robotics/VLA/MolmoAct2|MolmoAct2]]
+- [[Notes/Robotics/VLA/PAPO-VLA|PAPO-VLA]]
 - [[Notes/Robotics/VLA/RLDX-1|RLDX-1]]
+- [[Notes/Robotics/VLA/RoVLA|RoVLA]]
+- [[Notes/Robotics/VLA/VLA-Pruner|VLA-Pruner]]
 - [[Notes/Robotics/VLA/WorldVLN|WorldVLN]]
+- [[Notes/Robotics/VLA/X-DiffVLA|X-DiffVLA]]
 
 ## 说明
 

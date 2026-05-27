@@ -19,6 +19,7 @@ OpenVLA 的优化微调版本，引入并行动作解码、动作分块（action
 ## 代表工作
 
 - [[CapVector]]: 以 OpenVLA-OFT 为基础模型，验证 capability vector 的有效性
+- [[FineVLA]]: StarVLA-OFT 动作解码架构遵循 OpenVLA-OFT 设计原则
 
 ## 相关概念
 
