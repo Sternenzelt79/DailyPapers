@@ -20,6 +20,7 @@ $$p_\theta(x_{1:T}) = \prod_{t=1}^{T} p_\theta(x_t \mid x_{<t})$$
 
 ## 代表工作
 - [[RAVEN]]: 在 CausVid 基础上引入在线 RL 对齐，解决 training-inference distribution gap
+- [[minWM]]: 通过 Causal Forcing++ 三阶段蒸馏将双向 T2V/TI2V 模型转化为相机可控 AR 世界模型，实现 200×+ 推理加速
 
 ## 相关概念
 - [[Diffusion Model]]（基础生成模型）
