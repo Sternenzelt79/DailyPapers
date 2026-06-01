@@ -688,5 +688,105 @@
     "id": "2509.21167",
     "date": "2026-05-27",
     "title": "A Unified Framework for Diffusion Model Unlearning with f-Divergence"
+  },
+  {
+    "id": "2605.31234",
+    "date": "2026-06-01",
+    "title": "HARP-VLA: Human-Robot Aligned Representation Learning for Vision-Language-Action Model"
+  },
+  {
+    "id": "2605.31286",
+    "date": "2026-06-01",
+    "title": "DeMaVLA: A Vision-Language-Action Foundation Model for Generalizable Deformable Manipulation"
+  },
+  {
+    "id": "2605.30263",
+    "date": "2026-06-01",
+    "title": "minWM: A Full-Stack Open-Source Framework for Real-Time Interactive Video World Models"
+  },
+  {
+    "id": "2605.30542",
+    "date": "2026-06-01",
+    "title": "Physically Viable World Models: A Case for Query-Conditioned Embodied AI"
+  },
+  {
+    "id": "2602.08968",
+    "date": "2026-06-01",
+    "title": "stable-worldmodel-v1: Reproducible World Modeling Research and Evaluation"
+  },
+  {
+    "id": "2605.30484",
+    "date": "2026-06-01",
+    "title": "ELAN4D: Embodiment-Centric 4D Supervision for Vision-Language-Action Models via Plug-and-Play Adaptation"
+  },
+  {
+    "id": "2605.31271",
+    "date": "2026-06-01",
+    "title": "DriveMA: Driving Vision-Language-Action Models with verifiable Meta-Actions"
+  },
+  {
+    "id": "2605.30834",
+    "date": "2026-06-01",
+    "title": "Hide-and-Seek in Trajectories: Discovering Failure Signals for VLA Runtime Monitoring"
+  },
+  {
+    "id": "2605.31158",
+    "date": "2026-06-01",
+    "title": "Light Interaction: Training-Free Inference Acceleration for Interactive Video World Models"
+  },
+  {
+    "id": "2605.30795",
+    "date": "2026-06-01",
+    "title": "Feat2Go: Visual Feature-Grounded Value Estimation for Embodied Reinforcement Learning"
+  },
+  {
+    "id": "2605.31066",
+    "date": "2026-06-01",
+    "title": "Can Aerial VLA Models Cooperate? Evaluating Closed-Loop Air-Ground Coordination with CARLA-Air"
+  },
+  {
+    "id": "2605.31314",
+    "date": "2026-06-01",
+    "title": "AR Forcing: Towards Long-Horizon Robot Navigation World Model"
+  },
+  {
+    "id": "2605.30660",
+    "date": "2026-06-01",
+    "title": "BOKBO (Best of K Bad Options): Calibrated Abstention for VLA Policies"
+  },
+  {
+    "id": "2604.01985",
+    "date": "2026-06-01",
+    "title": "World Action Verifier: Self-Improving World Models via Forward-Inverse Asymmetry"
+  },
+  {
+    "id": "2605.31041",
+    "date": "2026-06-01",
+    "title": "Does Visual Information Play a Decisive Role in Vision-Language-Action Model Driving Behavior?"
+  },
+  {
+    "id": "2605.30695",
+    "date": "2026-06-01",
+    "title": "Primitive Subspaces Mediate Few-Shot Transfer in VLAs"
+  },
+  {
+    "id": "2605.30877",
+    "date": "2026-06-01",
+    "title": "Wall-OSS-0.5 Technical Report"
+  },
+  {
+    "id": "2605.30957",
+    "date": "2026-06-01",
+    "title": "RDGen: Demonstration Generation for High-Quality Robot Learning via Reinforcement Learning"
+  },
+  {
+    "id": "2511.19433",
+    "date": "2026-06-01",
+    "title": "Mixture of Horizons in Action Chunking"
+  },
+  {
+    "id": "2605.31111",
+    "date": "2026-06-01",
+    "title": "Subspace-Decomposed JEPAs: Disentangling Progression and Content in Latent World Models"
   }
 ]

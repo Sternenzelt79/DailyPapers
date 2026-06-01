@@ -28,6 +28,7 @@ $$
 - [[CDM]]: 连续时间版本的 DMD，理论上消除时间离散化误差
 - [[MARBLE]]: 在 DMD 框架基础上做多奖励 RL fine-tuning
 - [[HYWorld2]]: WorldStereo 2.0 使用 DMD 将多步扩散模型蒸馏为 4 步快速推理的学生模型
+- [[minWM]]: Stage 3 非对称 DMD 后训练，将因果 AR few-step 学生模型对齐双向教师分布，实现质量提升
 
 ## 相关概念
 - [[Diffusion Model]]

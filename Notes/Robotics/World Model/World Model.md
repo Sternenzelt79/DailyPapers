@@ -23,7 +23,9 @@ generated_by: dailypaper-skills
 - [[Notes/Robotics/World Model/StableWorldModel|StableWorldModel]]
 - [[Notes/Robotics/World Model/WAM-Survey|WAM-Survey]]
 - [[Notes/Robotics/World Model/WAMSurvey|WAMSurvey]]
+- [[Notes/Robotics/World Model/WAV|WAV]]
 - [[Notes/Robotics/World Model/WMRobotSurvey|WMRobotSurvey]]
+- [[Notes/Robotics/World Model/minWM|minWM]]
 - [[Notes/Robotics/World Model/stable-worldmodel|stable-worldmodel]]
 
 ## 说明
