@@ -6,7 +6,7 @@ year: 2026
 venue: arXiv
 tags: [humanoid-robot, loco-manipulation, data-generation, video-foundation-model, motion-tracking, reinforcement-learning, sim-to-real]
 zotero_collection: Robotics/Humanoid
-image_source: online
+image_source: local
 arxiv_html: https://arxiv.org/html/2606.05160
 created: 2026-06-04
 ---

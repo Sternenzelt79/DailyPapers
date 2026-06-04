@@ -404,15 +404,22 @@ $$
 
 ---
 
-### Figure 附录: 真实机器人操作定性结果
+### Figure 6: LIBERO-Plus 附录定性结果
 
-![bolt task](https://arxiv.org/html/2606.04436/2606.04436v1/fig/bolt.png)
-![coffee task](https://arxiv.org/html/2606.04436/2606.04436v1/fig/coffee.png)
-![milk task](https://arxiv.org/html/2606.04436/2606.04436v1/fig/milk.png)
-![enhanced scene](https://arxiv.org/html/2606.04436/2606.04436v1/fig/enhence.png)
-![woodbolt task](https://arxiv.org/html/2606.04436/2606.04436v1/fig/woodbolt.png)
+![[3DThinkVLA_fig040.png]]
+![[3DThinkVLA_fig041.png]]
+![[3DThinkVLA_fig042.png]]
+![[3DThinkVLA_fig043.png]]
+![[3DThinkVLA_fig044.png]]
+![[3DThinkVLA_fig045.png]]
 
-**说明**: 附录中展示的真实机器人操作任务定性结果，包括螺栓装配（bolt）、咖啡杯抓取（coffee）、牛奶盒操作（milk）、增强场景（enhanced）和木质螺栓（woodbolt）。这些任务均包含不同程度的3D空间推理挑战。
+**说明**: 附录 Figure 6，LIBERO-Plus 基准上的额外定性结果，展示 6 类不同扰动下的操作序列帧。
+
+### Figure 7: SimplerEnv 附录定性结果
+
+![[3DThinkVLA_fig046.jpeg]]
+
+**说明**: 附录 Figure 7，SimplerEnv WidowX 基准上的额外定性结果，涵盖 carrot/spoon/eggplant/block 四类物体抓取任务。
 
 ---
 
