@@ -6,7 +6,7 @@ year: 2026
 venue: arXiv
 tags: [vla, 3d-spatial-reasoning, knowledge-distillation, robot-manipulation, embodied-ai]
 zotero_collection: Robotics/VLA
-image_source: online
+image_source: local
 arxiv_html: https://arxiv.org/html/2606.04436
 created: 2026-06-04
 ---
@@ -243,7 +243,7 @@ $$
 
 ### Figure 1: 框架总览
 
-![Figure 1 Overview](https://arxiv.org/html/2606.04436/2606.04436v1/x1.png)
+![[3DThinkVLA_fig1_overview.png]]
 
 **说明**: (a) 3DThinkVLA 整体共训练框架：VLA 数据路径与 3D 推理数据路径并行训练，VLM 骨干共享；(b) 识别出的 prompt-induced reasoning gap：显式 3D 推理 prompt 激活了空间先验，但动作 prompt 绕过了这些先验。
 
@@ -251,7 +251,7 @@ $$
 
 ### Figure 2: 方法架构详图
 
-![Figure 2 Architecture](https://arxiv.org/html/2606.04436/2606.04436v1/x2.png)
+![[3DThinkVLA_fig2_architecture.png]]
 
 **说明**: 展示三个核心模块的连接关系。Geometry Adapter（左下）对齐 VLM 中间特征与 VGGT 特征；Reasoning Distillation（中）通过 teacher-student 共享 anchor token 传递空间知识；两路输出合并注入 OFT 动作头（右）。
 
@@ -259,29 +259,25 @@ $$
 
 ### Figure 3: LIBERO-Plus 定性结果
 
-![Figure 3a Failure 1](https://arxiv.org/html/2606.04436/2606.04436v1/fig/failure1.png)
-![Figure 3b Success 1](https://arxiv.org/html/2606.04436/2606.04436v1/fig/success1.png)
-![Figure 3c Failure 2](https://arxiv.org/html/2606.04436/2606.04436v1/fig/failure2.png)
-![Figure 3d Success 2](https://arxiv.org/html/2606.04436/2606.04436v1/fig/success2.png)
+![[3DThinkVLA_fig3_liberoplus.png]]
 
-**说明**: 在 LIBERO-Plus 零样本迁移任务中的成功/失败案例。任务 1："Put the black bowl in the bottom drawer of the cabinet and close it"；任务 2："Put the black bowl in the top drawer of the cabinet and close it"。展示了 3DThinkVLA 对高度变化和透明容器挑战的鲁棒性。
+**说明**: 在 LIBERO-Plus 零样本迁移任务中的成功/失败案例对比（上行 Qwen3-VL-OFT baseline，下行 3DThinkVLA）。任务 1："Put the black bowl in the bottom drawer of the cabinet and close it"；任务 2："Put the black bowl in the top drawer of the cabinet and close it"。展示了 3DThinkVLA 对高度变化和透明容器挑战的鲁棒性。
 
 ---
 
 ### Figure 4: 真实机器人实验平台
 
-![Figure 4a Robot Setup](https://arxiv.org/html/2606.04436/2606.04436v1/fig/robotsetup_a.png)
-![Figure 4b Robot Tasks](https://arxiv.org/html/2606.04436/2606.04436v1/fig/robotsetup_b.png)
+![[3DThinkVLA_fig4_robotsetup.png]]
 
-**说明**: (a) Realman 7-DoF 机械臂 + 1-DoF 夹爪，配备顶部摄像头和腕部摄像头；(b) 真实场景任务设置，包含高度变化和透明容器两类挑战，成功率 88.0%~93.3%。
+**说明**: Realman 7-DoF 机械臂 + 1-DoF 夹爪，配备顶部摄像头和腕部摄像头（均为纯 2D RGB，无深度传感器）。三类真实场景任务：高度变化抓取、透明容器操纵、精确空间定位。成功率 88.0%~93.3%。
 
 ---
 
 ### Figure 5: 训练分析
 
-![Figure 5 Training Analysis](https://arxiv.org/html/2606.04436/2606.04436v1/x3.png)
+![[3DThinkVLA_fig5_training.png]]
 
-**说明**: (a) 动作损失训练曲线：蓝线（使用在线 3D 推理蒸馏）收敛更快更低，红线（仅 3D 共训练无蒸馏）收敛较慢；(b) Projection-Space Similarity 分析：量化验证 reasoning distillation 有效缩短了老师/学生路径的特征空间距离。
+**说明**: (a) 动作损失训练曲线：蓝线（使用在线 3D 推理蒸馏）收敛更快更低，红线（仅 3D 共训练无蒸馏）收敛较慢；(b) Projection-Space Similarity（PSS）分析：量化验证 reasoning distillation 有效缩短了老师/学生路径的特征空间距离，PSS 更高说明推理知识迁移更成功。
 
 ---
 
@@ -356,6 +352,67 @@ $$
 | R7（Full） | 3D Data | ✓ | ✓ | ✓ | **100.0** | **100.0** | **98.8** | **95.8** | **98.7** |
 
 **关键发现**: (1) 3D 共训练数据（R3 vs R1）比 2D 数据（R2）更有效；(2) 三个模块均互补，缺任何一个均降低性能；(3) Geometry Adapter 对长程任务（Long）提升最显著（93.0→95.8）。
+
+---
+
+### Table 5: 真实机器人实验结果（Realman）
+
+| 方法 | 高度变化（Task 1）| 透明容器（Task 2）| 空间位置（Task 3）|
+|------|:-----------------:|:-----------------:|:-----------------:|
+| π₀ | 63.3% | 82.0% | 51.3% |
+| OpenVLA-OFT | 28.0% | 57.3% | 30.7% |
+| **3DThinkVLA（Ours）** | **88.0%** | **93.3%** | **61.3%** |
+
+**关键发现**: 在三项挑战性3D感知任务上全面超越对比方法，高度变化任务（88.0% vs π₀ 63.3%）的提升尤其显著，证明了隐式3D几何感知在真实场景的有效性。
+
+---
+
+### Table 6: 推理信息融合方式消融（LIBERO）
+
+| 融合方式 | Spatial | Object | Goal | Long | Avg |
+|----------|:-------:|:------:|:----:|:----:|:---:|
+| [[Cross-Attention\|交叉注意力]] | 99.4 | 99.8 | 99.0 | 93.6 | 98.0 |
+| 门控融合（Gate） | 99.6 | 99.8 | 99.2 | 95.0 | 98.4 |
+| **逐元素加法（Proposed）** | **100.0** | **100.0** | **95.8** | **98.6** | **98.7** |
+
+**关键发现**: 简单的逐元素加法在 LIBERO-Long 上大幅领先交叉注意力（98.6 vs 93.6），说明复杂融合机制引入冗余反而有害，轻量加法融合更适合动作预测场景。
+
+---
+
+### Table 7: 蒸馏信号设计对比（LIBERO）
+
+| 蒸馏方式 | Spatial | Object | Goal | Long | Avg |
+|----------|:-------:|:------:|:----:|:----:|:---:|
+| 仅几何适配器（基线） | 99.0 | 100.0 | 98.2 | 95.8 | 98.3 |
+| 特权信息蒸馏（Privileged Info） | 99.4 | 99.8 | 98.6 | 94.4 | 98.1 |
+| **推理锚点蒸馏（Proposed）** | **100.0** | **100.0** | **95.8** | **98.6** | **98.7** |
+
+**关键发现**: 推理锚点令牌蒸馏（98.7%）优于直接特权信息蒸馏（98.1%），说明通过共享令牌位置进行隐式对齐比显式特征注入更能有效传递3D推理先验。
+
+---
+
+### Table 8: 3D信息注入方式对比（显式 vs 隐式）
+
+| 注入方式 | Spatial | Object | Goal | Long | Avg |
+|----------|:-------:|:------:|:----:|:----:|:---:|
+| 无3D（基线） | 93.6 | 99.6 | 97.4 | 92.6 | 95.8 |
+| [[Point Transformer V3]]（PTv3，显式）| 98.6 | 99.6 | 99.2 | 91.6 | 97.3 |
+| [[扩散策略\|DP3编码器]]（显式） | 93.8 | 100.0 | 98.0 | 94.2 | 96.5 |
+| **几何适配器（隐式，Proposed）** | **98.2** | **100.0** | **97.4** | **94.8** | **97.6** |
+
+**关键发现**: 隐式几何适配器（97.6%）优于需要深度传感器的显式PTv3（97.3%）和DP3（96.5%），以更低的部署成本实现更好的性能，验证了"无传感器3D感知"方向的可行性。
+
+---
+
+### Figure 附录: 真实机器人操作定性结果
+
+![bolt task](https://arxiv.org/html/2606.04436/2606.04436v1/fig/bolt.png)
+![coffee task](https://arxiv.org/html/2606.04436/2606.04436v1/fig/coffee.png)
+![milk task](https://arxiv.org/html/2606.04436/2606.04436v1/fig/milk.png)
+![enhanced scene](https://arxiv.org/html/2606.04436/2606.04436v1/fig/enhence.png)
+![woodbolt task](https://arxiv.org/html/2606.04436/2606.04436v1/fig/woodbolt.png)
+
+**说明**: 附录中展示的真实机器人操作任务定性结果，包括螺栓装配（bolt）、咖啡杯抓取（coffee）、牛奶盒操作（milk）、增强场景（enhanced）和木质螺栓（woodbolt）。这些任务均包含不同程度的3D空间推理挑战。
 
 ---
 

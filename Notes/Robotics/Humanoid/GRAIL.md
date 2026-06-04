@@ -253,37 +253,39 @@ $$
 
 ### Figure 1: 整体流水线与真实部署
 
-![Figure 1](https://arxiv.org/html/2606.05160/2606.05160v1/figures/teaser_v8.jpeg)
+![[GRAIL_fig1_teaser.jpeg]]
 
 **说明**: 从全数字化数据生成到真实世界部署的完整流程。左侧展示三阶段流水线（视频生成 → HOI 重建 → 策略学习），右侧展示 Unitree G1 在真实场景中执行取物和爬楼梯任务。
 
 ### Figure 2: 资产驱动 4D HOI 生成
 
-![Figure 2](https://arxiv.org/html/2606.05160/2606.05160v1/figures/hoigen.001.jpeg)
+![[GRAIL_fig2_hoi_generation.jpeg]]
 
 **说明**: Stage 1 + Stage 2 的详细示意。左侧为 3D 场景组装（物体资产 + 角色 + 相机），中间为 VFM 合成的交互视频，右侧为联合优化后的 4D HOI 重建结果，展示精确的手物接触。
 
 ### Figure 3: 任务通用追踪策略
 
-![Figure 3](https://arxiv.org/html/2606.05160/2606.05160v1/figures/motion_tracking.002.jpeg)
+![[GRAIL_fig3_motion_tracking.jpeg]]
 
 **说明**: Object-Aware Adaptor 与 Scene-Aware Tracker 的架构。左侧展示适配器如何将 $\Delta z_t$ 注入冻结的 [[SONIC]] 控制器，右侧展示高度图编码器如何为地形感知提供输入。
 
 ### Figure 4: 生成的多样化运动数据
 
-![Figure 4](https://arxiv.org/html/2606.05160/2606.05160v1/figures/diverse_motion.005.jpeg)
+![[GRAIL_fig4_diverse_motion.jpeg]]
 
 **说明**: GRAIL 生成的四类任务数据示例：桌面/地面取物、全身操作、多样椅型坐下、地形穿越（台阶、斜坡）。展示数据集的多样性与物理可行性。
 
 ### Figure 5: Sim-to-Real 部署
 
-![Figure 5](https://arxiv.org/html/2606.05160/2606.05160v1/figures/deployment.003.jpeg)
+![[GRAIL_fig5_deployment.jpeg]]
 
 **说明**: 真实 Unitree G1 机器人执行取物任务的过程图。传感器配置为 Luxonis OAK-D 相机，推理频率 10 Hz。展示已见/未见物体的成功案例。
 
 ### Figure 6: 定性对比
 
-![Figure 6](https://arxiv.org/html/2606.05160/2606.05160v1/x1.png)
+![[GRAIL_fig6_qualitative_1.png]]
+
+![[GRAIL_fig6_qualitative_2.png]]
 
 **说明**: GRAIL 与 HOIDiff、CHOIS、DAViD 的生成质量对比，展示 GRAIL 在手物接触自然性和物理真实性上的显著优势。
 
