@@ -19,6 +19,7 @@ generated_by: dailypaper-skills
 - [[Notes/Robotics/World Model/FeedbackWM|FeedbackWM]]
 - [[Notes/Robotics/World Model/HYWorld2|HYWorld2]]
 - [[Notes/Robotics/World Model/LeWM|LeWM]]
+- [[Notes/Robotics/World Model/OSCAR|OSCAR]]
 - [[Notes/Robotics/World Model/OrbiSim|OrbiSim]]
 - [[Notes/Robotics/World Model/SWEET|SWEET]]
 - [[Notes/Robotics/World Model/StableWorldModel|StableWorldModel]]
