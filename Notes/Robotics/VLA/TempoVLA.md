@@ -6,7 +6,7 @@ year: 2026
 venue: arXiv
 tags: [vla, speed-control, data-augmentation, robot-manipulation, imitation-learning]
 zotero_collection: Robotics/VLA
-image_source: online
+image_source: local
 arxiv_html: https://arxiv.org/html/2606.06491
 created: 2026-06-05
 ---
@@ -223,47 +223,43 @@ $$
 
 ### Figure 1: TempoVLA 框架总览
 
-![Figure 1](https://arxiv.org/html/2606.06491/2606.06491v1/x1.png)
+![[TempoVLA_fig1_overview.jpeg]]
 
 **说明**: (a) VSTA 通过合并或分割动作对演示进行重定时，目标速度 $s > 1$ 时合并帧加速，$s < 1$ 时拆分帧减速，保留运动语义。(b) 策略以速度标量 $s$ 为显式条件输入，低级控制器不变。(c) 同一 TempoVLA 策略在六个不同速度命令下的末端执行器轨迹：慢速时轨迹收紧，快速时轨迹伸展。
 
 ### Figure 2: TempoVLA 方法框架
 
-![Figure 2](https://arxiv.org/html/2606.06491/2606.06491v1/x2.png)
+![[TempoVLA_fig2_framework.jpeg]]
 
 **说明**: (a) VSTA 将运动一致片段从 $q$ 帧重采样到 $p$ 帧，速度 $s = q/p$ 与块起点偏移 $r$ 在线采样。(b) 三种速度注入方式：文本前缀、软提示、MLP 驱动的 adaRMSNorm 调制。(c) 部署时 VLM 调度器观察场景并为每个动作块分配速度。
 
 ### Figure 3: 真实机器人实验结果
 
-![Figure 3](https://arxiv.org/html/2606.06491/2606.06491v1/x3.png)
+![[TempoVLA_fig3_realworld.jpeg]]
 
 **说明**: (a) Franka 机械臂上的 5 个评估任务（4 个拾放 + 1 个可变形物体任务）。(b) TempoVLA 将默认 1× 速度下的成功率从 80% 提升至 88%，GPT-4o 动态调度版本达到最高 96% 成功率。(c) 实现速度比与命令速度比吻合良好（0.75× → 0.63× 实现，1.25× → 1.29× 实现，1.5× → 1.48× 实现）。
 
 ### Figure 4: 失败模式分析
 
-![Figure 4](https://arxiv.org/html/2606.06491/2606.06491v1/x4.png)
+![[TempoVLA_fig4_failure.jpeg]]
 
 **说明**: 展示极端速度下的失败模式。慢速（0.25×）下策略犹豫不决、每步进展不足；快速（3–4×）下出现过冲和控制器跟踪误差（位置误差达 0.146 m，旋转误差达 0.243 rad）。
 
 ### Figure 5: TempoVLA 在不同速度下的演示展示（1/2）
 
-![Figure 5](https://arxiv.org/html/2606.06491/2606.06491v1/x5.png)
+![[TempoVLA_fig5_demos1.jpeg]]
 
 **说明**: 在不同速度命令下 TempoVLA 执行操作任务的定性展示，可视化速度控制对执行轨迹的影响。
 
 ### Figure 6: TempoVLA 在不同速度下的演示展示（2/2）
 
-![Figure 6a](https://arxiv.org/html/2606.06491/2606.06491v1/x7.png)
-
-![Figure 6b](https://arxiv.org/html/2606.06491/2606.06491v1/x8.png)
-
-![Figure 6c](https://arxiv.org/html/2606.06491/2606.06491v1/x9.png)
+![[TempoVLA_fig6_demos2.jpeg]]
 
 **说明**: 更多速度变化下的任务执行展示（续）。
 
 ### Figure 7: GPT-4o 动态速度控制提示模板
 
-![Figure 7](https://arxiv.org/html/2606.06491/2606.06491v1/x10.png)
+![[TempoVLA_fig7_prompt.jpeg]]
 
 **说明**: 发送给 GPT-4o 的完整阶段感知提示，引导 VLM 根据当前场景判断低风险（可加速）或高风险（应减速）阶段，并输出目标速度。
 

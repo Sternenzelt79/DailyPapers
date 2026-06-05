@@ -6,7 +6,7 @@ year: 2026
 venue: arXiv
 tags: [world-model, vla, closed-loop-evaluation, robot-manipulation, video-generation]
 zotero_collection: Robotics/World Model
-image_source: online
+image_source: mixed
 arxiv_html: https://arxiv.org/html/2606.05773
 created: 2026-06-05
 ---
@@ -237,25 +237,25 @@ $$
 
 ### Figure 1: 研究动机
 
-![Figure 1](https://arxiv.org/html/2606.05773/2606.05773v1/Figures/Figure1.png)
+![[PiL-World_fig1_motivation.png]]
 
 **说明**: 展示 policy-in-the-loop 评估的动机。(a) 策略在环的 rollout 过程；(b) 开环预测 vs. 闭合循环预测的区别；(c) 一致 vs. 不一致想象 rollout 的对比。现有世界模型仅支持沿固定动作序列的开环预测，而 PiL-World 支持策略实时生成动作驱动的闭合循环评估。
 
 ### Figure 2: PiL-World 整体框架
 
-![Figure 2](https://arxiv.org/html/2606.05773/2606.05773v1/Figures/Figure2.jpg)
+![[PiL-World_fig2_framework.jpg]]
 
 **说明**: PiL-World 的完整流水线概览。(a) 闭合循环 rollout 流程：策略与世界模型交替推理；(b) [[Action Chunking|Action-to-Control 投影]]：将关节命令转为视觉标记；(c) 成功/失败混合训练数据；(d) [[Latent History Memory|潜在历史记忆]]机制。
 
 ### Figure 3: 跨检查点成功率对齐
 
-![Figure 3](https://arxiv.org/html/2606.05773/2606.05773v1/Figures/rollout_success_trend.png)
+![[PiL-World_fig3_success_trend.png]]
 
 **说明**: 在多个 VLA 检查点上，真实与想象成功率的 Pearson 相关系数达 **0.94**，说明 PiL-World 不仅能准确反映绝对成功率，还能可靠预测策略随训练步数的相对性能变化趋势。
 
 ### Figure 4: 逐帧 LPIPS 增益
 
-![Figure 4](https://arxiv.org/html/2606.05773/2606.05773v1/Figures/lpips_gain_pilworld_square_legend_v3.png)
+![[PiL-World_fig4_lpips_gain.png]]
 
 **说明**: 在真值动作条件下的单步 LPIPS 逐帧增益对比。PiL-World 在整个预测时域内均优于 Ctrl-World，特别是在后期帧（随预测步长增加）差距更显著，体现了[[Latent History Memory|历史记忆]]的长程一致性优势。
 
@@ -291,6 +291,8 @@ $$
 
 ### Table 1: 闭合循环 Rollout 评估结果（40k 步 VLA 检查点）
 
+![[PiL-World_table1_results.png]]
+
 | 任务 | 方法 | $SR_{imag}$ | $|\Delta SR|$ ↓ | HFR ↑ |
 |------|------|-------------|-----------------|-------|
 | Sort Cubes ($SR_{real}=83.3\%$) | Ctrl-World | 11.5 | 71.8 | 39.5 |
@@ -303,6 +305,8 @@ $$
 **关键发现**: PiL-World 将平均 $|\Delta SR|$ 从 63.2% 压缩至 12.0%，在所有任务上均大幅超越 Ctrl-World 基线。
 
 ### Table 2: 单步 LPIPS（真值动作条件）
+
+![[PiL-World_table2_lpips.png]]
 
 | 任务 | 方法 | Overall ↓ | Head ↓ | Wrist Avg. ↓ |
 |------|------|-----------|--------|-------------|
