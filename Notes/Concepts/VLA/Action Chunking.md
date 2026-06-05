@@ -30,6 +30,7 @@ Action Chunking 指策略一次预测**未来 $H$ 步动作序列** $a_{t:t+H}$ 
 
 - [[ACT]] (2023): 提出 action chunking 概念。
 - [[Pi0]], [[RLDX-1]]: 与 flow matching 结合。
+- [[PiL-World]] (2026): 将 action chunk 作为世界模型视觉条件（chunk-wise 预测），驱动 VLA 闭合循环评估。
 
 ## 相关概念
 
