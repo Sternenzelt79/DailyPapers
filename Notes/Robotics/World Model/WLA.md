@@ -232,31 +232,31 @@ $$
 
 ### Figure 6: RMBench — Battery Try 任务
 
-![Figure 6](https://arxiv.org/html/2606.05979v1/2606.05979v1/figures/battery_try.png)
+![[WLA_battery_try.png]]
 
 **说明**: Battery Try 长时程任务的代表性帧序列与子任务分解（WLA-0 在该任务达到 45% 成功率，远超 Fast-WAM 的 16%）。
 
 ### Figure 7: RMBench — Blocks Ranking Try 任务
 
-![Figure 7](https://arxiv.org/html/2606.05979v1/2606.05979v1/figures/blocks_ranking_try.png)
+![[WLA_blocks_ranking_try.png]]
 
 **说明**: 积木排序任务，需理解颜色/数字语义，包含 9 个子任务指令，考验语言推理能力。
 
 ### Figure 8: RMBench — Cover Blocks 任务
 
-![Figure 8](https://arxiv.org/html/2606.05979v1/2606.05979v1/figures/cover_blocks.png)
+![[WLA_cover_blocks.png]]
 
 **说明**: 覆盖积木任务，6 步子任务序列，WLA-0 成功率 84%（消融去掉语言损失后骤降至 18%，证明语言推理的关键作用）。
 
 ### Figure 9: RMBench — Press Button 任务
 
-![Figure 9](https://arxiv.org/html/2606.05979v1/2606.05979v1/figures/press_button.png)
+![[WLA_press_button.png]]
 
 **说明**: 计数按钮任务，10 步子任务分解，要求模型正确计数并顺序按压。WLA-0 成功率 74%。
 
 ### Figure 10: World Expert 预测质量
 
-![Figure 10](https://arxiv.org/html/2606.05979v1/2606.05979v1/x6.png)
+![[WLA_fig6.png]]
 
 **说明**: 预测未来图像与真实图像的对比，验证 World Expert 能准确预测关键物体位置和场景变化，为 TTS 打分提供可靠依据。
 

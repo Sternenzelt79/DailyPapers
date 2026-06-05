@@ -17,6 +17,7 @@ generated_by: dailypaper-skills
 - [[Notes/Robotics/World Model/CoME|CoME]]
 - [[Notes/Robotics/World Model/Cosmos3|Cosmos3]]
 - [[Notes/Robotics/World Model/FeedbackWM|FeedbackWM]]
+- [[Notes/Robotics/World Model/Flash-WAM|Flash-WAM]]
 - [[Notes/Robotics/World Model/HYWorld2|HYWorld2]]
 - [[Notes/Robotics/World Model/LeWM|LeWM]]
 - [[Notes/Robotics/World Model/OSCAR|OSCAR]]
