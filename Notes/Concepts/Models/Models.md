@@ -14,6 +14,7 @@ generated_by: dailypaper-skills
 - [[Notes/Concepts/Models/CLIP|CLIP]]
 - [[Notes/Concepts/Models/CogACT|CogACT]]
 - [[Notes/Concepts/Models/Cosmos-Predict|Cosmos-Predict]]
+- [[Notes/Concepts/Models/Cosmos-Predict2.5|Cosmos-Predict2.5]]
 - [[Notes/Concepts/Models/Cosmos-Predict2|Cosmos-Predict2]]
 - [[Notes/Concepts/Models/DINOv2|DINOv2]]
 - [[Notes/Concepts/Models/FLUX-Kontext|FLUX-Kontext]]
@@ -38,6 +39,7 @@ generated_by: dailypaper-skills
 - [[Notes/Concepts/Models/TRELLIS|TRELLIS]]
 - [[Notes/Concepts/Models/V-JEPA2|V-JEPA2]]
 - [[Notes/Concepts/Models/VGGT|VGGT]]
+- [[Notes/Concepts/Models/Wan2.1|Wan2.1]]
 - [[Notes/Concepts/Models/Wan2.2|Wan2.2]]
 - [[Notes/Concepts/Models/pi0|pi0]]
 
