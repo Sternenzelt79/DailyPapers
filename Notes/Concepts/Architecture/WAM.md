@@ -23,6 +23,7 @@ $$
 - [[WAM-Survey]]: 首篇系统性 WAM 综述
 - [[GigaWorld]]: Joint WAM 代表
 - [[UniPi]]: Cascaded WAM 早期基础工作
+- [[AdaWAM]]: 自适应多模态推理 WAM，动态路由器按需激活文本/视觉推理
 
 ## 相关概念
 - [[VLA]]: WAM 的前驱，标准 VLA 不建模世界动态

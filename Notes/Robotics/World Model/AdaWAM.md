@@ -217,9 +217,9 @@ $$
 
 ### Figure 6: 推理效率对比
 
-![Figure 6a](https://arxiv.org/html/2606.07089/2606.07089v1/x7.png)
+![[AdaWAM_fig7.png]]
 
-![Figure 6b](https://arxiv.org/html/2606.07089/2606.07089v1/x8.png)
+![[AdaWAM_fig8.png]]
 
 **说明**: 气泡图对比推理时延（x 轴）、成功率（y 轴）与任务时长（气泡大小）。AdaWAM 每步推理时延与 [[Fast-WAM]] 相当，但任务总时长更短（成功率更高、少走弯路）；显著优于需要每步运行完整 CoT 的方法（如 MM-ACT），后者推理延迟极大。
 
