@@ -44,6 +44,7 @@ generated_by: dailypaper-skills
 - [[Notes/Concepts/VLA/Spatial Forcing|Spatial Forcing]]
 - [[Notes/Concepts/VLA/SpatialVLA|SpatialVLA]]
 - [[Notes/Concepts/VLA/StarVLA|StarVLA]]
+- [[Notes/Concepts/VLA/TesserACT|TesserACT]]
 - [[Notes/Concepts/VLA/TesserAct|TesserAct]]
 - [[Notes/Concepts/VLA/UVLAPS|UVLAPS]]
 - [[Notes/Concepts/VLA/UniVLA|UniVLA]]

@@ -15,6 +15,8 @@ DepthAnything 是一个基于大规模数据训练的单目深度估计基础模
 
 ## 代表工作
 - Yang et al. (2024), Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data
+- Depth Anything V3 (2025): 多视图深度估计，用于 GEM-4D 在 Droid 数据集（无 GT 深度）上的深度估计
+- [[GEM-4D]]: 使用 Depth Anything V3 作为真实域评估的深度估计工具，同时也是几何基础模型的选项之一
 
 ## 相关概念
 - [[DINOv2]]
