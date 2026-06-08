@@ -1023,5 +1023,85 @@
     "id": "2606.05236",
     "date": "2026-06-05",
     "title": "A New Quaternion-Joint Cable-Driven Redundant Manipulator Configuration and its Control Through FABRIK and Residual Reinforcement Learning"
+  },
+  {
+    "id": "2606.06556",
+    "date": "2026-06-08",
+    "title": "Robots Need More than VLA and World Models"
+  },
+  {
+    "id": "2606.07089",
+    "date": "2026-06-08",
+    "title": "Dreaming when Necessary: Advancing World Action Models with Adaptive Multi-Modal Reasoning"
+  },
+  {
+    "id": "2606.07107",
+    "date": "2026-06-08",
+    "title": "Coarse-to-Control: Action-Token Planning for Vision-Language-Action Models"
+  },
+  {
+    "id": "2606.07383",
+    "date": "2026-06-08",
+    "title": "RhinoVLA Technical Report"
+  },
+  {
+    "id": "2606.07100",
+    "date": "2026-06-08",
+    "title": "LARA: Latent Action Representation Alignment for Vision-Language-Action Models"
+  },
+  {
+    "id": "2606.06832",
+    "date": "2026-06-08",
+    "title": "STRIPS-WM: Learning Grounded Propositional STRIPS-style World Models from Images"
+  },
+  {
+    "id": "2605.08732",
+    "date": "2026-06-08",
+    "title": "Latent Geometry Beyond Search: Amortizing Planning in World Models"
+  },
+  {
+    "id": "2606.06836",
+    "date": "2026-06-08",
+    "title": "Think Like a Pilot: Fine-Grained Long-Horizon UAV Navigation"
+  },
+  {
+    "id": "2606.06904",
+    "date": "2026-06-08",
+    "title": "ActionMap: Robot Policy Learning via Voxel Action Heatmap"
+  },
+  {
+    "id": "2606.07217",
+    "date": "2026-06-08",
+    "title": "Robotic Policy Adaptation via Weight-Space Meta-Learning"
+  },
+  {
+    "id": "2512.00883",
+    "date": "2026-06-08",
+    "title": "Audio-Visual World Models: Grounding Multisensory Imagination for Embodied Agents"
+  },
+  {
+    "id": "2604.08168",
+    "date": "2026-06-08",
+    "title": "ViVa: A Video-Generative Value Model for Robot Reinforcement Learning"
+  },
+  {
+    "id": "2605.24011",
+    "date": "2026-06-08",
+    "title": "ActQuant: Sub-4-bit Action-Guided Quantization for Vision-Language-Action Models"
+  },
+  {
+    "id": "2606.07386",
+    "date": "2026-06-08",
+    "title": "Spline Policy: A Structured Representation for Robot Policies"
+  },
+  {
+    "id": "2603.24576",
+    "date": "2026-06-08",
+    "title": "Chameleon: Control-Indexed Prospective Memory for Visuomotor Manipulation"
+  },
+  {
+    "id": "2606.06627",
+    "date": "2026-06-08",
+    "title": "What Matters When Cotraining Robot Manipulation Policies on Everyday Human Videos?"
   }
 ]
