@@ -20,6 +20,7 @@ aliases: [移动操作, Loco-Manipulation, 全身操作]
 
 - [[GRAIL]]: 通过全数字化流水线生成 2 万+ 条仿人 loco-manipulation 示范，在真实 Unitree G1 上达到 84% 取物成功率
 - [[SONIC]]: 预训练全身运动控制器，为 loco-manipulation 提供运动先验
+- [[MotionWAM]]: Dual-DiT WAM，统一全身运动 token 实现任务驱动的腿臂协同，9 项 Unitree G1 任务 76.1% 成功率
 
 ## 相关概念
 

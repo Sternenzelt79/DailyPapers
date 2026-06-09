@@ -41,6 +41,7 @@ WAM 两大范式的分解：
 - **Joint WAM (Auto-regressive)**: GR-1, GR-2, CoT-VLA, WorldVLA, VLA-JEPA
 - **Joint WAM (Diffusion)**: PAD, UWM, DreamZero, Cosmos Policy, FLARE, Motus
 - [[FAWAM]]: 在 WAM 框架下融入力/力矩信号，联合预测未来动作与力旋量，实现接触密集型操作的闭环在线修正
+- [[MotionWAM]]: Dual-DiT 架构，视频 DiT 单次前向传播提取隐特征条件化全身运动 DiT，在 Unitree G1 上实现实时类人 loco-manipulation（4.9 Hz，76.1% 成功率）
 
 ## 相关概念
 

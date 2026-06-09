@@ -44,6 +44,7 @@ generated_by: dailypaper-skills
 - [[Notes/Concepts/Architecture/Dreamer|Dreamer]]
 - [[Notes/Concepts/Architecture/DreamerV3|DreamerV3]]
 - [[Notes/Concepts/Architecture/Encoder-Predictor|Encoder-Predictor]]
+- [[Notes/Concepts/Architecture/FPN|FPN]]
 - [[Notes/Concepts/Architecture/FVD|FVD]]
 - [[Notes/Concepts/Architecture/GAIA-1|GAIA-1]]
 - [[Notes/Concepts/Architecture/GCBC|GCBC]]

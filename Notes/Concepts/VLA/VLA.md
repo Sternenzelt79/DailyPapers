@@ -35,6 +35,7 @@ generated_by: dailypaper-skills
 - [[Notes/Concepts/VLA/MolmoER|MolmoER]]
 - [[Notes/Concepts/VLA/OpenFAST|OpenFAST]]
 - [[Notes/Concepts/VLA/OpenVLA-OFT|OpenVLA-OFT]]
+- [[Notes/Concepts/VLA/Perceptual-Cognitive Memory Bank|Perceptual-Cognitive Memory Bank]]
 - [[Notes/Concepts/VLA/Pi0-FAST|Pi0-FAST]]
 - [[Notes/Concepts/VLA/Pi0.5|Pi0.5]]
 - [[Notes/Concepts/VLA/Pre-VLA|Pre-VLA]]
