@@ -31,6 +31,7 @@ generated_by: dailypaper-skills
 - [[Notes/Concepts/Architecture/Cross-Attention|Cross-Attention]]
 - [[Notes/Concepts/Architecture/Cross-Entropy Method|Cross-Entropy Method]]
 - [[Notes/Concepts/Architecture/Ctrl-World|Ctrl-World]]
+- [[Notes/Concepts/Architecture/DDIM|DDIM]]
 - [[Notes/Concepts/Architecture/DDPM|DDPM]]
 - [[Notes/Concepts/Architecture/DINO-WM|DINO-WM]]
 - [[Notes/Concepts/Architecture/DINO|DINO]]

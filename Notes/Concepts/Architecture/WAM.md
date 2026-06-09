@@ -24,6 +24,7 @@ $$
 - [[GigaWorld]]: Joint WAM 代表
 - [[UniPi]]: Cascaded WAM 早期基础工作
 - [[AdaWAM]]: 自适应多模态推理 WAM，动态路由器按需激活文本/视觉推理
+- [[MotionWAM]]: 首个实时全身人形 Loco-Manipulation WAM，Dual-DiT 架构，4.9 Hz 推理，76.1% 成功率
 
 ## 相关概念
 - [[VLA]]: WAM 的前驱，标准 VLA 不建模世界动态

@@ -21,6 +21,8 @@ generated_by: dailypaper-skills
 - [[Notes/Concepts/VLA/Diffusion Policy|Diffusion Policy]]
 - [[Notes/Concepts/VLA/EBF|EBF]]
 - [[Notes/Concepts/VLA/EvoScene-VLA|EvoScene-VLA]]
+- [[Notes/Concepts/VLA/ForceVLA|ForceVLA]]
+- [[Notes/Concepts/VLA/GE-Act|GE-Act]]
 - [[Notes/Concepts/VLA/GR00T N1.5|GR00T N1.5]]
 - [[Notes/Concepts/VLA/GR00T|GR00T]]
 - [[Notes/Concepts/VLA/GesVLA|GesVLA]]
