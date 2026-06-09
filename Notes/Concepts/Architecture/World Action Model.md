@@ -40,6 +40,7 @@ WAM 两大范式的分解：
 - **Cascaded WAM**: UniPi, VLP, AVDC, VPP, LAPA, S-VAM
 - **Joint WAM (Auto-regressive)**: GR-1, GR-2, CoT-VLA, WorldVLA, VLA-JEPA
 - **Joint WAM (Diffusion)**: PAD, UWM, DreamZero, Cosmos Policy, FLARE, Motus
+- [[FAWAM]]: 在 WAM 框架下融入力/力矩信号，联合预测未来动作与力旋量，实现接触密集型操作的闭环在线修正
 
 ## 相关概念
 
