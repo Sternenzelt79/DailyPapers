@@ -4,10 +4,10 @@ method_name: "MotionWAM"
 authors: [Jia Zheng, Teli Ma, Yudong Fan, Zifan Wang, Shuo Yang, Junwei Liang]
 year: 2026
 venue: arXiv
-tags: [world-action-model, humanoid, loco-manipulation, flow-matching, egocentric-vision]
-zotero_collection: 3-Robotics/World Model
+tags: [world-action-model, humanoid-robot, loco-manipulation, video-diffusion, flow-matching, whole-body-control, real-time]
+zotero_collection: Robotics/World Model
 image_source: online
-arxiv_html: https://arxiv.org/html/2606.09215
+arxiv_html: https://arxiv.org/html/2606.09215v1
 created: 2026-06-09
 ---
 
@@ -19,23 +19,23 @@ created: 2026-06-09
 |------|------|
 | 机构 | Mondo Robotics; HKUST (GZ); HKUST |
 | 日期 | June 2026 |
-| 项目主页 | — |
-| 对比基线 | [[GR00T N1.5\|GR00T-N1.7]], [[Pi05\|π₀.₅]], ACT, Diffusion Policy |
-| 链接 | [arXiv](https://arxiv.org/abs/2606.09215) |
+| 项目主页 | 暂未公开 |
+| 对比基线 | [[GR00T-N1.6\|GR00T-N1.7]]、[[Pi0.5\|π₀.5]]、[[Diffusion Policy]]、ACT |
+| 链接 | [arXiv](https://arxiv.org/abs/2606.09215) / Code 暂未公开 |
 
 ---
 
 ## 一句话总结
 
-> MotionWAM 将视频扩散世界模型的中间去噪特征作为条件，驱动人形机器人实时全身运动操作，以 76.1% 成功率超越最强 VLA 基线 43.9%。
+> MotionWAM 通过将视频扩散 Transformer 的中间去噪特征直接条件化运动策略，实现实时全身 loco-manipulation，在 9 项 Unitree G1 任务上以 76.1% 成功率大幅超越 VLA 基线（最强基线 43.9%）。
 
 ---
 
 ## 核心贡献
 
-1. **实时 WAM 策略**: 首个封闭环、端到端驱动全身人形机器人[[Loco-Manipulation|全身运动操作]]的[[WAM|World Action Model]]，推理频率 4.9 Hz，比 Cosmos Policy 快 7 倍。
-2. **统一运动潜变量**: 用统一的[[Flow Matching|流匹配]]运动潜变量 $m_t$ 替代上下身分离控制器，天然支持任务驱动的足部交互（踢球等）。
-3. **三阶段训练框架**: 以自我中心视频预训练 → 跨体型动作后训练 → 全身微调的渐进学习策略，将视频世界模型迁移到目标体型。
+1. **实时 WAM 架构**: 视频 DiT 仅运行单次前向传播（"one-shot imagination"），将固定噪声时间步 $\tau_f \approx 1$ 下的中间隐状态传递给运动 DiT，彻底消除迭代去噪瓶颈，同时保留时序场景预测信息。
+2. **统一全身运动表征**: 以 [[FSQ|Finite Scalar Quantization]] 构建 22 token × 32 级离散运动 token，覆盖行走、躯干姿态、高度调节、脚步交互与手部抓取，取代上下体解耦的层级控制。
+3. **三阶段课程训练**: Stage 1 用 ~2,136 小时人类/类人机器人自我中心视频预训练视觉先验；Stage 2 跨具身动作后训练将先验接地到动作空间；Stage 3 任务级遥操作微调，防止各阶段梯度相互污染。
 
 ---
 
@@ -43,17 +43,17 @@ created: 2026-06-09
 
 ### 要解决的问题
 
-现有机器人操作策略通常将上身操作和下身运动解耦处理，使用独立的控制器，导致无法完成需要全身协调的复杂任务（如踢球取物、蹲下装卸等）。
+类人机器人的 [[Loco-Manipulation]] 任务（如踢球、推购物车、擦白板）要求腿部与手臂**协同完成任务**，而非仅用腿部维持平衡。现有方法无法做到这一点。
 
 ### 现有方法的局限
 
-- [[VLA|VLA 方法]]（如 [[GR00T N1.5|GR00T-N1.7]]、[[Pi05|π₀.₅]]）直接预测动作，缺乏对物理场景动态的感知。
-- 以往的 [[WAM|World Action Model]] 方法（如 Cosmos Policy）推理速度太慢（0.7 Hz），无法在实机上实时控制。
-- 层次化策略的上下身分离控制无法支持任务驱动的足部参与（足部只维持平衡，不主动完成任务）。
+- **层级解耦控制**: 上身操作策略输出末端执行器目标，下身仅接收粗粒度速度/高度指令，腿的行为完全由平衡保持驱动，无法执行任务驱动的脚步动作。
+- **[[World Action Model|WAM]] 推理慢**: Cosmos Policy 等方法需要完整迭代去噪，推理频率仅 0.7 Hz，无法部署在实时控制闭环中。
+- **[[VLA|Vision-Language-Action]] 缺乏时序场景预测**: 现有 VLA 模型直接从图像映射到动作，缺少对未来场景的显式建模。
 
 ### 本文的动机
 
-视频扩散模型在去噪过程中学到了丰富的场景未来动态信息，其中间去噪特征（intermediate denoising features）可作为隐式世界模型条件。关键洞察：**只运行一次 Video DiT 的前向传播即可获得编码未来场景走向的隐状态**，而无需真正生成视频帧，从而将计算成本控制在实时范围内。
+若能从视频世界模型中提取**中间去噪特征**（单次前向传播即可获得），则可在保持实时推理速率的同时，为运动策略提供丰富的时序预测上下文，再结合统一全身运动 token，自然实现上下体协同。
 
 ---
 
@@ -61,215 +61,208 @@ created: 2026-06-09
 
 ### 模型架构
 
-MotionWAM 采用 **Dual-DiT（双扩散 Transformer）** 架构：
-
-- **输入**: 自我中心 RGB 图像帧 $o_t$（Intel RealSense D435i）+ 语言指令 $l$ + 本体状态 $p_t$ + 体型标签 $e$
-- **Video DiT**: [[Cosmos-Predict2.5|Cosmos-Predict2.5-2B]] 将视频帧压缩为 [[VAE]] 潜变量，在固定流时间步 $\tau_f \approx 1$ 时输出隐状态 $h_t^{\tau_f}$
-- **Motion DiT**: DiT-B（隐藏维度 2560），以 $h_t^{\tau_f}$ 为条件，通过[[Flow Matching|流匹配]]预测运动潜变量 $m_t$
-- **输出**: 统一运动潜变量 $m_t = (m_t^{\text{cont}}, k_t)$，其中 $m_t^{\text{cont}}$ 驱动末端执行器，$k_t$ 为 [[SONIC]] 全身控制器的离散运动令牌索引
-- **总参数**: Video DiT ~2B（冻结 VAE/文本编码器）+ Motion DiT ~100M
+MotionWAM 采用 **Dual-DiT** 架构：
+- **输入**: 语言指令 $l$ + 自我中心 RGB 观测 $\mathbf{o}_t$ + 本体感受状态 $\mathbf{p}_t$
+- **视频 DiT** (`Video DiT`): 从 [[Cosmos-Predict2.5]] (2B) 初始化，在固定噪声时间步 $\tau_f \approx 1$（纯噪声初始化）运行**单次前向传播**，提取隐状态 $\mathbf{h}_t^{\tau_f}$
+- **运动 DiT** (`Motion DiT`): DiT-B 配置，通过交叉注意力（interleaved cross-attention）接收 $\mathbf{h}_t^{\tau_f}$，预测全身运动 latent $\mathbf{m}_t$
+- **输出**: 离散运动 token $\hat{k}_t$（经 [[SONIC]] 控制器解码为关节指令）+ 连续末端执行器指令 $\hat{\mathbf{m}}_t^{cont}$
+- **总参数**: 2.5B（可训练）
 
 ### 核心模块
 
-#### 模块 1: 中间去噪特征提取（Intermediate Denoising Features）
+#### 模块 1: One-Shot Imagination（单次想象）
 
-**设计动机**: 利用视频扩散模型在去噪中途（$\tau_f \approx 1$，接近纯噪声端）的隐状态，该状态已编码了场景将要发生的变化，但不需要完整去噪。
-
-**具体实现**:
-- 将当前帧编码为 [[VAE]] 潜变量 $z_t^0$
-- 向潜变量注入固定量噪声：$z_t^{\tau_f} = \tau_f \cdot \epsilon_v + (1-\tau_f) \cdot z_t^0$，其中 $\epsilon_v \sim \mathcal{N}(0, I)$
-- Video DiT 做一次前向传播，提取所有层的隐状态序列 $h_t^{\tau_f}$
-- 此操作只做**一次前向传播**，不做去噪迭代，因此速度极快
-
-#### 模块 2: 统一运动潜变量（Unified Motion Latent）
-
-**设计动机**: 替代上下身分离的层次化控制，使策略能够学习全身协调的统一运动表示。
+**设计动机**: 利用视频扩散模型对场景动态的强大先验，同时规避迭代去噪的巨大延迟。
 
 **具体实现**:
-- 连续部分 $m_t^{\text{cont}} \in \mathbb{R}^{14}$：双臂末端执行器的 6D 位姿 + 夹爪开度
-- 离散部分 $k_t \in \mathbb{Z}$：[[SONIC]] 编解码器的 VQ 令牌索引，编码躯干高度、蹲伏幅度、腰部旋转、足部接触意图
-- Motion DiT 同时预测 $m_t^{\text{cont}}$ 和 $\tilde{k}_t$（连续松弛值），推理时用最近邻取整恢复离散索引 $\hat{k}_t$
-- [[SONIC]] 全身控制器将 $(\hat{k}_t, m_t^{\text{cont}})$ 解码为 29 自由度关节角度，以 50 Hz 执行
+- 将 $\tau_f$ 固定为接近 1 的值（纯噪声），此时 $\mathbf{z}_{t+1}^{\tau_f} \sim \mathcal{N}(0,I)$
+- 运行视频 DiT 一次前向传播：$\mathbf{h}_t^{\tau_f} = \mathcal{H}[v_\theta^{video}](\mathbf{z}_{t+1}^{\tau_f}, \tau_f \mid \mathbf{z}_t^0, l)$
+- 中间 Transformer 层的 attention 隐状态已编码未来场景的结构信息，无需完成去噪即可使用
 
-#### 模块 3: 三阶段训练（Three-Stage Training）
+#### 模块 2: 统一全身运动 Token（Unified Whole-Body Motion Token）
 
-**Stage 1 — 自我中心视频预训练**:
-- 数据：~2136 小时自我中心视频（人类 30% + G1 类人形 50% + 其他机器人 20%）
-- 仅训练 Video DiT，目标：$\mathcal{L}_{\text{video}}$
-- 将世界模型的视觉先验从第三视角迁移到第一人称
+**设计动机**: 将连续末端轨迹与离散运步指令编码进同一 latent 空间，使策略可以同时学习手部操作与任务驱动脚步。
 
-**Stage 2 — 跨体型动作后训练**:
-- 挂载 Motion DiT，联合训练
-- 在 Unitree G1 异构数据集上训练（GR00T、RoboCOIN、UnifoLM-WBT 等）
-- 目标：$\mathcal{L}_{\text{Stage2}} = \mathcal{L}_{\text{motion}} + \mathcal{L}_{\text{video}}$
+**具体实现**:
+- 离散部分：22 个 token，每 token 32 级，通过 [[FSQ]] 量化
+- 连续部分：灵巧手 / ALOHA2 夹爪命令 $\mathbf{m}_t^{cont}$
+- 运动 latent 编解码：$\mathbf{m}_t = (\mathbf{m}_t^{cont}, \tilde{k}_t) \to \hat{\mathbf{m}}_t = (\hat{\mathbf{m}}_t^{cont}, \hat{\tilde{k}}_t) \to \hat{k}_t = \text{round}(\hat{\tilde{k}}_t) \to \text{SONIC} \to \mathbf{a}_t$
 
-**Stage 3 — 全身微调**:
-- 每任务 200 条遥操作演示（PICO VR 头显 + XRoboToolkit 遥操作框架）
-- 端到端训练全网络
-- 目标：$\mathcal{L}_{\text{Stage3}} = \mathcal{L}_{\text{motion}} + \mathcal{L}_{\text{video}}$
+#### 模块 3: 三阶段训练框架（Three-Stage Training）
+
+| 阶段 | 目标 | 数据 | 损失 |
+|------|------|------|------|
+| Stage 1 | 自我中心视频预训练 | ~2,136h（人类 30%、G1 类人 50%、其他机器人 20%） | $\mathcal{L}_{video}$ |
+| Stage 2 | 跨具身动作后训练 | 异构 Unitree G1 数据集 + 各具身投影头 | $\mathcal{L}_{Stage2} = \mathcal{L}_{motion} + \mathcal{L}_{video}$ |
+| Stage 3 | 任务级全身微调 | 每任务 200 条遥操作演示（共 1,800 条） | $\mathcal{L}_{motion}$ |
 
 ---
 
 ## 关键公式
 
-### 公式 1: [[Flow Matching|视频流匹配损失]]
+### 公式 1: [[World Action Model|问题形式化]]
 
 $$
-\mathcal{L}_{\text{video}} = \mathbb{E} \left[ \left\| v_\theta^{\text{video}}\!\left(z_{t+1}^{\tau_v},\, \tau_v \mid z_t^0, l\right) - \left(\epsilon_v - z_{t+1}^0\right) \right\|_2^2 \right]
+\mathbf{o}_{t+1} \sim p_v(\cdot \mid \mathbf{o}_t, l), \quad \mathbf{m}_t \sim p_a\!\left(\cdot \mid \mathbf{o}_t, \mathbf{p}_t, \mathcal{H}(\mathbf{o}_{t+1}^{\tau_v})\right)
 $$
 
-**含义**: 训练 Video DiT 预测从当前帧潜变量 $z_t^0$ 到下一帧的视频流速度场。
+**含义**: 世界模型预测下一帧 $\mathbf{o}_{t+1}$，运动策略以当前观测 $\mathbf{o}_t$、本体状态 $\mathbf{p}_t$ 和从视频隐状态提取的信息 $\mathcal{H}(\mathbf{o}_{t+1}^{\tau_v})$ 为条件预测运动 latent。
 
 **符号说明**:
-- $v_\theta^{\text{video}}$: Video DiT 的速度预测网络，参数为 $\theta$
-- $z_{t+1}^{\tau_v}$: 下一帧潜变量在流时间步 $\tau_v$ 处的加噪版本
-- $\tau_v \sim \mathcal{U}(0, 1)$: 视频流时间步，均匀采样
-- $z_{t+1}^0$: 下一帧的干净潜变量
-- $\epsilon_v \sim \mathcal{N}(0, I)$: 标准高斯噪声
-- $l$: 语言指令条件
+- $\mathbf{o}_t$: 当前自我中心 RGB 观测
+- $l$: 自然语言指令
+- $\mathbf{p}_t$: 本体感受状态
+- $\mathcal{H}$: 从视频 DiT 中提取隐状态的算子
+- $\tau_v$: 视频去噪时间步（趋向 0 时为干净帧）
 
-### 公式 2: [[Flow Matching|运动流匹配损失]]
+### 公式 2: [[Cosmos-Predict2.5|Video DiT 隐状态提取]]
 
 $$
-\mathcal{L}_{\text{motion}} = \mathbb{E} \left[ \left\| v_\phi^{\text{motion}}\!\left(m_t^{\tau_a},\, \tau_a \mid h_t^{\tau_f}, p_t, e\right) - \left(\epsilon_m - m_t^0\right) \right\|_2^2 \right]
+\mathbf{h}_t^{\tau_f} = \mathcal{H}[v_\theta^{video}](\mathbf{z}_{t+1}^{\tau_f},\, \tau_f \mid \mathbf{z}_t^0,\, l), \quad \mathbf{z}_{t+1}^{\tau_f}\big|_{\tau_f \to 1} \sim \mathcal{N}(0, I)
 $$
 
-**含义**: 训练 Motion DiT 以 Video DiT 隐状态为条件，预测运动潜变量的流速度场。
+**含义**: 在纯噪声初始化 $\tau_f = 1$ 处运行视频 DiT 单次前向传播，提取中间层 attention 隐状态 $\mathbf{h}_t^{\tau_f}$，作为运动 DiT 的条件输入。
 
 **符号说明**:
-- $v_\phi^{\text{motion}}$: Motion DiT 的速度预测网络，参数为 $\phi$
-- $m_t^{\tau_a}$: 运动潜变量在流时间步 $\tau_a$ 处的加噪版本
-- $\tau_a \sim \mathcal{U}(0, 1)$: 运动流时间步，均匀采样
-- $h_t^{\tau_f}$: Video DiT 在固定时间步 $\tau_f$ 处输出的隐状态
-- $p_t$: 机器人本体状态（关节角度、速度等）
-- $e$: 体型嵌入标签（embodiment tag）
-- $m_t^0$: 干净的目标运动潜变量
-- $\epsilon_m \sim \mathcal{N}(0, I)$: 标准高斯噪声
+- $\mathbf{z}_{t+1}^{\tau_f}$: 时间步 $\tau_f$ 处的含噪视频 latent
+- $\mathbf{z}_t^0$: 当前帧干净 latent（编码器输出）
+- $v_\theta^{video}$: 视频 DiT 速度场网络
+- $\tau_f$: 固定提取时间步，$\tau_f \approx 1$
 
-### 公式 3: 联合训练损失（Stage 2 & 3）
+### 公式 3: [[Flow Matching|视频流匹配损失]]
 
 $$
-\mathcal{L}_{\text{Stage2/3}} = \mathcal{L}_{\text{motion}} + \mathcal{L}_{\text{video}}
+\mathcal{L}_{video} = \mathbb{E}_{\tau_v,\, \mathbf{z}_{t+1}^0,\, \epsilon_v}\!\left[\left\|v_\theta^{video}\!\left(\mathbf{z}_{t+1}^{\tau_v}, \tau_v \mid \mathbf{z}_t^0, l\right) - \left(\epsilon_v - \mathbf{z}_{t+1}^0\right)\right\|_2^2\right]
 $$
 
-**含义**: 联合优化视频预测和运动预测，使视频世界模型与运动策略协同更新。
-
-### 公式 4: 视频前向加噪（用于提取条件特征）
-
-$$
-z_t^{\tau_f} = \tau_f \cdot \epsilon_v + (1 - \tau_f) \cdot z_t^0, \quad \tau_f \approx 1
-$$
-
-**含义**: 在推理时，将当前帧潜变量 $z_t^0$ 加噪到时间步 $\tau_f \approx 1$（接近纯噪声），使 Video DiT 的隐状态编码丰富的场景动态信息而无需完整去噪迭代。
+**含义**: 视频 DiT 的 [[Flow Matching]] 目标——预测从干净帧到噪声的速度场。
 
 **符号说明**:
-- $z_t^{\tau_f}$: 加噪后的潜变量，用于 Video DiT 一次前向传播
-- $\tau_f \approx 1$: 固定的大流时间步，使隐状态处于"将发生什么"的感知最强区域
+- $\tau_v \sim \mathcal{U}(0,1)$: 随机采样的去噪时间步
+- $\epsilon_v$: 高斯噪声
+- $\mathbf{z}_{t+1}^0$: 未来帧干净 latent（目标）
 
-### 公式 5: 离散令牌恢复（推理阶段）
+### 公式 4: [[Flow Matching|运动流匹配损失]]
 
 $$
-\hat{k}_t = \operatorname*{arg\,min}_{k \in \mathcal{K}} \| \tilde{k}_t - k \|
+\mathcal{L}_{motion} = \mathbb{E}_{\tau_a,\, \mathbf{m}_t^0,\, \epsilon_m}\!\left[\left\|v_\phi^{motion}\!\left(\mathbf{m}_t^{\tau_a}, \tau_a \mid \mathbf{h}_t^{\tau_f}, \mathbf{p}_t, e\right) - \left(\epsilon_m - \mathbf{m}_t^0\right)\right\|_2^2\right]
 $$
 
-**含义**: 将 Motion DiT 预测的连续松弛值 $\tilde{k}_t$ 通过最近邻取整恢复为 [[SONIC]] 编码本中的合法离散索引。
+**含义**: 运动 DiT 的 [[Flow Matching]] 目标——以视频隐状态、本体状态和具身标识为条件，预测全身运动 latent 的速度场。
 
 **符号说明**:
-- $\tilde{k}_t$: Motion DiT 输出的连续标量（对应 SONIC 码本索引的松弛）
-- $\hat{k}_t$: 取整后的离散索引
-- $\mathcal{K}$: SONIC VQ 码本中所有合法索引集合
+- $\mathbf{m}_t^0$: 干净运动 latent（训练目标）
+- $\tau_a \sim \mathcal{U}(0,1)$: 运动去噪时间步
+- $\epsilon_m$: 运动空间高斯噪声
+- $e$: 具身标识符（用于跨具身训练）
+- $v_\phi^{motion}$: 运动 DiT 速度场网络
+
+### 公式 5: Stage 2 联合损失
+
+$$
+\mathcal{L}_{Stage2} = \mathcal{L}_{motion} + \mathcal{L}_{video}
+$$
+
+**含义**: 第二阶段同时优化运动预测与视频生成，视频损失作为表征正则项防止遗忘 Stage 1 学到的视觉先验。
+
+### 公式 6: [[SONIC|全身运动 Latent 解码流程]]
+
+$$
+\mathbf{m}_t = \left(\mathbf{m}_t^{cont},\, \tilde{k}_t\right) \xrightarrow{\text{Motion DiT}} \hat{\mathbf{m}}_t = \left(\hat{\mathbf{m}}_t^{cont},\, \hat{\tilde{k}}_t\right) \xrightarrow{\text{round}} \hat{k}_t \xrightarrow{\text{SONIC}} \mathbf{a}_t
+$$
+
+**含义**: 运动 DiT 输出连续末端指令和量化前的离散运动 token，经取整后输入 SONIC 全身运动追踪控制器，最终映射为关节级动作 $\mathbf{a}_t$。
+
+**符号说明**:
+- $\mathbf{m}_t^{cont}$: 连续末端执行器命令
+- $\tilde{k}_t$: 连续化的离散运动 token（[[FSQ]] 软编码）
+- $\hat{k}_t = \text{round}(\hat{\tilde{k}}_t)$: 整数化运动 token
+- $\mathbf{a}_t$: 最终关节级动作
 
 ---
 
 ## 关键图表
 
-### Figure 1: MotionWAM 系统概览
+### Figure 1: MotionWAM 整体概览
 
-![Figure 1](https://arxiv.org/html/2606.09215v1/x2.png)
+![Figure 1 Overview](https://arxiv.org/html/2606.09215v1/x2.png)
 
-**说明**: MotionWAM 在 Unitree G1 上的实物演示轨迹，展示腰部控制、高度调节、蹲伏运动、身体-手部协调以及任务驱动的足部交互（如踢球）。体现了统一全身运动策略的能力，这是分层上下身控制无法实现的。
+**说明**: 展示传统层级架构（上身操作 + 下身平衡解耦）与 MotionWAM 统一全身控制的对比，以及 Unitree G1 执行多样化 loco-manipulation 任务的示例（踢球、推车、擦白板等）。
 
-### Figure 2: 系统架构与三阶段训练
+### Figure 2: Dual-DiT 三阶段训练架构
 
-![Figure 2](https://arxiv.org/html/2606.09215v1/x3.png)
+![Figure 2 Dual-DiT Architecture](https://arxiv.org/html/2606.09215v1/x3.png)
 
-**说明**: Dual-DiT 架构及三阶段训练流程。**Stage 1**：Video DiT 单独在自我中心视频上预训练；**Stage 2**：挂载 Motion DiT，在异构 G1 数据集上联合训练；**Stage 3**：在遥操作全身演示上端到端微调。Motion DiT 从 Video DiT 隐状态中提取未来场景动态信息以预测运动潜变量。
+**说明**: 完整的 MotionWAM 双 DiT 模型架构与三阶段训练流程。视频 DiT（蓝色，冻结/微调）通过单次前向传播提取 $\mathbf{h}_t^{\tau_f}$，通过交叉注意力传递给运动 DiT（橙色）。三阶段逐步从通用视频先验收窄到任务级全身控制。
 
-### Figure 3: 九任务真实场景套件
+### Figure 3: 9 项真实世界任务套件
 
-![Figure 3](https://arxiv.org/html/2606.09215v1/x4.png)
+![Figure 3 Task Suite](https://arxiv.org/html/2606.09215v1/x4.png)
 
-**说明**: 在 Unitree G1 上设计的九个全身运动操作任务，每个任务都要求超越纯平衡维持的主动腿部与躯干参与：PnP Bottle、Kick Soccer、Retrieve Item、Load Cart、Toss Garbage、Lift Basket、Stock Shelves、Wipe Board、Do Laundry。
+**说明**: Unitree G1 上的 9 项任务，均要求腿部主动参与任务执行而非仅维持平衡：取放瓶子、踢足球、取物品、装载推车、扔垃圾、提篮子、货架上货、擦白板、洗衣服。
 
-### Figure 4: 与 SOTA VLA 的任务成功率对比
+### Figure 4: 与 SOTA 方法的逐任务对比
 
-![Figure 4](https://arxiv.org/html/2606.09215v1/x5.png)
+![Figure 4 SOTA Comparison](https://arxiv.org/html/2606.09215v1/x5.png)
 
-**说明**: MotionWAM 在九任务上的逐任务成功率（20 次试验），对比 GR00T-N1.7、π₀.₅、Qwen3DiT、Diffusion Policy、ACT。MotionWAM 在需要全身协调的任务上领先最大（Kick Soccer +40%、Wipe Board +45%、Do Laundry +30%）。
+**说明**: MotionWAM（76.1% 平均成功率）全面超越所有基线。协调性要求最高的任务增益最大：Wipe Board +45%，Kick Soccer +40%，Load Cart +40%，Retrieve Item +40%。
 
-### Figure 5: 典型失败案例
+### Figure 5: 失败案例分析
 
-![Figure 5](https://arxiv.org/html/2606.09215v1/x6.png)
+![Figure 5 Failure Cases](https://arxiv.org/html/2606.09215v1/x6.png)
 
-**说明**: 九个任务上 MotionWAM 的代表性失败模式。大多数失败源于**视觉基底丢失**：被操作物体离开自我中心视野，或头部摄像头视角偏离训练分布。
+**说明**: 主要失败模式为被操作物体离开自我中心摄像头视野，或头部视角偏离训练分布。单目 RGB 输入在遮挡和视角变化情况下存在固有局限。
 
-### Figure 6: 推理演示轨迹
+### Figure 6: 代表性成功 Rollout 展示
 
-![Figure 6](https://arxiv.org/html/2606.09215v1/x7.png)
+![Figure 6 Successful Rollouts](https://arxiv.org/html/2606.09215v1/x7.png)
 
-**说明**: MotionWAM 在九个真实任务上的代表性推理演示，展示从自我中心视角驱动全身协调动作的完整轨迹。
+**说明**: 展示多个任务中机器人腿臂协调执行全身运动的连续帧，包含非平衡行为（脚踩踏板、移步交互）。
 
-### Table 1: 与 SOTA VLA 的整体成功率对比
+### Table 1: 动作空间对比——层级解耦 vs. 统一全身
 
-| 方法 | 平均成功率 |
-|------|-----------|
-| **MotionWAM（本文）** | **76.1%** |
-| GR00T-N1.7 | 43.9% |
-| π₀.₅ | ~20% |
-| Qwen3DiT | ~0%（运动任务失败）|
-| Diffusion Policy | 大多数任务失败 |
-| ACT | 低性能 |
+| 方面 | 层级解耦（传统） | MotionWAM（统一） |
+|------|-----------------|-------------------|
+| 上身 | 精细关节目标 | 统一运动 token |
+| 下身 | 粗粒度基座指令（速度、高度、朝向） | 任务驱动运动控制 |
+| 能力 | 仅平衡保持型运动 | 踩踏板、踢球等任务驱动脚步交互 |
 
-**表格说明**: MotionWAM 超越最强 VLA 基线 GR00T-N1.7 超过 30 个百分点，整体成功率领先显著。Qwen3DiT 在需要运动的任务上完全失败。
+**说明**: 统一运动 token 空间打破了上下体之间的显式解耦，使腿部行为可由任务目标直接驱动。
 
-### Table 2: 消融实验（平均成功率）
+### Table 2: 三阶段训练消融实验
 
-| 配置 | 平均成功率 |
-|------|-----------|
-| w/o Stage 1（无自我中心视频预训练） | 59.0% |
-| w/o Stage 2（无跨体型动作后训练） | 42.0% |
-| **Full MotionWAM（完整三阶段）** | **70.0%** |
+| 变体 | Stage 1 | Stage 2 | Lift Basket | Retrieve Item | Load Cart | Toss Garbage | Kick Soccer | 均值 |
+|------|---------|---------|-------------|---------------|-----------|--------------|-------------|------|
+| w/o Stage 2 | ✓ | — | 65 | 45 | 30 | 30 | 40 | 42.0 |
+| w/o Stage 1 | — | ✓ | 70 | 75 | 60 | 35 | 55 | 59.0 |
+| Full Model | ✓ | ✓ | **80** | **90** | **75** | **45** | **60** | **70.0** |
 
-**关键发现**: Stage 2 跨体型后训练贡献最大（去除后下降 28 个百分点），Stage 1 自我中心预训练次之（去除后下降 11 个百分点）。两个阶段缺一不可。
+**关键发现**: Stage 2（跨具身动作后训练）对性能贡献更大（去除后均值降至 42.0%），Stage 1（视频预训练）也不可缺失（去除后均值降至 59.0%）。
 
-### Table 3: 推理频率对比
+### Table 3: 推理效率对比
 
-| 方法 | 推理频率 |
+| 模型 | 可训练参数 | 推理频率 (Hz) |
+|------|-----------|--------------|
+| GR00T-N1.7 | 1.6B | 6.5 |
+| Qwen3DiT | 2.3B | 9.0 |
+| Cosmos Policy | 2.0B | 0.7 |
+| **MotionWAM（Ours）** | **2.5B** | **4.9** |
+
+**关键发现**: MotionWAM 以 4.9 Hz 实现实时推理，比参数量相近的 Cosmos Policy 快 **7×**，根源在于省去了迭代去噪过程。
+
+### Table 4: 每任务语言提示（Language Prompts）
+
+| 任务 | 语言提示 |
 |------|---------|
-| Qwen3DiT | 9.0 Hz |
-| GR00T-N1.7 | 6.5 Hz |
-| **MotionWAM** | **4.9 Hz** |
-| Cosmos Policy | 0.7 Hz |
-
-**关键发现**: MotionWAM 比 Cosmos Policy 快 7 倍（4.9 Hz vs 0.7 Hz），实现了实时全身控制；同时仅比 GR00T-N1.7 慢 1.6 Hz，但任务成功率大幅领先。
-
-### Table 4: 训练配置（Stage 1–3）
-
-| 超参数 | Stage 1 | Stage 2 | Stage 3 |
-|--------|---------|---------|---------|
-| GPU 数 | 128 | 32 | 8 |
-| 训练步数 | 100k | 50k | 15k |
-| 优化器 | AdamW | AdamW | AdamW |
-| 目标函数 | $\mathcal{L}_{\text{video}}$ | $\mathcal{L}_{\text{motion}} + \mathcal{L}_{\text{video}}$ | $\mathcal{L}_{\text{motion}} + \mathcal{L}_{\text{video}}$ |
-
-### Table 5: Stage 1 数据混合配比
-
-| 数据来源 | 比例 | 具体数据集 |
-|---------|------|-----------|
-| 人类自我中心 | 30% | EgoDex |
-| G1 类人形 | 50% | GR00T、RoboCOIN、Humanoid-Everyday、UnifoLM-WBT、PSI |
-| 其他机器人 | 20% | R1_Lite、AIDA-L |
-| **总计** | ~2136 小时 | — |
+| PnP Bottle | "Pick the bottle and place it in the basket." |
+| Kick Soccer | "Kick the soccer into the goal net." |
+| Retrieve Item | "Put the bag on the table and then close the drawer." |
+| Load Cart | "Push the cart forward and put the clothes on the table into the cart." |
+| Toss Garbage | "Throw the garbage into the trash can." |
+| Lift Basket | "Take out the clothes basket under the table and place it on the table." |
+| Stock Shelves | "Place the drinks on the upper shelf and the vegetables on the lower shelf." |
+| Wipe Board | "Clean the whiteboard thoroughly." |
+| Do Laundry | "Throw the clothes into the washing machine." |
 
 ---
 
@@ -279,94 +272,85 @@ $$
 
 | 数据集 | 规模 | 特点 | 用途 |
 |--------|------|------|------|
-| 自我中心视频混合（Stage 1） | ~2136 小时 | 人类+G1+其他机器人 | Stage 1 预训练 |
-| Unitree G1 异构数据 | — | 多来源 G1 演示 | Stage 2 后训练 |
-| 遥操作全身演示（Stage 3） | 每任务 200 条 | PICO VR + XRoboToolkit | Stage 3 微调 |
+| 人类自我中心视频 | ~641h（~30%） | 第一人称人类活动 | Stage 1 视频预训练 |
+| G1 类人机器人视频 | ~1,068h（~50%） | Unitree G1 类平台 | Stage 1 视频预训练 |
+| 其他机器人视频 | ~427h（~20%） | 跨具身多样性 | Stage 1 视频预训练 |
+| 异构 Unitree G1 数据 | 未披露规模 | 跨具身、多投影头 | Stage 2 动作后训练 |
+| 遥操作演示 | 1,800 条（200 条×9 任务） | 真实机器人全身演示 | Stage 3 微调 |
 
 ### 实现细节
 
-- **Video DiT**: Cosmos-Predict2.5-2B（冻结 VAE 和文本编码器，训练 Transformer 主体）
-- **Motion DiT**: DiT-B，隐藏维度 2560，动作/状态维度 64
-- **优化器**: AdamW，[[Flow Matching|流匹配]]目标
-- **Stage 1**: 128 GPU，100k 步
-- **Stage 2**: 32 GPU，50k 步
-- **Stage 3**: 8 GPU，15k 步
-- **硬件（推理）**: NVIDIA RTX 4090 工作站（策略服务器）+ RTX A100 部署
-- **机器人**: [[Unitree G1]] + 双 [[ALOHA]] ALOHA2 夹爪
-- **相机**: Intel RealSense D435i（头部安装，自我中心视角）
-- **[[SONIC]] 控制频率**: 50 Hz（底层关节控制）
+- **视频 DiT Backbone**: Cosmos-Predict2.5-2B（Stage 1 全量训练，Stage 2/3 微调）
+- **运动 DiT**: DiT-B 配置，从随机初始化开始
+- **运动 Token**: [[FSQ]] 编码，22 token × 32 级（512 维离散空间）
+- **硬件**: NVIDIA RTX 4090 工作站（推理）；训练硬件未披露
+- **机器人平台**: Unitree G1 + 双 ALOHA2 夹爪
+- **传感器**: Intel RealSense D435i（自我中心 RGB，头部安装）
+- **全身控制器**: [[SONIC]] whole-body motion tracker
 
 ### 可视化结果
 
-MotionWAM 能够完成需要全身协调的复杂任务：从蹲下捡地面物品（Retrieve Item），到用脚踢球（Kick Soccer），再到需要大范围身体移动的叠衣服（Do Laundry）。在这些任务上，GR00T-N1.7 因为腿部策略固定于平衡控制而无法执行。
+全身协调任务中，MotionWAM 展现出：(1) 踢球时腿部前摆与手臂平衡的自然协调；(2) 擦白板时沿墙侧步移动躯干；(3) 装载购物车时双臂推车同步前行。这些行为在层级解耦基线中均无法复现。
 
 ---
 
 ## 批判性思考
 
 ### 优点
-
-1. **实时性突破**: 通过"一次前向传播提取 Video DiT 隐状态"的设计，在保留世界模型物理先验的同时将推理速度提升至 4.9 Hz，是 WAM 领域的重要工程突破。
-2. **全身统一表示**: 统一运动潜变量设计优雅，离散 + 连续的混合表示既保留了[[SONIC]]全身控制器的可靠性，又允许策略学习连续的末端执行器动作。
-3. **扎实的实验**: 9 任务×20 次试验的真实机器人评估，消融实验覆盖三个训练阶段，结果说服力强。
+1. **架构简洁高效**: 用单次前向传播代替迭代去噪，在保留视频先验的同时实现实时控制，工程设计思路清晰。
+2. **统一动作空间突破**: FSQ 运动 token 将连续与离散控制融入单一 latent，是对传统层级控制的实质性突破。
+3. **三阶段数据效率**: 通过廉价视频数据完成大规模预训练，任务微调仅需每任务 200 条演示，成本可控。
+4. **任务多样性**: 9 项任务覆盖踢球、推车、整理货架等具有挑战性的 loco-manipulation 场景，评估较为全面。
 
 ### 局限性
-
-1. **单体型验证**: Stage 3 微调仅在 Unitree G1 上验证，跨体型泛化性未知。
-2. **视野依赖**: 被操作物体离开自我中心视野后性能急剧下降，缺乏记忆机制。
-3. **新颖物体泛化**: 没有受控的新颖物体泛化实验，泛化边界不清晰。
-4. **新奇性有限**: "使用 Video DiT 中间特征"的思路与 Flash-WAM 等近期工作有重叠，novelty 主要体现在全身统一表示和实时性工程实现上。
+1. **平台局限**: 所有实验均在 Unitree G1 上进行，跨平台迁移能力（如 H1、Digit）未经验证。
+2. **单目视角依赖**: 单个自我中心 RGB 摄像头在目标遮挡或头部视角偏移时性能显著下降，缺乏鲁棒性研究。
+3. **无 OOD 评估**: 未进行超出训练分布的物体/场景泛化测试，实际部署鲁棒性存疑。
+4. **频率仍有限**: 4.9 Hz 虽优于竞争 WAM 方法，但仍低于基于 ACT 的方法（通常 > 10 Hz），对高频动态任务可能不够。
 
 ### 潜在改进方向
-
-1. 增加外部摄像头或历史帧记忆，缓解视野丢失问题。
-2. 探索在更多人形平台（H1、Atlas 等）上的跨体型迁移。
-3. 研究是否可以完全端到端训练 SONIC 令牌，而非依赖预训练 VQ 码本。
+1. 引入多视角（立体/侧向）输入以缓解单目遮挡问题
+2. 在 $\tau_f$ 上进行自适应搜索，探索不同去噪深度对策略质量的权衡
+3. 将 Stage 2 扩展到更多机器人平台，验证 Foundation WAM 的跨具身通用性
 
 ### 可复现性评估
-
-- [ ] 代码开源（截至论文发布时未提供）
-- [ ] 预训练模型（未提供）
-- [x] 训练细节完整（超参数、数据配比均在附录中详细说明）
-- [ ] 数据集可获取（Stage 1 数据部分公开，Stage 3 演示数据未公开）
+- [ ] 代码开源（未公开）
+- [ ] 预训练模型（未公开）
+- [x] 训练细节（三阶段框架、数据构成、任务提示均有描述）
+- [ ] 数据集可获取（遥操作数据集未公开）
 
 ---
 
 ## 关联笔记
 
 ### 基于
-
-- [[WAM|World Action Model (WAM)]]: 核心范式，MotionWAM 是其在全身人形控制的延伸
-- [[Cosmos-Predict2.5|Cosmos-Predict2.5-2B]]: Video DiT 基础模型
-- [[SONIC]]: 全身运动控制器，提供离散运动令牌框架
+- [[Cosmos-Predict2.5]]: 视频 DiT backbone，提供场景动态先验
+- [[SONIC]]: 全身运动追踪控制器，将运动 token 解码为关节级动作
+- [[FSQ]]: Finite Scalar Quantization，构建离散运动 token
 
 ### 对比
-
-- [[GR00T N1.5|GR00T-N1.7]]: 最强 VLA 基线，MotionWAM 超越其 32 个百分点
-- [[Pi05|π₀.₅]]: 另一强基线，成功率约 20%
-- [[Flash-WAM]]: 同期 WAM 实时化工作，思路相近
+- [[GR00T-N1.6\|GR00T-N1.7]]: NVIDIA 类人机器人 VLA 基线（43.9% vs 76.1%）
+- [[Pi0.5]]: 物理智能双臂 VLA 基线（35.1%）
+- [[Diffusion Policy]]: 扩散策略基线（15.2%）
 
 ### 方法相关
-
-- [[Flow Matching|流匹配（Flow Matching）]]: 视频和运动预测的核心训练目标
-- [[Loco-Manipulation|Loco-Manipulation]]: 全身运动操作任务定义
-- [[VAE|变分自编码器（VAE）]]: 视频帧的潜变量编码器
-- [[Action Chunking|Action Chunking]]: 运动潜变量可视为延伸的动作表示
+- [[World Action Model|WAM]]: 本文所属的大类别——统一世界预测与动作生成的模型
+- [[Flow Matching]]: 视频 DiT 与运动 DiT 共用的生成目标
+- [[Loco-Manipulation]]: 本文聚焦的任务类型——腿臂协同操控
+- [[VLA]]: 本文相对的对比框架
 
 ### 硬件/数据相关
-
-- [[Unitree G1]]: 实验平台，29 自由度人形机器人
-- [[ALOHA|ALOHA2 夹爪]]: 双臂末端执行器
+- [[Unitree\|Unitree G1]]: 实验平台
 
 ---
 
 ## 速查卡片
 
-> [!summary] MotionWAM
-> - **核心**: 将 Video DiT 中间去噪特征作为物理先验，驱动统一全身运动潜变量，实现实时人形 Loco-Manipulation
-> - **方法**: Dual-DiT（Video DiT + Motion DiT）+ 三阶段训练 + SONIC 全身控制器
-> - **结果**: 76.1% 成功率（9 任务），比 GR00T-N1.7（43.9%）高 32 个百分点；4.9 Hz 实时推理，比 Cosmos Policy 快 7 倍
-> - **代码**: 暂未开源
+> [!summary] MotionWAM (arXiv 2606.09215)
+> - **核心**: 视频 DiT 单次前向传播提取隐特征 → 条件化全身运动 DiT，实现实时 loco-manipulation
+> - **方法**: Dual-DiT（Cosmos-Predict2.5 + DiT-B）+ FSQ 运动 token + 三阶段课程训练
+> - **结果**: Unitree G1 九任务 76.1% 成功率，超最强基线 +32%，推理 4.9 Hz（比 Cosmos Policy 快 7×）
+> - **代码**: 暂未公开
 
 ---
 
