@@ -32,6 +32,7 @@ generated_by: dailypaper-skills
 - [[Notes/Concepts/Models/PaliGemma|PaliGemma]]
 - [[Notes/Concepts/Models/Pi05|Pi05]]
 - [[Notes/Concepts/Models/PickScore|PickScore]]
+- [[Notes/Concepts/Models/Prismatic VLM|Prismatic VLM]]
 - [[Notes/Concepts/Models/Qwen3-VL|Qwen3-VL]]
 - [[Notes/Concepts/Models/SONIC|SONIC]]
 - [[Notes/Concepts/Models/SigLIP|SigLIP]]
