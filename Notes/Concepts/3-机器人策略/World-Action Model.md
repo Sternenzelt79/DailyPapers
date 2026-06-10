@@ -18,6 +18,7 @@ aliases: [WAM, World Action Model, 世界行动模型]
 - [[GigaWorld-Policy]]: 5B，RoboTwin 2.0 基准
 - [[Motus]]: 8B，目前仿真 SOTA
 - [[Efficient-WAM]]: 1B，高效 WAM，32× 提速
+- [[HiMem-WAM]]: 分层潜动作 + 边界感知记忆门控，专注长时域操作任务
 
 ## 相关概念
 - [[Flow Matching]]

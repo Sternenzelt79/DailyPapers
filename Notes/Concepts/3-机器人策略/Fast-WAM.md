@@ -19,6 +19,7 @@ Fast-WAM 是一种高效的 World-Action Model，使用双向扩散 Transformer 
 ## 代表工作
 
 - [[WLA]]: WLA-0 以 Fast-WAM（6B）为主要基线，2B 激活参数即超越其性能
+- [[HiMem-WAM]]: 在 LIBERO 上以 97.7% vs 97.6% 略优于 Fast-WAM，并在记忆任务上大幅超越
 
 ## 相关概念
 
