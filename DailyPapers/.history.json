@@ -1,10 +1,5 @@
 [
   {
-    "id": "2308.04079",
-    "date": "2026-05-10",
-    "title": "3D Gaussian Splatting for Real-Time Radiance Field Rendering"
-  },
-  {
     "id": "2605.06747",
     "date": "2026-05-12",
     "title": "HumanNet: Scaling Human-centric Video Learning to One Million Hours"
@@ -1183,5 +1178,105 @@
     "id": "2606.08520",
     "date": "2026-06-09",
     "title": "Two Bridges, One Pathway: From VLMs to Generalizable VLAs with Embodied Trajectory-Coupled Data"
+  },
+  {
+    "id": "2606.11129",
+    "date": "2026-06-10",
+    "title": "WorldOlympiad: Can Your World Model Survive a Triathlon?"
+  },
+  {
+    "id": "2606.10363",
+    "date": "2026-06-10",
+    "title": "HiMem-WAM: Hierarchical Memory-Gated World Action Models for Robotic Manipulation"
+  },
+  {
+    "id": "2510.14836",
+    "date": "2026-06-10",
+    "title": "QDepth-VLA: Quantized Depth Prediction as Auxiliary Supervision for Vision-Language-Action Models"
+  },
+  {
+    "id": "2606.11187",
+    "date": "2026-06-10",
+    "title": "Next Forcing: Causal World Modeling with Multi-Chunk Prediction"
+  },
+  {
+    "id": "2606.10267",
+    "date": "2026-06-10",
+    "title": "What Matters in Orchestrating Robot Policies: A Systematic Study of Hierarchical VLA Agents"
+  },
+  {
+    "id": "2606.10495",
+    "date": "2026-06-10",
+    "title": "Act on What You See: Unlocking Safe Social Navigation in Vision-Language-Action Models"
+  },
+  {
+    "id": "2606.10568",
+    "date": "2026-06-10",
+    "title": "VeriSpace: Spatially Grounded Action Verification for Vision-Language-Action Models"
+  },
+  {
+    "id": "2605.29662",
+    "date": "2026-06-10",
+    "title": "SAFE-Pruner: Semantic Attention-Guided Future-Aware Token Pruning for Efficient Vision-Language-Action Manipulation"
+  },
+  {
+    "id": "2606.10862",
+    "date": "2026-06-10",
+    "title": "LIBERO-Occ: Evaluating and Improving Vision-Language-Action Models under Scene-Induced Occlusion via Viewpoint Imagination"
+  },
+  {
+    "id": "2606.10040",
+    "date": "2026-06-10",
+    "title": "Efficient-WAM: A 1B-Parameter World-Action Model with Low-Cost Future Imagination"
+  },
+  {
+    "id": "2606.10180",
+    "date": "2026-06-10",
+    "title": "Flow Control: Steering Vision-Language-Action Models with Simple Real-Time Inputs"
+  },
+  {
+    "id": "2606.10366",
+    "date": "2026-06-10",
+    "title": "A Practical Recipe Towards Improving Sim-and-Real Correlation for VLA Evaluation"
+  },
+  {
+    "id": "2606.10501",
+    "date": "2026-06-10",
+    "title": "Uncovering Vulnerability of Vision-Language-Action Models under Joint-Level Physical Faults"
+  },
+  {
+    "id": "2606.11184",
+    "date": "2026-06-10",
+    "title": "TacForeSight: Force-Guided Tactile World Model for Contact-Rich Manipulation"
+  },
+  {
+    "id": "2512.06628",
+    "date": "2026-06-10",
+    "title": "MIND-V: Hierarchical World Model for Long-Horizon Robotic Manipulation with RL-based Physical Alignment"
+  },
+  {
+    "id": "2505.01458",
+    "date": "2026-06-10",
+    "title": "A Survey of Robotic Navigation and Manipulation with Physics Simulators in the Era of Embodied AI"
+  },
+  {
+    "id": "2606.10305",
+    "date": "2026-06-10",
+    "title": "SARM2: Multi-Task Stage Aware Reward Modeling for Self Improving Robotic Manipulation"
+  },
+  {
+    "id": "2606.10135",
+    "date": "2026-06-10",
+    "title": "BiWM: Advancing Open-Source Interactive Video World Models with Bidirectional Autoregression"
+  },
+  {
+    "id": "2606.10371",
+    "date": "2026-06-10",
+    "title": "Test-time Adversarial Takeover: A Real-time Hijacking Interface against Robotic Diffusion Policies"
+  },
+  {
+    "id": "2606.10614",
+    "date": "2026-06-10",
+    "title": "Dexterous Point Policy: Learning Point-based Dexterous Hand Policies from Human Demonstrations"
   }
 ]
