@@ -22,6 +22,8 @@ generated_by: dailypaper-skills
 - [[Notes/Concepts/Models/FLUX|FLUX]]
 - [[Notes/Concepts/Models/GR00T-N1.6|GR00T-N1.6]]
 - [[Notes/Concepts/Models/GR00T-N1|GR00T-N1]]
+- [[Notes/Concepts/Models/Gemini|Gemini]]
+- [[Notes/Concepts/Models/HunyuanVideo|HunyuanVideo]]
 - [[Notes/Concepts/Models/ImageReward|ImageReward]]
 - [[Notes/Concepts/Models/InternVL|InternVL]]
 - [[Notes/Concepts/Models/InternVL3|InternVL3]]

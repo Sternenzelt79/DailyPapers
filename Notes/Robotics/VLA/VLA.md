@@ -22,6 +22,7 @@ generated_by: dailypaper-skills
 - [[Notes/Robotics/VLA/DyGRO-VLA|DyGRO-VLA]]
 - [[Notes/Robotics/VLA/FineVLA|FineVLA]]
 - [[Notes/Robotics/VLA/HARP-VLA|HARP-VLA]]
+- [[Notes/Robotics/VLA/HiVLA-Study|HiVLA-Study]]
 - [[Notes/Robotics/VLA/LARA|LARA]]
 - [[Notes/Robotics/VLA/MemoryVLApp|MemoryVLApp]]
 - [[Notes/Robotics/VLA/MolmoAct2|MolmoAct2]]

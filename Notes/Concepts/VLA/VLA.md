@@ -19,6 +19,7 @@ generated_by: dailypaper-skills
 - [[Notes/Concepts/VLA/CrossVLA|CrossVLA]]
 - [[Notes/Concepts/VLA/DP|DP]]
 - [[Notes/Concepts/VLA/Diffusion Policy|Diffusion Policy]]
+- [[Notes/Concepts/VLA/DreamVLA|DreamVLA]]
 - [[Notes/Concepts/VLA/EBF|EBF]]
 - [[Notes/Concepts/VLA/EvoScene-VLA|EvoScene-VLA]]
 - [[Notes/Concepts/VLA/ForceVLA|ForceVLA]]
