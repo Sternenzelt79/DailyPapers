@@ -1278,5 +1278,155 @@
     "id": "2606.10614",
     "date": "2026-06-10",
     "title": "Dexterous Point Policy: Learning Point-based Dexterous Hand Policies from Human Demonstrations"
+  },
+  {
+    "id": "2606.12403",
+    "date": "2026-06-11",
+    "title": "World Pilot: Steering Vision-Language-Action Models with World-Action Priors"
+  },
+  {
+    "id": "2606.12217",
+    "date": "2026-06-11",
+    "title": "Making Foresight Actionable: Repurposing Representation Alignment in World Action Models"
+  },
+  {
+    "id": "2606.12072",
+    "date": "2026-06-11",
+    "title": "World Model Self-Distillation: Training World Models to Solve General Tasks"
+  },
+  {
+    "id": "2606.11743",
+    "date": "2026-06-11",
+    "title": "TacCoRL: Integrating Tactile Feedback into VLA via Simulation"
+  },
+  {
+    "id": "2606.12105",
+    "date": "2026-06-11",
+    "title": "DAM-VLA: Decoupled Asynchronous Multimodal Vision Language Action model"
+  },
+  {
+    "id": "2606.12109",
+    "date": "2026-06-11",
+    "title": "Bridging the Morphology Gap: Adapting VLA Models to Dexterous Manipulation via Intent-Conditioned Fine-Tuning"
+  },
+  {
+    "id": "2606.12352",
+    "date": "2026-06-11",
+    "title": "CHORUS: Decentralized Multi-Embodiment Collaboration with One VLA Policy"
+  },
+  {
+    "id": "2606.12366",
+    "date": "2026-06-11",
+    "title": "APT: Action Expert Pretraining Improves Instruction Generalization of Vision-Language-Action Policies"
+  },
+  {
+    "id": "2604.13733",
+    "date": "2026-06-11",
+    "title": "Vision-Language-Action Jump-Starting for Reinforcement Learning Robotic Agents"
+  },
+  {
+    "id": "2606.11324",
+    "date": "2026-06-11",
+    "title": "Embodied-R1.5: Evolving Physical Intelligence via Embodied Foundation Models"
+  },
+  {
+    "id": "2606.11396",
+    "date": "2026-06-11",
+    "title": "PLUME: Probabilistic Latent Unified World Modeling and Parameter Estimation for Multi-Finger Manipulation"
+  },
+  {
+    "id": "2606.12299",
+    "date": "2026-06-11",
+    "title": "Learning What to Say to Your VLA: Mostly Harmless Vision Language Action Model Steering"
+  },
+  {
+    "id": "2606.05758",
+    "date": "2026-06-11",
+    "title": "DRIFT: A Residual Flow Adapter for Decoding Continuous Outputs in Vision-Language Models"
+  },
+  {
+    "id": "2606.09821",
+    "date": "2026-06-11",
+    "title": "Rethinking the Divergence Regularization in LLM RL"
+  },
+  {
+    "id": "2606.02373",
+    "date": "2026-06-11",
+    "title": "Harness-1: Reinforcement Learning for Search Agents with State-Externalizing Harnesses"
+  },
+  {
+    "id": "2606.11408",
+    "date": "2026-06-11",
+    "title": "Dynamic Execution Horizon Prediction for Chunk-based Robot Policies"
+  },
+  {
+    "id": "2606.11901",
+    "date": "2026-06-11",
+    "title": "DuoBench: A Reproducible Benchmark for Bimanual Manipulation in Simulation and the Real World"
+  },
+  {
+    "id": "2606.12402",
+    "date": "2026-06-11",
+    "title": "DIRECT: When and Where Should You Allocate Test-Time Compute in Embodied Planners?"
+  },
+  {
+    "id": "2606.11221",
+    "date": "2026-06-11",
+    "title": "LAST: Bridging Vision-Language and Action Manifolds via Gromov-Wasserstein Alignment"
+  },
+  {
+    "id": "2606.12263",
+    "date": "2026-06-11",
+    "title": "VOID: Defeating Unauthorized Mimicry in Latent Diffusion Models"
+  },
+  {
+    "id": "2606.12316",
+    "date": "2026-06-11",
+    "title": "Slots, Transitions, Loops: Learning Composable World Models for ARC"
+  },
+  {
+    "id": "2603.12901",
+    "date": "2026-06-11",
+    "title": "A theory of learning data statistics in diffusion models, from easy to hard"
+  },
+  {
+    "id": "2606.11289",
+    "date": "2026-06-11",
+    "title": "i1: A Simple and Fully Open Recipe for Strong Text-to-Image Models"
+  },
+  {
+    "id": "2606.11372",
+    "date": "2026-06-11",
+    "title": "HiPi: Reproducible High-Fidelity Piezoresistive Sensors for Robotic Manipulation"
+  },
+  {
+    "id": "2606.11419",
+    "date": "2026-06-11",
+    "title": "A Modular Dual-Camera Pipeline for Micro-Inspection Using Aerial Robots"
+  },
+  {
+    "id": "2606.11464",
+    "date": "2026-06-11",
+    "title": "Bridging the sim2real gap in the table tennis robot with a transformer-based ball states predictor"
+  },
+  {
+    "id": "2606.11489",
+    "date": "2026-06-11",
+    "title": "Steering Multirobot Behavior via Closed-Loop Affine Activation Editing"
+  },
+  {
+    "id": "2606.11525",
+    "date": "2026-06-11",
+    "title": "Learning Object Manipulation from Scratch via Contrastive Interaction"
+  },
+  {
+    "id": "2606.11628",
+    "date": "2026-06-11",
+    "title": "LUCID: Learning Embodiment-Agnostic Intent Models from Unstructured Human Videos for Scalable Dexterous Robot Skill Acquisition"
+  },
+  {
+    "id": "2606.11636",
+    "date": "2026-06-11",
+    "title": "SAFER-Nav: Enhancing Safety for Visual Robot Navigation via Segmentation-Aware Fine-Tuning"
   }
 ]
