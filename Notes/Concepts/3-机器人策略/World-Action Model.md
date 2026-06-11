@@ -19,6 +19,7 @@ aliases: [WAM, World Action Model, 世界行动模型]
 - [[Motus]]: 8B，目前仿真 SOTA
 - [[Efficient-WAM]]: 1B，高效 WAM，32× 提速
 - [[HiMem-WAM]]: 分层潜动作 + 边界感知记忆门控，专注长时域操作任务
+- [[WorldPilot]]: 冻结 WAM 作为先验源，通过 [[Latent Steering]] 和 [[Action Steering]] 双路注入 VLA，LIBERO-Plus OOD 84.7% SOTA
 
 ## 相关概念
 - [[Flow Matching]]

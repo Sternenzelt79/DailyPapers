@@ -4,7 +4,7 @@ method_name: "WorldPilot"
 authors: [Zefu Lin, Rongxu Cui, Junjia Xu, Xiaojuan Jin, Wenling Li, Lue Fan, Zhaoxiang Zhang]
 year: 2026
 venue: arXiv
-tags: [vla, world-model, latent-steering, action-steering, robot-manipulation, ood-generalization, flow-matching]
+tags: [vla, world-model, world-action-model, robot-manipulation, out-of-distribution, flow-matching, latent-steering]
 zotero_collection: Robotics/VLA
 image_source: online
 arxiv_html: https://arxiv.org/html/2606.12403
@@ -202,19 +202,19 @@ $$
 
 ### Figure 1: World Pilot 整体框架
 
-![Figure 1](https://arxiv.org/html/2606.12403/2606.12403v1/x1.png)
+![Figure 1](https://arxiv.org/html/2606.12403v1/x1.png)
 
 **说明**: World Pilot 以 [[World-Action Model|WAM]] 为先验源，通过两条路径增强 VLA 决策链：Latent Steering 将场景演化潜变量路由到 VLM 隐层状态，Action Steering 将预期轨迹以运动先验形式输入动作生成器。
 
 ### Figure 2: World Pilot 完整架构
 
-![Figure 2](https://arxiv.org/html/2606.12403/2606.12403v1/x2.png)
+![Figure 2](https://arxiv.org/html/2606.12403v1/x2.png)
 
 **说明**: 语义路径（图像+语言 → VLM → 隐层状态）与 WAM 的两条先验路径并行，Latent Steering 通过 [[Cross-Attention|交叉注意力]] 注入 VLM，Action Steering 通过 prefix token 注入基于 [[DiT|DiT]] 的流匹配动作生成器。
 
 ### Figure 3: 真实机器人评估场景
 
-![Figure 3](https://arxiv.org/html/2606.12403/2606.12403v1/x3.png)
+![Figure 3](https://arxiv.org/html/2606.12403v1/x3.png)
 
 **说明**: 机器人平台（左）、与训练分布匹配的域内场景（中）、以及出现外观变化、几何变形、形变状态或姿态偏移的 OOD 场景（右）。评估覆盖堆叠积木、折叠毛巾、放置水果、对齐容器盖四类任务。
 
