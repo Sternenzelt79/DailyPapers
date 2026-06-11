@@ -23,6 +23,7 @@ $$
 ## 代表工作
 - Oquab et al. (2023): "DINOv2: Learning Robust Visual Features without Supervision"
 - [[DiLA]]: 用 DINOv2 提取视频特征做解纠缠潜变量预测
+- [[AGRA]]: 以冻结 DINOv2 的空间语义特征作为 WAM 对齐目标，解决 action-grounding gap
 
 ## 相关概念
 - [[DINO]]
