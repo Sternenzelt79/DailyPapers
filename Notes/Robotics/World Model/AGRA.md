@@ -7,7 +7,7 @@ venue: arXiv
 tags: [world-action-model, representation-alignment, robot-manipulation, video-diffusion, action-grounding]
 zotero_collection: Robotics/World Model
 image_source: online
-arxiv_html: https://arxiv.org/html/2606.12217
+arxiv_html: https://arxiv.org/html/2606.12217v1
 created: 2026-06-11
 ---
 
@@ -252,69 +252,69 @@ $$
 
 ### Figure 1: 问题动机与方法概览
 
-![Figure 1](https://arxiv.org/html/2606.12217/x1.png)
+![Figure 1](https://arxiv.org/html/2606.12217v1/x1.png)
 
 **说明**: 展示基线 WAM 的注意力漂移问题与 AGRA 改进后的任务相关区域聚焦对比。基线 WAM 动作解码头注意力分散到背景，AGRA 使注意力集中于手-物交互区域。
 
 ### Figure 2: Action-Grounding Gap 诊断
 
-![Figure 2](https://arxiv.org/html/2606.12217/x2.png)
+![Figure 2](https://arxiv.org/html/2606.12217v1/x2.png)
 
 **说明**: 通过 [[Cross-Attention]] 图可视化和因果干预热图，定量展示基线 WAM 的注意力失焦问题。左侧注意力图显示基线模型关注背景，右侧因果干预分析揭示模型对背景扰动同样敏感。
 
 ### Figure 3: DINOv2 vs. Cosmos 特征的 PCA 对比
 
-![Figure 3](https://arxiv.org/html/2606.12217/x3.png)
+![Figure 3](https://arxiv.org/html/2606.12217v1/x3.png)
 
 **说明**: PCA 可视化对比 [[DINOv2]] 的空间相干语义组织与 [[Cosmos-Predict2.5|Cosmos]] 的外观纠缠特征。DINOv2 特征能清晰分离任务相关区域，而 Cosmos 中间特征与低层像素外观高度耦合，动机了 AGRA 对齐方向。
 
 ### Figure 4: 真实世界评估结果总览
 
-![Figure 4](https://arxiv.org/html/2606.12217/x4.png)
+![Figure 4](https://arxiv.org/html/2606.12217v1/x4.png)
 
 **说明**: 在 IRON-R01-1.11 人形机器人上的 ID 和 OOD 场景综合评估结果，包含注意力分析定量指标。AGRA 在 ID 场景达到 80% 成功率，各 OOD 类别提升 27-32%。
 
 ### Figure 5: AGRA 注意力集中效果定性分析
 
-![Figure 5](https://arxiv.org/html/2606.12217/x5.png)
+![Figure 5](https://arxiv.org/html/2606.12217v1/x5.png)
 
 **说明**: 定性展示 AGRA 如何引导动作解码头注意力聚焦到任务关键的手-物交互区域，对比基线模型的注意力漂移。
 
 ### Figure 6: 真实机器人执行案例
 
-![Figure 6](https://arxiv.org/html/2606.12217/x6.png)
+![Figure 6](https://arxiv.org/html/2606.12217v1/x6.png)
 
 **说明**: 展示 AGRA 在真实操作任务（抓取稳定性、物体 Affordance 理解）上的改进案例，包括 Pick-and-Place 和 Open-Steamer-Transfer-Bun 等复杂操作任务。
 
 ### Figure 7: 基线 WAM 与 AGRA 架构对比图
 
-![Figure 7](https://arxiv.org/html/2606.12217/x7.png)
+![Figure 7](https://arxiv.org/html/2606.12217v1/x7.png)
 
 **说明**: 双 DiT 架构示意图。左侧为基线 WAM，右侧为加入 AGRA 的版本。Video DiT 的中间层隐藏态经投影层与 [[DINOv2]] 特征对齐，对齐后的特征通过 [[Cross-Attention]] 桥传递给 Action DiT。
 
 ### Figure 8: RoboCasa GR1 Benchmark 评估
 
-![Figure 8](https://arxiv.org/html/2606.12217/x8.png)
+![Figure 8](https://arxiv.org/html/2606.12217v1/x8.png)
 
 **说明**: RoboCasa GR1 模拟环境的基准评估，包含代表性策略执行轨迹示例。AGRA 整体达到 66.4%，比 GR00T 高出 18.8%。
 
 ### Figure 9: RoboCasa-GR1 完整数据集评估结果
 
-![Figure 9](https://arxiv.org/html/2606.12217/x9.png)
+![Figure 9](https://arxiv.org/html/2606.12217v1/x9.png)
 
-**说明**: 使用完整 24,000 条轨迹训练时，跨 24 个桌面操作任务的评估结果。
+**说明**: 使用完整 24,000 条轨迹训练时，跨 24 个桌面操作任务的评估结果。包含与 UWM、Diffusion Policy、FLARE、DiT4DiT、LDA-1B、GR00T-N1.6 的对比。
 
 ### Figure 10: 层选择对下游操作性能的影响
 
-![Figure 10](https://arxiv.org/html/2606.12217/x10.png)
+![Figure 10](https://arxiv.org/html/2606.12217v1/x10.png)
 
-**说明**: 分析不同 [[Cosmos]] 层（1-28 层）对下游操作任务性能的影响。实验表明约 1/3 深度（第 8 层）效果最佳；过深的层破坏空间几何信息。
+**说明**: 分析不同 [[Cosmos-Predict2.5|Cosmos]] 层（1-28 层）对下游操作任务性能的影响。实验表明约 1/3 深度（第 8 层）效果最佳；AGRA-DinoL8 优于 AGRA-DinoL15；AGRA-SiglipL8 表明 DINOv2 优于 SigLIP 作为对齐目标；多层对齐（AGRA-DinoL4/8/12）优于单层配置。
 
-### Figure 11: 单层 vs 多层桥接对比
+### Figure 11: EgoDex 跨具身迁移实验
 
-![Figure 11](https://arxiv.org/html/2606.12217/x11.png)
+![Figure 11](https://arxiv.org/html/2606.12217v1/x11.png)
 
-**说明**: 消融实验展示多层桥接策略优于单层替代方案，验证均匀分布多层对齐的设计合理性。
+**说明**: 添加人类第一视角数据集 EgoDex 进行跨具身训练时，基线 WAM 几乎无提升，而 AGRA 显著受益（尤其 OOD 场景）。说明 AGRA 的对齐特征具有跨具身迁移能力，能有效利用人类演示数据。
 
 ### Table 1: Matched Sensitivity Ratio（因果干预分析）
 
