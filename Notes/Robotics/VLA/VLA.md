@@ -32,6 +32,7 @@ generated_by: dailypaper-skills
 - [[Notes/Robotics/VLA/RoVLA|RoVLA]]
 - [[Notes/Robotics/VLA/TempoVLA|TempoVLA]]
 - [[Notes/Robotics/VLA/VLA-Pruner|VLA-Pruner]]
+- [[Notes/Robotics/VLA/WorldPilot|WorldPilot]]
 - [[Notes/Robotics/VLA/WorldVLN|WorldVLN]]
 - [[Notes/Robotics/VLA/X-DiffVLA|X-DiffVLA]]
 

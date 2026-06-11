@@ -21,6 +21,7 @@ $$\mathcal{L}_\text{REPA} = \mathcal{L}_\text{diffusion} + \lambda \cdot \text{s
 ## 代表工作
 - 原始 REPA 论文：Regularizing Denoising Networks with Pretrained Representations
 - [[PAE]]：在 tokenizer 侧类似地引入表征对齐
+- [[AGRA]]：将 REPA 对齐技术重新定向为 WAM 的动作基础接口正则化器（而非改善生成质量）
 
 ## 相关概念
 - [[Diffusion Model]]
