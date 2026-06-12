@@ -1,15 +1,5 @@
 [
   {
-    "id": "2605.06747",
-    "date": "2026-05-12",
-    "title": "HumanNet: Scaling Human-centric Video Learning to One Million Hours"
-  },
-  {
-    "id": "2605.07915",
-    "date": "2026-05-12",
-    "title": "What Matters for Diffusion-Friendly Latent Manifold? Prior-Aligned Autoencoders for Latent Diffusion"
-  },
-  {
     "id": "2605.10903",
     "date": "2026-05-13",
     "title": "CapVector: Learning Transferable Capability Vectors in Parametric Space for Vision-Language-Action Models"
@@ -1428,5 +1418,155 @@
     "id": "2606.11636",
     "date": "2026-06-11",
     "title": "SAFER-Nav: Enhancing Safety for Visual Robot Navigation via Segmentation-Aware Fine-Tuning"
+  },
+  {
+    "id": "2606.13674",
+    "date": "2026-06-12",
+    "title": "RepWAM: World Action Modeling with Representation Visual-Action Tokenizers"
+  },
+  {
+    "id": "2606.13494",
+    "date": "2026-06-12",
+    "title": "NavWAM: A Navigation World Action Model for Goal-Conditioned Visual Navigation"
+  },
+  {
+    "id": "2606.13578",
+    "date": "2026-06-12",
+    "title": "LabVLA: Grounding Vision-Language-Action Models in Scientific Laboratories"
+  },
+  {
+    "id": "2606.12690",
+    "date": "2026-06-12",
+    "title": "EWAM: An Enhanced World Action Model for Closed-Loop Online Adaptation in Embodied Intelligence"
+  },
+  {
+    "id": "2606.12475",
+    "date": "2026-06-12",
+    "title": "Learning to Assist: Collaborative VLAs for Implicit Human-Robot Collaboration"
+  },
+  {
+    "id": "2606.12978",
+    "date": "2026-06-12",
+    "title": "Trajectory-Level Redirection Attacks on Vision-Language-Action Models"
+  },
+  {
+    "id": "2606.13435",
+    "date": "2026-06-12",
+    "title": "GIVE: Grounding Human Gestures in Vision-Language-Action Models"
+  },
+  {
+    "id": "2606.13672",
+    "date": "2026-06-12",
+    "title": "WEAVER, Better, Faster, Longer: An Effective World Model for Robotic Manipulation"
+  },
+  {
+    "id": "2606.12859",
+    "date": "2026-06-12",
+    "title": "AIR-VLA+: Decoupling Movement and Manipulation via Cascaded Dual-Action Decoders with Asymmetric MoE for Aerial Robots"
+  },
+  {
+    "id": "2606.13053",
+    "date": "2026-06-12",
+    "title": "EA-WM: Event-Aware World Models with Task-Specification Grounding for Long-Horizon Manipulation"
+  },
+  {
+    "id": "2606.12497",
+    "date": "2026-06-12",
+    "title": "$\\mu$VLA: On Recurrent Memory for Partially Observable Manipulation in VLA Models"
+  },
+  {
+    "id": "2606.13515",
+    "date": "2026-06-12",
+    "title": "MaskWAM: Unifying Mask Prompting and Prediction for World-Action Models"
+  },
+  {
+    "id": "2604.08958",
+    "date": "2026-06-12",
+    "title": "WOMBET: World Model-Based Experience Transfer for Robust and Sample-efficient Reinforcement Learning"
+  },
+  {
+    "id": "2606.12783",
+    "date": "2026-06-12",
+    "title": "A Tutorial on World Models and Physical AI"
+  },
+  {
+    "id": "2602.04208",
+    "date": "2026-06-12",
+    "title": "SCALE: Self-uncertainty Conditioned Adaptive Looking and Execution for Vision-Language-Action Models"
+  },
+  {
+    "id": "2606.13679",
+    "date": "2026-06-12",
+    "title": "InterleaveThinker: Reinforcing Agentic Interleaved Generation"
+  },
+  {
+    "id": "2606.08063",
+    "date": "2026-06-12",
+    "title": "Robust-U1: Can MLLMs Self-Recover Corrupted Visual Content for Robust Understanding?"
+  },
+  {
+    "id": "2606.12956",
+    "date": "2026-06-12",
+    "title": "SERF: Spatiotemporal Environment and Robot Feature Map for Long-Horizon Mobile Manipulation"
+  },
+  {
+    "id": "2606.13279",
+    "date": "2026-06-12",
+    "title": "See Selectively, Act Adaptively: Dual-Level Structural Decomposition for Bimanual Robot Manipulation"
+  },
+  {
+    "id": "2606.12640",
+    "date": "2026-06-12",
+    "title": "Individual Control Barrier Functions-Guided Diffusion Model for Safe Offline Multi-Agent Reinforcement Learning"
+  },
+  {
+    "id": "2606.13092",
+    "date": "2026-06-12",
+    "title": "Scale Buys Interpolation, Structure Buys a Horizon: Certified Predictability for Equivariant World Models"
+  },
+  {
+    "id": "2606.12706",
+    "date": "2026-06-12",
+    "title": "VLADriveBench: Evaluating CoT-Action Relationship in VLA for Autonomous Driving"
+  },
+  {
+    "id": "2606.13460",
+    "date": "2026-06-12",
+    "title": "VISA: VLM-Guided Instance Semantic Auditing for 3D Occupancy World Models"
+  },
+  {
+    "id": "2603.11395",
+    "date": "2026-06-12",
+    "title": "ARROW: Augmented Replay for RObust World models"
+  },
+  {
+    "id": "2606.12780",
+    "date": "2026-06-12",
+    "title": "ProPlay: Procedural World Models for Self-Evolving LLM Agents"
+  },
+  {
+    "id": "2606.13376",
+    "date": "2026-06-12",
+    "title": "MoVerse: Real-Time Video World Modeling with Panoramic Gaussian Scaffold"
+  },
+  {
+    "id": "2606.12579",
+    "date": "2026-06-12",
+    "title": "G-MAPP: GPU-accelerated Multi-Agent Planning and Perception for Reactive Motion Generation"
+  },
+  {
+    "id": "2606.12936",
+    "date": "2026-06-12",
+    "title": "An Embodied Simulation Platform, Benchmark, and Data-Efficient Augmentation Framework for Wet-Lab Robotics"
+  },
+  {
+    "id": "2510.03896",
+    "date": "2026-06-12",
+    "title": "GAE: Unleashing Physical Potential of VLM with Generalizable Action Expert"
+  },
+  {
+    "id": "2606.12977",
+    "date": "2026-06-12",
+    "title": "Efficient, Robust, and Anti-Collusion Fingerprinting of Image Diffusion Models"
   }
 ]
