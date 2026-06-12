@@ -59,6 +59,7 @@ generated_by: dailypaper-skills
 - [[Notes/Concepts/VLA/World Model|World Model]]
 - [[Notes/Concepts/VLA/X-VLA|X-VLA]]
 - [[Notes/Concepts/VLA/XR-1|XR-1]]
+- [[Notes/Concepts/VLA/pi0.5|pi0.5]]
 - [[Notes/Concepts/VLA/具身智能|具身智能]]
 - [[Notes/Concepts/VLA/动作变化量|动作变化量]]
 - [[Notes/Concepts/VLA/规划动作识别|规划动作识别]]
