@@ -43,6 +43,7 @@ generated_by: dailypaper-skills
 - [[Notes/Concepts/Architecture/DreamSim|DreamSim]]
 - [[Notes/Concepts/Architecture/Dreamer|Dreamer]]
 - [[Notes/Concepts/Architecture/DreamerV3|DreamerV3]]
+- [[Notes/Concepts/Architecture/DreamerV4|DreamerV4]]
 - [[Notes/Concepts/Architecture/Encoder-Predictor|Encoder-Predictor]]
 - [[Notes/Concepts/Architecture/FPN|FPN]]
 - [[Notes/Concepts/Architecture/FVD|FVD]]

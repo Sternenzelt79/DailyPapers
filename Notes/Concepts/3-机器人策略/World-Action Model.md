@@ -14,6 +14,7 @@ aliases: [WAM, World Action Model, 世界行动模型]
 3. 代价是额外的视频生成计算开销，通常导致大参数量（5-8B）和高推理延迟
 
 ## 代表工作
+- [[NavWAM]]: 导航领域 WAM，九帧潜在画布联合预测动作、未来观测和目标进度值，无需外部规划器，真实机器人成功率 79.2%
 - [[UWM]]: 5B WAM，统一世界模型方法
 - [[GigaWorld-Policy]]: 5B，RoboTwin 2.0 基准
 - [[Motus]]: 8B，目前仿真 SOTA
