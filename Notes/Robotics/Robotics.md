@@ -12,7 +12,7 @@ generated_by: dailypaper-skills
 
 - [[Notes/Robotics/Humanoid/Humanoid|Humanoid]] · 2 篇笔记 · 1 个子目录
 - [[Notes/Robotics/VLA/VLA|VLA]] · 22 篇笔记 · 1 个子目录
-- [[Notes/Robotics/World Model/World Model|World Model]] · 30 篇笔记 · 1 个子目录
+- [[Notes/Robotics/World Model/World Model|World Model]] · 31 篇笔记 · 1 个子目录
 
 ## 当前目录笔记
 
