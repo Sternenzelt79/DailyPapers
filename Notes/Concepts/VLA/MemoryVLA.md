@@ -18,6 +18,7 @@ $$a_t = \pi_\theta(o_t, \mathcal{M}_t), \quad \mathcal{M}_t = \text{Memory}(o_{0
 
 ## 代表工作
 - MemoryVLA 相关工作（具体 arXiv 待查）
+- [[MemoryVLApp]]：MemoryVLA 的升级版，增加感知-认知双流记忆库（PCMB）+ 潜空间世界模型想象
 - [[RoboMemArena]]：针对记忆能力的 benchmark
 
 ## 相关概念
