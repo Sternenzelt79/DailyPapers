@@ -1,40 +1,5 @@
 [
   {
-    "id": "2605.10903",
-    "date": "2026-05-13",
-    "title": "CapVector: Learning Transferable Capability Vectors in Parametric Space for Vision-Language-Action Models"
-  },
-  {
-    "id": "2605.10921",
-    "date": "2026-05-13",
-    "title": "RoboMemArena: A Comprehensive and Challenging Robotic Memory Benchmark"
-  },
-  {
-    "id": "2509.18154",
-    "date": "2026-05-13",
-    "title": "MiniCPM-V 4.5: Cooking Efficient MLLMs via Architecture, Data, and Training Recipe"
-  },
-  {
-    "id": "2605.12090",
-    "date": "2026-05-14",
-    "title": "World Action Models: The Next Frontier in Embodied AI"
-  },
-  {
-    "id": "2605.00080",
-    "date": "2026-05-14",
-    "title": "World Model for Robot Learning: A Comprehensive Survey"
-  },
-  {
-    "id": "2605.12500",
-    "date": "2026-05-14",
-    "title": "SenseNova-U1: Unifying Multimodal Understanding and Generation with NEO-unify Architecture"
-  },
-  {
-    "id": "2605.12013",
-    "date": "2026-05-14",
-    "title": "L2P: Unlocking Latent Potential for Pixel Generation"
-  },
-  {
     "id": "2605.13724",
     "date": "2026-05-16",
     "title": "AnyFlow: Any-Step Video Diffusion Model with On-Policy Flow Map Distillation"
@@ -1568,5 +1533,10 @@
     "id": "2606.12977",
     "date": "2026-06-12",
     "title": "Efficient, Robust, and Anti-Collusion Fingerprinting of Image Diffusion Models"
+  },
+  {
+    "id": "2605.12500",
+    "date": "2026-05-14",
+    "title": "SenseNova-U1: Unifying Multimodal Understanding and Generation with NEO-unify Architecture"
   }
 ]
