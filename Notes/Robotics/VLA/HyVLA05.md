@@ -228,37 +228,37 @@ $$
 
 ### Figure 5: FlowPRO 数据流水线
 
-![Figure 5: FlowPRO Pipeline](https://arxiv.org/html/2606.14409/2606.14409v1/fig/rl/RL_Algorithm2.png)
+![[HyVLA05_fig5_flowpro_pipeline.png]]
 
 **说明**: FlowPRO RL后训练数据流水线。操作员在策略Rollout过程中干预并回滚到前序状态，记录执行片段为负样本轨迹，记录纠正遥操作为正样本轨迹。再通过平滑插值构造稠密的每状态偏好对 $(s, a^w, a^l)$。
 
 ### Figure 7: 异步执行时序
 
-![Figure 7: Async Execution](https://arxiv.org/html/2606.14409/2606.14409v1/x5.png)
+![[HyVLA05_fig7_async_exec.png]]
 
 **说明**: 生产者-消费者异步运行时架构。VLM推理（生产者）与伺服执行（消费者）并行进行，通过线程安全动作缓冲区解耦，使高延迟推理不阻塞低延迟伺服控制。
 
 ### Figure 8: Bézier 轨迹对比
 
-![Figure 8: Bézier Smoothing](https://arxiv.org/html/2606.14409/2606.14409v1/fig/inference/action_comparison_10.png)
+![[HyVLA05_fig8_bezier.png]]
 
 **说明**: 原始动作块（橙色，切换处有明显不连续跳变）与Bézier平滑后轨迹（蓝色，C¹连续）的对比。Bézier平滑有效消除了动作块连接处的速度不连续性。
 
 ### Figure 9: 真实机器人评测结果
 
-![Figure 9: Real-Robot Results](https://arxiv.org/html/2606.14409/2606.14409v1/fig/evaluation/results.png)
+![[HyVLA05_fig9_real_robot.png]]
 
 **说明**: Dobot X-Trainer上六项双臂任务的成功率快照与逐任务成功率。任务包括：插入瓶子、折叠存放眼镜、摆台、拉链笔袋等精细操作。
 
 ### Figure 10: 力引导对象区分（Unitree G1）
 
-![Figure 10: Force Guidance](https://arxiv.org/html/2606.14409/2606.14409v1/fig/evaluation/unitree_force.png)
+![[HyVLA05_fig10_force.jpeg]]
 
 **说明**: 在Unitree G1人形机器人上，通过TCN编码50步力矩信号窗口，成功区分轻重物体并选择较轻的一个。展示了力觉模态对VLA系统的扩展能力。
 
 ### Figure 12: FlowPRO 每轮迭代成功率
 
-![Figure 12: FlowPRO Results](https://arxiv.org/html/2606.14409/2606.14409v1/x7.png)
+![[HyVLA05_fig12_flowpro_results.jpeg]]
 
 **说明**: 四个真实机器人任务上RPRO、DAgger、π0.6*的逐迭代成功率对比。RPRO在瓶子/瓶盖/USB任务上3轮内收敛至99%，拉链任务达94%，且完成时间比DAgger快约40%。
 

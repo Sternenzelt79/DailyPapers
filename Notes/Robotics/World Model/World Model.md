@@ -46,6 +46,7 @@ generated_by: dailypaper-skills
 - [[Notes/Robotics/World Model/WMRobotSurvey|WMRobotSurvey]]
 - [[Notes/Robotics/World Model/iMaC|iMaC]]
 - [[Notes/Robotics/World Model/minWM|minWM]]
+- [[Notes/Robotics/World Model/mu0|mu0]]
 - [[Notes/Robotics/World Model/stable-worldmodel|stable-worldmodel]]
 
 ## 说明

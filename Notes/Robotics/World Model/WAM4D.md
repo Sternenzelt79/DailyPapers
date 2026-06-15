@@ -255,7 +255,7 @@ $$
 
 ![Figure 2](https://arxiv.org/html/2606.14048v1/x2.png)
 
-**说明**: 展示 [[Mixture-of-Transformers]] 主干的 Token 组成及 [[因果混合注意力]] 的掩码矩阵。寄存器 Token 仅在训练时存在，只访问历史视频 Token，与动作流完全隔离。
+**说明**: 展示 [[Mixture-of-Transformers]] 主干的 Token 组成及 [[Mixture-of-Transformers|因果混合注意力]] 的掩码矩阵。寄存器 Token 仅在训练时存在，只访问历史视频 Token，与动作流完全隔离。
 
 ### Figure 3: 训练路径 vs 推理路径
 
