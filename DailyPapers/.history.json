@@ -1,35 +1,5 @@
 [
   {
-    "id": "2605.13724",
-    "date": "2026-05-16",
-    "title": "AnyFlow: Any-Step Video Diffusion Model with On-Policy Flow Map Distillation"
-  },
-  {
-    "id": "2604.18486",
-    "date": "2026-05-16",
-    "title": "OneVL: One-Step Latent Reasoning and Planning with Vision-Language Explanation"
-  },
-  {
-    "id": "2605.10813",
-    "date": "2026-05-16",
-    "title": "NanoResearch: Co-Evolving Skills, Memory, and Policy for Personalized Research Automation"
-  },
-  {
-    "id": "2605.15155",
-    "date": "2026-05-16",
-    "title": "Self-Distilled Agentic Reinforcement Learning"
-  },
-  {
-    "id": "2605.15190",
-    "date": "2026-05-16",
-    "title": "RAVEN: Real-time Autoregressive Video Extrapolation with Consistency-model GRPO"
-  },
-  {
-    "id": "2509.24695",
-    "date": "2026-05-16",
-    "title": "SANA-Video: Efficient Video Generation with Block Linear Diffusion\n  Transformer"
-  },
-  {
     "id": "2605.15964",
     "date": "2026-05-18",
     "title": "WorldVLN: Autoregressive World Action Model for Aerial Vision-Language Navigation"
@@ -1633,5 +1603,155 @@
     "id": "2602.01801",
     "date": "2026-06-15",
     "title": "Fast Autoregressive Video Diffusion and World Models with Temporal Cache Compression"
+  },
+  {
+    "id": "2606.15768",
+    "date": "2026-06-16",
+    "title": "LaWAM: Latent World Action Models for Efficient Dynamics-Aware Robot Policies"
+  },
+  {
+    "id": "2606.17046",
+    "date": "2026-06-16",
+    "title": "Geometric Action Model for Robot Policy Learning"
+  },
+  {
+    "id": "2606.16993",
+    "date": "2026-06-16",
+    "title": "DreamX-World 1.0: A General-Purpose Interactive World Model"
+  },
+  {
+    "id": "2511.18960",
+    "date": "2026-06-16",
+    "title": "AVA-VLA: Improving Vision-Language-Action models with Active Visual Attention"
+  },
+  {
+    "id": "2606.15165",
+    "date": "2026-06-16",
+    "title": "VLALeaks: Membership Inference Attacks against Vision-Language-Action Models"
+  },
+  {
+    "id": "2509.18428",
+    "date": "2026-06-16",
+    "title": "Latent Action Pretraining Through World Modeling"
+  },
+  {
+    "id": "2605.12500",
+    "date": "2026-06-16",
+    "title": "SenseNova-U1: Unifying Multimodal Understanding and Generation with NEO-unify Architecture"
+  },
+  {
+    "id": "2606.15021",
+    "date": "2026-06-16",
+    "title": "Steering Autoregressive Vision-Language-Action Policies via Action Token Intervention"
+  },
+  {
+    "id": "2606.15285",
+    "date": "2026-06-16",
+    "title": "Acting While Understanding: Asynchronous Semantic-Action Decoupling for Real-Time Vision-Language-Action Models"
+  },
+  {
+    "id": "2606.15568",
+    "date": "2026-06-16",
+    "title": "SAPS: Shared Autonomy for Policy Steering by Blending Teleoperation with a Pretrained VLA"
+  },
+  {
+    "id": "2606.15142",
+    "date": "2026-06-16",
+    "title": "MotionVLA: Vision-Language-Action Model for Humanoid Motion"
+  },
+  {
+    "id": "2601.04061",
+    "date": "2026-06-16",
+    "title": "CLAP: Contrastive Latent Action Pretraining for Learning Vision-Language-Action Models from Human Videos"
+  },
+  {
+    "id": "2606.17030",
+    "date": "2026-06-16",
+    "title": "Qwen-RobotWorld Technical Report: Unifying Embodied World Modeling through Language-Conditioned Video Generation"
+  },
+  {
+    "id": "2606.14752",
+    "date": "2026-06-16",
+    "title": "X-Tokenizer: A Multimodal Action Tokenizer for Vision-Language-Action Pretraining"
+  },
+  {
+    "id": "2606.15099",
+    "date": "2026-06-16",
+    "title": "Think Less, Act Early: Reinforced Latent Reasoning with Early Exit in Vision-Language-Action Models"
+  },
+  {
+    "id": "2606.15714",
+    "date": "2026-06-16",
+    "title": "Beyond English: Uncovering the Multilingual Gap in Vision-Language-Action Models"
+  },
+  {
+    "id": "2606.16286",
+    "date": "2026-06-16",
+    "title": "FlowMPC: Improving Flow Matching policies with World Models"
+  },
+  {
+    "id": "2502.19544",
+    "date": "2026-06-16",
+    "title": "Efficient Reinforcement Learning by Guiding World Models with Non-Curated Data"
+  },
+  {
+    "id": "2606.15341",
+    "date": "2026-06-16",
+    "title": "CausalDrive: Real-time Causal World Models for Autonomous Driving"
+  },
+  {
+    "id": "2606.15869",
+    "date": "2026-06-16",
+    "title": "Metis: A Generalizable and Efficient World-Action Model for Autonomous Driving and Urban Navigation"
+  },
+  {
+    "id": "2606.16253",
+    "date": "2026-06-16",
+    "title": "Learned Image Compression for Vision-Language-Action Models"
+  },
+  {
+    "id": "2606.16605",
+    "date": "2026-06-16",
+    "title": "ARB4WM: An Adversarial Robustness Benchmark for World Models in Continuous Control"
+  },
+  {
+    "id": "2606.16140",
+    "date": "2026-06-16",
+    "title": "VibeThinker-3B: Exploring the Frontier of Verifiable Reasoning in Small Language Models"
+  },
+  {
+    "id": "2606.17043",
+    "date": "2026-06-16",
+    "title": "Hierarchical Advantage Weighting for Online RL Fine-Tuning of VLAs from Sparse Episode Outcomes"
+  },
+  {
+    "id": "2606.13707",
+    "date": "2026-06-16",
+    "title": "Orchestra-o1: Omnimodal Agent Orchestration"
+  },
+  {
+    "id": "2606.15594",
+    "date": "2026-06-16",
+    "title": "Pixels to Proofs: Probabilistically-Safe Latent World Model Control via Parallel Conformal Robust MPC"
+  },
+  {
+    "id": "2606.15898",
+    "date": "2026-06-16",
+    "title": "VL2Spike: Spike-driven Distillation from VLMs for Low-Power Visual Perception in Embodied AI"
+  },
+  {
+    "id": "2606.16178",
+    "date": "2026-06-16",
+    "title": "Scaling Short-Term Memory of Visuomotor Policies for Long-Horizon Tasks"
+  },
+  {
+    "id": "2606.16504",
+    "date": "2026-06-16",
+    "title": "APEX: Adaptive Policy Execution for Precise Manipulation"
+  },
+  {
+    "id": "2606.17011",
+    "date": "2026-06-16",
+    "title": "ROVE: Unlocking Human Interventions for Humanoid Manipulation via Reinforcement Learning"
   }
 ]
