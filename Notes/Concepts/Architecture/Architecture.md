@@ -19,6 +19,7 @@ generated_by: dailypaper-skills
 - [[Notes/Concepts/Architecture/AdaWorld|AdaWorld]]
 - [[Notes/Concepts/Architecture/Adaptive Depth Reasoning|Adaptive Depth Reasoning]]
 - [[Notes/Concepts/Architecture/Adaptive Layer Normalization|Adaptive Layer Normalization]]
+- [[Notes/Concepts/Architecture/Alternate-DiT|Alternate-DiT]]
 - [[Notes/Concepts/Architecture/BAGEL|BAGEL]]
 - [[Notes/Concepts/Architecture/Batch Normalization|Batch Normalization]]
 - [[Notes/Concepts/Architecture/CDM|CDM]]

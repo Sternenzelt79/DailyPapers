@@ -25,6 +25,7 @@ aliases: [Depth Anything V3, DepthAnything3, DA3]
 
 - Lin et al. (2025): Depth Anything 3 原始论文
 - [[iMaC]]: 使用 Depth Anything 3 进行多视角深度估计并构建接触图像
+- [[GAM]]: 将 DA3-Giant（在 Track4World 上微调）作为几何骨干网络，分割后插入因果预测器实现机器人操控策略
 
 ## 相关概念
 

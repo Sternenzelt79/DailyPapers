@@ -21,6 +21,8 @@ generated_by: dailypaper-skills
 - [[Notes/Robotics/VLA/ContinualVLA|ContinualVLA]]
 - [[Notes/Robotics/VLA/DyGRO-VLA|DyGRO-VLA]]
 - [[Notes/Robotics/VLA/FineVLA|FineVLA]]
+- [[Notes/Robotics/VLA/GAM|GAM]]
+- [[Notes/Robotics/VLA/HABC|HABC]]
 - [[Notes/Robotics/VLA/HARP-VLA|HARP-VLA]]
 - [[Notes/Robotics/VLA/HiVLA-Study|HiVLA-Study]]
 - [[Notes/Robotics/VLA/HyVLA05|HyVLA05]]
