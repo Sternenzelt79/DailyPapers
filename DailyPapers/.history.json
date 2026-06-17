@@ -1753,5 +1753,105 @@
     "id": "2606.17011",
     "date": "2026-06-16",
     "title": "ROVE: Unlocking Human Interventions for Humanoid Manipulation via Reinforcement Learning"
+  },
+  {
+    "id": "2606.17598",
+    "date": "2026-06-17",
+    "title": "MuseVLA: An Adaptive Multimodal Sensing Vision-Language-Action Model for Robotic Manipulation"
+  },
+  {
+    "id": "2606.17200",
+    "date": "2026-06-17",
+    "title": "ACE-Ego-0: Unifying Egocentric Human and Robotic Data for VLA Pretraining"
+  },
+  {
+    "id": "2606.17906",
+    "date": "2026-06-17",
+    "title": "WAM-RL: World-Action Model Reinforcement Learning with Reconstruction Rewards and Online Video SFT"
+  },
+  {
+    "id": "2606.17924",
+    "date": "2026-06-17",
+    "title": "PearlVLA: Progressive Embodied Action-Plan Refinement in Latent Space"
+  },
+  {
+    "id": "2606.17937",
+    "date": "2026-06-17",
+    "title": "ThinkingVLA: Interleaved Vision and Language Reasoning for Robotic Manipulation"
+  },
+  {
+    "id": "2606.18043",
+    "date": "2026-06-17",
+    "title": "Uncertainty Quantification for Flow-Based Vision-Language-Action Models"
+  },
+  {
+    "id": "2606.17480",
+    "date": "2026-06-17",
+    "title": "GeneralVLA-2: Geometry-Aware Reconstruction and Governed Memory for Robot Planning"
+  },
+  {
+    "id": "2506.17639",
+    "date": "2026-06-17",
+    "title": "RLRC: Reinforcement Learning-based Recovery for Compressed Vision-Language-Action Models"
+  },
+  {
+    "id": "2606.17639",
+    "date": "2026-06-17",
+    "title": "ERQA-Plus: A Diagnostic Benchmark for Reasoning in Embodied AI"
+  },
+  {
+    "id": "2606.18180",
+    "date": "2026-06-17",
+    "title": "EgoCS-400K: An Egocentric Gameplay Dataset for World Models"
+  },
+  {
+    "id": "2606.18097",
+    "date": "2026-06-17",
+    "title": "WireCraft: A Simulation Benchmark for Industrial DLO Manipulation"
+  },
+  {
+    "id": "2606.17463",
+    "date": "2026-06-17",
+    "title": "WeaveLA: Event Driven Cross-Subtask Latent Memory Weaving for Repetitive Robot Manipulation"
+  },
+  {
+    "id": "2603.22281",
+    "date": "2026-06-17",
+    "title": "ThinkJEPA: Empowering Latent World Models with Large Vision-Language Reasoning Model"
+  },
+  {
+    "id": "2606.16533",
+    "date": "2026-06-17",
+    "title": "Kairos: A Native World Model Stack for Physical AI"
+  },
+  {
+    "id": "2606.18208",
+    "date": "2026-06-17",
+    "title": "Looped World Models"
+  },
+  {
+    "id": "2606.17846",
+    "date": "2026-06-17",
+    "title": "Qwen-RobotManip Technical Report: Alignment Unlocks Scale for Robotic Manipulation Foundation Models"
+  },
+  {
+    "id": "2507.05169",
+    "date": "2026-06-17",
+    "title": "Critique of World Model: A Generative Latent Prediction Architecture for World Modeling"
+  },
+  {
+    "id": "2603.03485",
+    "date": "2026-06-17",
+    "title": "Phys4D: Fine-Grained Physics-Consistent 4D Modeling from Video Diffusion"
+  },
+  {
+    "id": "2606.17536",
+    "date": "2026-06-17",
+    "title": "OmniDrive: An LLM-Choreographed Multi-Agent World Model with Unified Latent Co-Compression for Multi-View Driving Video Generation"
+  },
+  {
+    "id": "2606.18250",
+    "date": "2026-06-17",
+    "title": "Future Dynamic 3D Reconstruction: A 3D World Model with Disentangled Ego-Motion"
   }
 ]
