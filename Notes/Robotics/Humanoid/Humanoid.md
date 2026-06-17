@@ -14,6 +14,7 @@ generated_by: dailypaper-skills
 
 ## 当前目录笔记
 
+- [[Notes/Robotics/Humanoid/GRAIL|GRAIL]]
 - [[Notes/Robotics/Humanoid/SONIC|SONIC]]
 
 ## 说明

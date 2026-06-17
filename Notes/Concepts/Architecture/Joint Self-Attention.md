@@ -29,6 +29,7 @@ $$
 
 - [[FLUX]] / [[SD3]]: text-image joint attention。
 - [[Multi-Stream Action Transformer]] / [[RLDX-1]]: VLA 中的应用。
+- [[QwenRobotWorld]]: 60层 Double-Stream MMDiT 中用于耦合语言流（Qwen2.5-VL）与视觉流（Video-VAE），实现语言条件具身视频预测。
 
 ## 相关概念
 

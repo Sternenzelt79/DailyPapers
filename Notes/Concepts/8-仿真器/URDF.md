@@ -22,6 +22,7 @@ $$T_{child}^{parent} = T_{origin} \cdot R(\theta, \hat{a})$$
 
 ## 代表工作
 - [[PhysX-Omni]]: 自动为铰接物体生成 URDF 格式输出，可直接导入 ROS/仿真器
+- [[iMaC]]: 利用 URDF + 正向运动学将机器人动作渲染为 Motion Images，作为 world model 的视觉控制信号
 
 ## 相关概念
 - [[MuJoCo]]

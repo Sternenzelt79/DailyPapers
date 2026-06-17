@@ -38,6 +38,8 @@ $$
 - [[Pi05]]: 增强版。
 - [[RLDX-1]]: 在 action 与 physics 双流上都用 FM。
 - [[MolmoAct2]] (2026): Action Expert 用 FM，预训练 K=4、微调 K=8 的多样本损失。
+- [[MotionWAM]] (2026): Dual-DiT WAM，在视频潜变量与运动潜变量上同时用 FM，驱动全身人形控制。
+- [[iMaC]] (2026): 以 WAN2.2 IT2V DiT 为 backbone，用 FM 训练接触感知 Embodied World Model。
 
 ## 相关概念
 
