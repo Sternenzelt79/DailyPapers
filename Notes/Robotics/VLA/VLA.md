@@ -30,6 +30,7 @@ generated_by: dailypaper-skills
 - [[Notes/Robotics/VLA/LabVLA|LabVLA]]
 - [[Notes/Robotics/VLA/MemoryVLApp|MemoryVLApp]]
 - [[Notes/Robotics/VLA/MolmoAct2|MolmoAct2]]
+- [[Notes/Robotics/VLA/MuseVLA|MuseVLA]]
 - [[Notes/Robotics/VLA/PAPO-VLA|PAPO-VLA]]
 - [[Notes/Robotics/VLA/RLDX-1|RLDX-1]]
 - [[Notes/Robotics/VLA/RhinoVLA|RhinoVLA]]
