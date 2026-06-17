@@ -39,6 +39,7 @@ generated_by: dailypaper-skills
 - [[Notes/Robotics/World Model/SWEET|SWEET]]
 - [[Notes/Robotics/World Model/StableWorldModel|StableWorldModel]]
 - [[Notes/Robotics/World Model/TacForeSight|TacForeSight]]
+- [[Notes/Robotics/World Model/WAM-RL|WAM-RL]]
 - [[Notes/Robotics/World Model/WAM-Survey|WAM-Survey]]
 - [[Notes/Robotics/World Model/WAM4D|WAM4D]]
 - [[Notes/Robotics/World Model/WAMSurvey|WAMSurvey]]

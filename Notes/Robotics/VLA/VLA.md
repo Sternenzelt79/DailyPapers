@@ -15,6 +15,7 @@ generated_by: dailypaper-skills
 ## 当前目录笔记
 
 - [[Notes/Robotics/VLA/3DThinkVLA|3DThinkVLA]]
+- [[Notes/Robotics/VLA/ACE-Ego-0|ACE-Ego-0]]
 - [[Notes/Robotics/VLA/AffordanceVLA|AffordanceVLA]]
 - [[Notes/Robotics/VLA/COAST|COAST]]
 - [[Notes/Robotics/VLA/CapVector|CapVector]]

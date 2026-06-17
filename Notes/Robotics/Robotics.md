@@ -11,8 +11,8 @@ generated_by: dailypaper-skills
 ## 子目录
 
 - [[Notes/Robotics/Humanoid/Humanoid|Humanoid]] · 2 篇笔记 · 1 个子目录
-- [[Notes/Robotics/VLA/VLA|VLA]] · 26 篇笔记 · 1 个子目录
-- [[Notes/Robotics/World Model/World Model|World Model]] · 36 篇笔记 · 1 个子目录
+- [[Notes/Robotics/VLA/VLA|VLA]] · 27 篇笔记 · 1 个子目录
+- [[Notes/Robotics/World Model/World Model|World Model]] · 37 篇笔记 · 1 个子目录
 
 ## 当前目录笔记
 
