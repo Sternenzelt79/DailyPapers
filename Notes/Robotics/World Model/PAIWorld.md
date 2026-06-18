@@ -263,43 +263,43 @@ $$
 
 ### Figure 1: PAIWorld 系统概览
 
-![Figure 1](https://arxiv.org/html/2606.18375/2606.18375v1/x1.png)
+![Figure 1](https://arxiv.org/html/2606.18375v1/x1.png)
 
 **说明**: PAIWorld 在 2.5M 多视图机器人操作视频片段上预训练，作为通用 backbone 支持三类下游应用：基于模型的规划（Model-Based Planning）、动作模型学习（Action Model）、多视图策略训练（Multi-View Policy Training）。
 
 ### Figure 2: PAIWorld 框架总览
 
-![Figure 2](https://arxiv.org/html/2606.18375/2606.18375v1/x2.png)
+![Figure 2](https://arxiv.org/html/2606.18375v1/x2.png)
 
 **说明**: 展示两大技术柱——左侧为**视角间通路**（Geometry-Aware Cross-View Attention + Geo-RoPE），右侧为**几何训练目标**（Latent 3D-REPA，使用冻结 [[Depth Anything 3]] 作教师）。两者通过共享 3D 坐标系互相强化。
 
 ### Figure 3: WorldArena 定性结果（一）
 
-![Figure 3](https://arxiv.org/html/2606.18375/2606.18375v1/x3.png)
+![Figure 3](https://arxiv.org/html/2606.18375v1/x3.png)
 
 **说明**: 在 WorldArena benchmark 上的未来帧预测结果，展示物理合理的动态效果和跨多视角的稳定场景布局。
 
 ### Figure 4: WorldArena 定性结果（二）
 
-![Figure 4](https://arxiv.org/html/2606.18375/2606.18375v1/x4.png)
+![Figure 4](https://arxiv.org/html/2606.18375v1/x4.png)
 
 **说明**: WorldArena benchmark 上更多场景的定性结果，体现跨时间步的时序一致性。
 
 ### Figure 5: AgiBot-Challenge2026 定性结果（一）
 
-![Figure 5](https://arxiv.org/html/2606.18375/2606.18375v1/x5.png)
+![Figure 5](https://arxiv.org/html/2606.18375v1/x5.png)
 
 **说明**: 在 AgiBot-Challenge2026 benchmark 上的动作条件生成结果，展示末端执行器轨迹跟踪和操作对象的运动预测。
 
 ### Figure 6: AgiBot-Challenge2026 定性结果（二）
 
-![Figure 6](https://arxiv.org/html/2606.18375/2606.18375v1/x6.png)
+![Figure 6](https://arxiv.org/html/2606.18375v1/x6.png)
 
 **说明**: 更多操作任务场景下的动作条件生成定性结果。
 
 ### Figure 7: 多视图生成一致性对比
 
-![Figure 7](https://arxiv.org/html/2606.18375/2606.18375v1/x7.png)
+![Figure 7](https://arxiv.org/html/2606.18375v1/x7.png)
 
 **说明**: 与 baseline 的定性对比，展示 PAIWorld 在多视图几何一致性上的优势（无物体漂移和纹理错位）。
 
