@@ -20,6 +20,7 @@ generated_by: dailypaper-skills
 - [[Notes/Robotics/VLA/COAST|COAST]]
 - [[Notes/Robotics/VLA/CapVector|CapVector]]
 - [[Notes/Robotics/VLA/ContinualVLA|ContinualVLA]]
+- [[Notes/Robotics/VLA/DREAM-Chunk|DREAM-Chunk]]
 - [[Notes/Robotics/VLA/DyGRO-VLA|DyGRO-VLA]]
 - [[Notes/Robotics/VLA/FineVLA|FineVLA]]
 - [[Notes/Robotics/VLA/GAM|GAM]]
