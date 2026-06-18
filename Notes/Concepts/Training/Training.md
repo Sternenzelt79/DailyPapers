@@ -29,6 +29,7 @@ generated_by: dailypaper-skills
 - [[Notes/Concepts/Training/GRAPE|GRAPE]]
 - [[Notes/Concepts/Training/GRPO|GRPO]]
 - [[Notes/Concepts/Training/GSPO|GSPO]]
+- [[Notes/Concepts/Training/KL 辅助损失|KL 辅助损失]]
 - [[Notes/Concepts/Training/LoRA|LoRA]]
 - [[Notes/Concepts/Training/Model Predictive Control|Model Predictive Control]]
 - [[Notes/Concepts/Training/MuonHP|MuonHP]]
