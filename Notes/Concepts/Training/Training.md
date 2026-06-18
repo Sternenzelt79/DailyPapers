@@ -50,6 +50,7 @@ generated_by: dailypaper-skills
 - [[Notes/Concepts/Training/Violation-of-Expectation|Violation-of-Expectation]]
 - [[Notes/Concepts/Training/Visual Fidelity|Visual Fidelity]]
 - [[Notes/Concepts/Training/任务向量|任务向量]]
+- [[Notes/Concepts/Training/停止梯度（Stop-Gradient）|停止梯度（Stop-Gradient）]]
 - [[Notes/Concepts/Training/参数空间向量运算|参数空间向量运算]]
 - [[Notes/Concepts/Training/因果充分性|因果充分性]]
 - [[Notes/Concepts/Training/因果必要性|因果必要性]]
