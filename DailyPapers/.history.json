@@ -1,85 +1,5 @@
 [
   {
-    "id": "2605.15964",
-    "date": "2026-05-18",
-    "title": "WorldVLN: Autoregressive World Action Model for Aerial Vision-Language Navigation"
-  },
-  {
-    "id": "2605.15975",
-    "date": "2026-05-18",
-    "title": "Learning Bilevel Policies over Symbolic World Models for Long-Horizon Planning"
-  },
-  {
-    "id": "2605.15705",
-    "date": "2026-05-18",
-    "title": "Feedback World Model Enables Precise Guidance of Diffusion Policy"
-  },
-  {
-    "id": "2605.16056",
-    "date": "2026-05-18",
-    "title": "Health-Conditioned Vision-Language-Action Models for Malfunction-Aware Robot Control"
-  },
-  {
-    "id": "2605.15477",
-    "date": "2026-05-18",
-    "title": "EgoExo-WM: Unlocking Exo Video for Ego World Models"
-  },
-  {
-    "id": "2605.15735",
-    "date": "2026-05-18",
-    "title": "UAM: A Dual-Stream Perspective on Forgetting in VLA Training"
-  },
-  {
-    "id": "2605.15960",
-    "date": "2026-05-18",
-    "title": "Imperfect World Models are Exploitable"
-  },
-  {
-    "id": "2605.15725",
-    "date": "2026-05-18",
-    "title": "DiLA: Disentangled Latent Action World Models"
-  },
-  {
-    "id": "2605.15391",
-    "date": "2026-05-18",
-    "title": "PanoWorld: Geometry-Consistent Panoramic Video World Modeling"
-  },
-  {
-    "id": "2605.16065",
-    "date": "2026-05-18",
-    "title": "Robust Prior-Guided Segmentation for Editable 3D Gaussian Splatting"
-  },
-  {
-    "id": "2603.05377",
-    "date": "2026-05-18",
-    "title": "OpenFrontier: General Navigation with Visual-Language Grounded Frontiers"
-  },
-  {
-    "id": "2605.15298",
-    "date": "2026-05-18",
-    "title": "PhysBrain 1.0 Technical Report"
-  },
-  {
-    "id": "2605.15256",
-    "date": "2026-05-18",
-    "title": "ReactiveGWM: Steering NPC in Reactive Game World Models"
-  },
-  {
-    "id": "2601.09512",
-    "date": "2026-05-18",
-    "title": "CLARE: Continual Learning for Vision-Language-Action Models via Autonomous Adapter Routing and Expansion"
-  },
-  {
-    "id": "2605.16241",
-    "date": "2026-05-18",
-    "title": "Offline Semantic Guidance for Efficient Vision-Language-Action Policy Distillation"
-  },
-  {
-    "id": "2605.16154",
-    "date": "2026-05-18",
-    "title": "Learn Where Outcomes Diverge: Efficient VLA RL via Probabilistic Chunk Masking"
-  },
-  {
     "id": "2604.14268",
     "date": "2026-05-19",
     "title": "HY-World 2.0: A Multi-Modal World Model for Reconstructing, Generating, and Simulating 3D Worlds"
@@ -1853,5 +1773,105 @@
     "id": "2606.18250",
     "date": "2026-06-17",
     "title": "Future Dynamic 3D Reconstruction: A 3D World Model with Disentangled Ego-Motion"
+  },
+  {
+    "id": "2606.18589",
+    "date": "2026-06-18",
+    "title": "DREAM-Chunk: Reactive Action Chunking with Latent World Model"
+  },
+  {
+    "id": "2606.19297",
+    "date": "2026-06-18",
+    "title": "Does VLA Even Know the Basics? Measuring Commonsense and World Knowledge Retention in Vision-Language-Action Models"
+  },
+  {
+    "id": "2606.18953",
+    "date": "2026-06-18",
+    "title": "Object-Centric Residual RL for Zero-Shot Sim-to-Real VLA Enhancement"
+  },
+  {
+    "id": "2606.18955",
+    "date": "2026-06-18",
+    "title": "Motion-Focused Latent Action Enables Cross-Embodiment VLA Training from Human EgoVideos"
+  },
+  {
+    "id": "2511.05963",
+    "date": "2026-06-18",
+    "title": "Next-Latent Prediction Transformers Learn Compact World Models"
+  },
+  {
+    "id": "2606.18426",
+    "date": "2026-06-18",
+    "title": "VEGA: Learning Navigation VLAs from In-the-Wild Egocentric Video with Geometric Trajectory Supervision"
+  },
+  {
+    "id": "2606.18697",
+    "date": "2026-06-18",
+    "title": "Stealthy World Model Manipulation via Data Poisoning"
+  },
+  {
+    "id": "2606.18960",
+    "date": "2026-06-18",
+    "title": "Mem-World: Memory-Augmented Action-Conditioned World Models for Persistent Robot Manipulation"
+  },
+  {
+    "id": "2606.18375",
+    "date": "2026-06-18",
+    "title": "PAIWorld: A 3D-Consistent World Foundation Model for Robotic Manipulation"
+  },
+  {
+    "id": "2606.18610",
+    "date": "2026-06-18",
+    "title": "SC3-Eval: Evaluating Robot Foundation Models via Self-Consistent Video Generation"
+  },
+  {
+    "id": "2606.19194",
+    "date": "2026-06-18",
+    "title": "Invertible Neural Network Adapter for One-Step Flow Matching in Robot Manipulation"
+  },
+  {
+    "id": "2606.18363",
+    "date": "2026-06-18",
+    "title": "Guava: An Effective and Universal Harness for Embodied Manipulation"
+  },
+  {
+    "id": "2606.18888",
+    "date": "2026-06-18",
+    "title": "Generative-Model Predictive Planning for Navigation in Partially Observable Environments"
+  },
+  {
+    "id": "2606.18688",
+    "date": "2026-06-18",
+    "title": "Dual-Channel Grounded World Modeling (DCGWM): Structural Prevention of Objective Interference Collapse via Heterogeneous External Grounding with Inward-Only Gradient Flow"
+  },
+  {
+    "id": "2606.18558",
+    "date": "2026-06-18",
+    "title": "MolmoMotion: Forecasting Point Trajectories in 3D with Language Instruction"
+  },
+  {
+    "id": "2606.18328",
+    "date": "2026-06-18",
+    "title": "Recover, Discover, Plan: Learning Skills and Concepts from Robot Failures"
+  },
+  {
+    "id": "2606.18594",
+    "date": "2026-06-18",
+    "title": "Benchmarking Action Spaces in Reinforcement Learning for Vision-based Robotic Manipulation"
+  },
+  {
+    "id": "2606.18625",
+    "date": "2026-06-18",
+    "title": "SRL: Combining SLIP Model and Reinforcement Learning for Agile Robotic Jumping"
+  },
+  {
+    "id": "2606.18634",
+    "date": "2026-06-18",
+    "title": "EffiNav: Fusing Depth and Vision-Language for Efficient Object Goal Navigation"
+  },
+  {
+    "id": "2606.18646",
+    "date": "2026-06-18",
+    "title": "A Scalable Embodied Intelligence Platform for Seamless Real-to-Sim-to-Real Transfer of Household Mobile Manipulation Tasks"
   }
 ]
