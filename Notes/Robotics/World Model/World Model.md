@@ -29,6 +29,7 @@ generated_by: dailypaper-skills
 - [[Notes/Robotics/World Model/LeWM|LeWM]]
 - [[Notes/Robotics/World Model/MaskWAM|MaskWAM]]
 - [[Notes/Robotics/World Model/Mem-World|Mem-World]]
+- [[Notes/Robotics/World Model/MemoryWAM|MemoryWAM]]
 - [[Notes/Robotics/World Model/Mirage|Mirage]]
 - [[Notes/Robotics/World Model/MotionWAM|MotionWAM]]
 - [[Notes/Robotics/World Model/NavWAM|NavWAM]]
