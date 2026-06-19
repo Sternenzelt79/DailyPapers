@@ -1,20 +1,5 @@
 [
   {
-    "id": "2604.14268",
-    "date": "2026-05-19",
-    "title": "HY-World 2.0: A Multi-Modal World Model for Reconstructing, Generating, and Simulating 3D Worlds"
-  },
-  {
-    "id": "2605.15466",
-    "date": "2026-05-19",
-    "title": "Entity-Centric World Models: Interaction-Aware Masking for Causal Video Prediction"
-  },
-  {
-    "id": "2605.16257",
-    "date": "2026-05-19",
-    "title": "DexJoCo: A Benchmark and Toolkit for Task-Oriented Dexterous Manipulation on MuJoCo"
-  },
-  {
     "id": "2605.16395",
     "date": "2026-05-20",
     "title": "OrbiSim: World Models as Differentiable Physics Engines for Embodied Intelligence"
@@ -1873,5 +1858,155 @@
     "id": "2606.18646",
     "date": "2026-06-18",
     "title": "A Scalable Embodied Intelligence Platform for Seamless Real-to-Sim-to-Real Transfer of Household Mobile Manipulation Tasks"
+  },
+  {
+    "id": "2606.19531",
+    "date": "2026-06-19",
+    "title": "ImageWAM: Do World Action Models Really Need Video Generation, or Just Image Editing?"
+  },
+  {
+    "id": "2606.20562",
+    "date": "2026-06-19",
+    "title": "MemoryWAM: Efficient World Action Modeling with Persistent Memory"
+  },
+  {
+    "id": "2606.19784",
+    "date": "2026-06-19",
+    "title": "EquiVLA: A General Framework for Rotationally Equivariant Vision-Language-Action Models"
+  },
+  {
+    "id": "2606.20285",
+    "date": "2026-06-19",
+    "title": "Co-VLA: Coordination-Aware Structured Action Modeling for Dual-Arm Vision-Language-Action Systems"
+  },
+  {
+    "id": "2606.20092",
+    "date": "2026-06-19",
+    "title": "EventVLA: Event-Driven Visual Evidence Memory for Long-Horizon Vision-Language-Action Policies"
+  },
+  {
+    "id": "2606.20246",
+    "date": "2026-06-19",
+    "title": "Finetuning Vision-Language-Action Models Requires Fewer Layers Than You Think"
+  },
+  {
+    "id": "2606.19565",
+    "date": "2026-06-19",
+    "title": "Mix-QVLA: Task-Evidence-Aware Mixed-Precision Quantization of Vision-Language-Action Models"
+  },
+  {
+    "id": "2512.20014",
+    "date": "2026-06-19",
+    "title": "Bring My Cup! Personalizing Vision-Language-Action Models with Visual Attentive Prompting"
+  },
+  {
+    "id": "2606.19729",
+    "date": "2026-06-19",
+    "title": "VOiLA: Vectorized Online Planning with Learned Diffusion Model for POMDP Agents"
+  },
+  {
+    "id": "2606.19889",
+    "date": "2026-06-19",
+    "title": "SurgVista: Long-Horizon Surgical World Modeling with Plausible Instrument-Tissue Dynamics"
+  },
+  {
+    "id": "2602.15763",
+    "date": "2026-06-19",
+    "title": "GLM-5: from Vibe Coding to Agentic Engineering"
+  },
+  {
+    "id": "2606.19998",
+    "date": "2026-06-19",
+    "title": "Tri-Info: Generalizable, Interpretable Failure Prediction for VLA Models via Information Theory"
+  },
+  {
+    "id": "2606.20118",
+    "date": "2026-06-19",
+    "title": "Pose6DAug: Physically Plausible Multi-view Object Swapping for Robot Data Augmentation"
+  },
+  {
+    "id": "2606.20104",
+    "date": "2026-06-19",
+    "title": "Sensorimotor World Models: Perception for Action via Inverse Dynamics"
+  },
+  {
+    "id": "2606.20545",
+    "date": "2026-06-19",
+    "title": "Current World Models Lack a Persistent State Core"
+  },
+  {
+    "id": "2606.20083",
+    "date": "2026-06-19",
+    "title": "Holo-World: Unified Camera, Object and Weather Control for Video World Model"
+  },
+  {
+    "id": "2606.19358",
+    "date": "2026-06-19",
+    "title": "WorkBenchMark: A LEGO-Based Assembly Benchmark with an Assembly-by-Disassembly Baseline for the Smart Manufacturing League"
+  },
+  {
+    "id": "2606.19928",
+    "date": "2026-06-19",
+    "title": "SWAP: Symmetric Equivariant World-Model for Agile Robot Parkour"
+  },
+  {
+    "id": "2606.20458",
+    "date": "2026-06-19",
+    "title": "Slow Brain, Fast Planner: Latency-Resilient VLM-Augmented Urban Navigation"
+  },
+  {
+    "id": "2606.19718",
+    "date": "2026-06-19",
+    "title": "One-Shot Novel View and Pose Human Image Synthesis via 3D Prior Guided Diffusion Model"
+  },
+  {
+    "id": "2606.20094",
+    "date": "2026-06-19",
+    "title": "MakeupMirror: Improving Facial Attribute Preservation in Diffusion Models for Makeup Transfer"
+  },
+  {
+    "id": "2606.20110",
+    "date": "2026-06-19",
+    "title": "FrozenDrive: Zero-Shot Text-Guided Driving Scene Generation and Data Augmentation with Parameter-Free Frozen Diffusion Model"
+  },
+  {
+    "id": "2606.20310",
+    "date": "2026-06-19",
+    "title": "Through the PRISM: Preference Representation in Intermediate States of Video Diffusion Models"
+  },
+  {
+    "id": "2606.20416",
+    "date": "2026-06-19",
+    "title": "On the Redundancy of Timestep Embeddings in Diffusion Models"
+  },
+  {
+    "id": "2606.19990",
+    "date": "2026-06-19",
+    "title": "Reward as An Agent for Embodied World Models"
+  },
+  {
+    "id": "2606.19894",
+    "date": "2026-06-19",
+    "title": "Score Approximation for Diffusion Models on Arbitrary Low-Dimensional Structures"
+  },
+  {
+    "id": "2606.15133",
+    "date": "2026-06-19",
+    "title": "DragMesh-2: Physically Plausible Dexterous Hand-Object Interaction with Articulated Objects"
+  },
+  {
+    "id": "2606.20521",
+    "date": "2026-06-19",
+    "title": "HumanScale: Egocentric Human Video Can Outperform Real-Robot Data for Embodied Pretraining"
+  },
+  {
+    "id": "2606.19357",
+    "date": "2026-06-19",
+    "title": "Physical Atari: A Robust and Accessible Platform for Real-time Reinforcement Learning on Robots"
+  },
+  {
+    "id": "2606.19383",
+    "date": "2026-06-19",
+    "title": "3D Scene Graphs: Open Challenges and Future Directions"
   }
 ]
