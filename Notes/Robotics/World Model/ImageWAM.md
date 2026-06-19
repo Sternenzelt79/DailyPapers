@@ -87,7 +87,7 @@ ImageWAM 采用**解耦双分支**架构：
 
 - **输入**: 语言指令 $l$ + 当前观测 $o_t$ + 机器人状态
 - **图像编辑骨干**: 预训练图像编辑模型（OmniGen2 / Ovis-U1 / FLUX.2），生成目标帧 $\hat{o}_{t+H+1}$
-- **核心桥梁**: [[KV Cache Conditioning]] — 从编辑骨干的去噪过程中提取 KV 缓存
+- **核心桥梁**: [[KV-Cache Conditioning]] — 从编辑骨干的去噪过程中提取 KV 缓存
 - **动作专家**: 通过 [[Joint Self-Attention]] 整合编辑 KV 缓存，预测 [[Action Chunking|动作块]] $a_{t:t+H}$
 - **输出**: 未来 H 步动作序列
 
@@ -124,7 +124,7 @@ z_r = (1-r) z^*_{t+H+1} + r\varepsilon_z
 $$
 
 其中：
-- $z^*_{t+H+1} = E_{\text{vae}}(o_{t+H+1})$：目标帧经 [[VAE（变分自编码器）|VAE]] 编码后的潜变量
+- $z^*_{t+H+1} = E_{\text{vae}}(o_{t+H+1})$：目标帧经 [[VAE（变分自编码器）|VAE 编码器]] 编码后的潜变量
 - $\varepsilon_z \sim \mathcal{N}(0, I)$：高斯噪声
 - $r \in (0,1)$：图像流时间步
 
@@ -180,7 +180,7 @@ $$
 
 ## 关键公式
 
-### 公式1: [[KV Cache Conditioning|编辑缓存提取]]
+### 公式1: [[KV-Cache Conditioning|编辑缓存提取]]
 
 $$
 C_{\text{edit}}^{\tau} = \{(K_\ell^\tau, V_\ell^\tau)\}_{\ell=1}^{L} = f_{\text{edit}}^{\tau}(o_t, l)
@@ -470,11 +470,11 @@ $$
 
 ### 方法相关
 
-- [[KV Cache Conditioning]]: 编辑缓存传递给动作专家的核心机制
+- [[KV-Cache Conditioning]]: 编辑缓存传递给动作专家的核心机制
 - [[Joint Self-Attention]]: 动作专家整合编辑缓存的注意力方式
 - [[Action Chunking]]: 动作预测的基本形式（预测 H 步动作块）
 - [[Diffusion Transformer]]: 图像编辑骨干的架构基础
-- [[VAE（变分自编码器）]]: 用于编码目标帧到潜空间
+- [[VAE]]: 用于编码目标帧到潜空间
 
 ### 硬件/数据相关
 
