@@ -261,31 +261,31 @@ $$
 
 ### Figure 1: 方法对比概览
 
-![Figure 1](https://arxiv.org/html/2606.19531/2606.19531v1/x1.png)
+![[ImageWAM_teaser.png]]
 
 **说明**: 对比视频生成 WAM 与 ImageWAM 的核心差异。左侧：传统视频 WAM 需要预测密集的多帧未来 token，计算开销大且可能包含大量动作无关信息。右侧：ImageWAM 用图像编辑骨干预测单帧目标变换，只建模"当前到目标"的视觉差异，更聚焦于动作相关的变化区域。
 
 ### Figure 2: ImageWAM 流水线
 
-![Figure 2](https://arxiv.org/html/2606.19531/2606.19531v1/x2.png)
+![[ImageWAM_framework.png]]
 
 **说明**: ImageWAM 的完整训练流水线。给定语言指令 $l$ 和当前观测 $o_t$，图像编辑骨干通过 [[Flow Matching|流匹配]] 合成目标帧 $\hat{o}_{t+H+1}$。动作专家通过 [[Joint Self-Attention]] 整合来自去噪过程的中间 KV 特征，在当前机器人状态和动作噪声的条件下预测未来动作序列 $a_{t:t+H}$。注意推理时无需真正解码目标图像。
 
 ### Figure 3: 实验设置
 
-![Figure 3](https://arxiv.org/html/2606.19531/2606.19531v1/x3.png)
+![[ImageWAM_exp.png]]
 
 **说明**: 四个评测环境的可视化。从左到右：RoboTwin 2.0（仿真，多任务操作）、LIBERO（仿真，四个子任务套件）、LIBERO-Plus（仿真，多维度鲁棒性扰动）、真实机器人（4 个桌面操作任务，每任务约 100 条示教轨迹）。
 
 ### Figure 4: 注意力可视化
 
-![Figure 4](https://arxiv.org/html/2606.19531/2606.19531v1/x4.png)
+![[ImageWAM_attention.png]]
 
 **说明**: 图像编辑缓存的注意力热图分析，验证 ImageWAM 的核心假设。编辑缓存的注意力集中在"任务相关变化区域"（如被操作物体），而非整个场景，这证明图像编辑表示天然聚焦于动作相关信息，比密集视频预测更精准。
 
 ### Figure 5: 视频 WAM 的幻觉问题
 
-![Figure 5](https://arxiv.org/html/2606.19531/2606.19531v1/x5.png)
+![[ImageWAM_imagevsvideo.png]]
 
 **说明**: 展示视频生成 WAM 的失效案例。视频 WAM 基线在任务相关物体周围生成了扭曲/失真的未来观测，这种不可靠的动作条件信号导致任务执行失败。这一现象验证了长时序视频生成中的误差累积会误导动作预测。
 
